@@ -1,3 +1,5 @@
+hostname=img-ys011.didistatic.com, ptmpcap.caocaokeji.cn, cap.caocaokeji.cn, www.baidu.com, www.google.com.hk, news.ssp.qq.com, r.inews.qq.com, flowplus.meituan.net, mi.gdt.qq.com, business.msstatic.com, 47.100.65.202, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, api.m.jd.com, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, *.bdstatic.com, m.ctrip.com, dimg04.c-ctrip.com, ms.jr.jd.com, www.google.com, m.baidu.com, zhidao.baidu.com, -redirector*.googlevideo.com, www.youtube.com, mapi.weibo.com, *.uve.weibo.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, m*.amap.com, map.baidu.com, mime.baidu.com, act.vip.iqiyi.com, intl.iqiyi.com, app.bilibili.com, manga.bilibili.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, cap.caocaokeji.cn, gw.csdn.net, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, daoyu.sdo.com, weibointl.api.weibo.cn, tqt.weibo.cn, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.weibo.cn, youtubei.googleapis.com, s.youtube.com, youtube.com, wmapi.meituan.com, baidu.com, ptf.flyertrip.com, tc.qq.com, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, sofire.baidu.com, pan.baidu.com, *.tieba.baidu.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, images.client.vip.xunlei.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, account.wps.cn, vip1.kuwo.cn, musicpay.kuwo.cn, note.youdao.com, account.wps.*, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, mbd.baidu.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, mall.zuoyebang.com, adimg.uve.weibo.com, new.vip.weibo.cn, *.google.cn, sares.kfc.com.cn, gd.10086.cn, mea.meitudata.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, ptmpcap.caocaokeji.cn,learn.chaoxing.com, m.yap.yahoo.com, res.xiaojukeji.com, ct.xiaojukeji.com, p.kuaidi100.com, cdn.kuaidi100.com, img0*.luckincoffeecdn.com,-res.xiaojukeji.com, edith.xiaohongshu.com, img.meituan.net, omgup*.xiaojukeji.com, webcdn.m.qq.com, 
+
 # > 滴滴
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
 # > 曹操专车
@@ -359,8 +361,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
  # > 快递100
 ^https?:\/\/cdn\.kuaidi100\.com\/images\/open\/appads url reject-img
 ^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
- # > 小米运动
-^https:\/\/api-mifit-cn2\.huami\.com\/discovery\/mi\/cards\/startpage_ad url reject
  # > 滴滴出行（推荐英文版）
 https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
