@@ -188,7 +188,6 @@ HOST,mobileads.msn.com, AdBlock
 host-suffix, tetrack.qq.com, AdBlock
 host-suffix, tpns.tencent.com, AdBlock
 host-suffix, api.poll.video.qq.com, AdBlock
-host-suffix, static-res.qq.com, AdBlock
 host-suffix, stat.tpns.tencent.com, AdBlock
 host, h.trace.qq.com, AdBlock
 # > 迅雷
