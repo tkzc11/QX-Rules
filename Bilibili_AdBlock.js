@@ -19,11 +19,11 @@
 # > 哔哩哔哩_小卡片广告
 ^https://api.bilibili.com/pgc/season/player/cards url reject-dict
 # > 哔哩哔哩_解除SIM卡地区限制
-;(^https?:\/\/app\.biliintl.com\/intl\/.+)(&sim_code=\d+)(.+) url 302 $1$3
+(^https?:\/\/app\.biliintl.com\/intl\/.+)(&sim_code=\d+)(.+) url 302 $1$3
 # > 哔哩哔哩_去除搜索中的大家都在搜
 ;^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words url reject
 # > 哔哩哔哩_去除动态中的话题
-^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
+;^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
 # > 哔哩哔哩_可能的一些推广
 ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? url reject-dict
 # > 哔哩哔哩_漫画去广告
