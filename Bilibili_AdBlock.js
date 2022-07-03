@@ -46,4 +46,4 @@
 # > 动态广告
 ^https://app\.bilibili\.com/bilibili\.app\.dynamic\.v2\.Dynamic/DynAll$ url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_dynamic.js
 
-hostname = *.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com
+hostname = *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com
