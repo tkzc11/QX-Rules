@@ -7,8 +7,8 @@
 ^https://app.bilibili.com/x/v2/splash/show url reject-dict
 # > 应用开屏广告预加载
 ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
-;# > 去除统一设置的皮肤
-^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
+# > 去除统一设置的皮肤
+;^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
 # > 1080P高码率+4K画质(番剧和影视除外)
 ;^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
 # > 热搜发现
@@ -46,4 +46,4 @@
 # > 动态广告
 ^https://app\.bilibili\.com/bilibili\.app\.dynamic\.v2\.Dynamic/DynAll$ url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_dynamic.js
 
-hostname = *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com
+ hostname = *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com
