@@ -1,0 +1,9 @@
+host, imap-mail.outlook.com, Mail
+host, imap.gmail.com, Mail
+host, outlook.office365.com, Mail
+host, pop.gmail.com, Mail
+host, smtp-mail.outlook.com, Mail
+host, smtp.gmail.com, Mail
+host, smtp.office365.com, Mail
+host, m.hotmail.com, Mail
+host, apple.imap.mail.yahoo.com, Mail
