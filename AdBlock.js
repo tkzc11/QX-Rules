@@ -7,6 +7,7 @@ hostname=img-ys011.didistatic.com, sdkapp.uve.weibo.com, mapi.weibo.com, *.uve.w
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php url reject
 ^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua url reject
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads url reject
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* url reject
 ^https?:\/\/api\.weibo\.cn\/2\/statuses\/extend\?gsid= url reject
 ^https?:\/\/simg\.s\.weibo\.com\/.+?_ios\d{2}\.gif url reject-img
 ^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) url reject-img
