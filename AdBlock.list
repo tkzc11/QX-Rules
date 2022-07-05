@@ -312,15 +312,6 @@ host-suffix, dcads.sina.com.cn, AdBlock
 host-suffix, sax.sina.cn, AdBlock
 host-suffix, sax.sina.com.cn, AdBlock
 host-suffix, tjs.sjs.sinajs.cn, AdBlock
-host-suffix, c.biz.weibo.com, AdBlock
-host-suffix, game.weibo.com, AdBlock
-host-suffix, c.wcpt.biz.weibo.com, AdBlock
-host-suffix, s.alitui.weibo.com, AdBlock
-host-suffix, zc.biz.weibo.com, AdBlock
-host-suffix, zymo.mps.weibo.com, AdBlock
-host-suffix, game.weibo.cn, AdBlock
-host-suffix, m.game.weibo.cn, AdBlock
-host-suffix, promote.biz.weibo.cn, AdBlock
 host-suffix, adimg.mobile.sina.cn, AdBlock
 host-suffix, newspush.sinajs.cn, AdBlock
 host-suffix, sdkapp.mobile.sina.cn, AdBlock
@@ -2227,7 +2218,6 @@ host-suffix, alime-pic.oss-cn-hangzhou.aliyuncs.com, AdBlock
 host-suffix, alisinak.com, AdBlock
 host-suffix, alitianxia168.com, AdBlock
 host-suffix, aliticalpassister.info, AdBlock
-host-suffix, alitui.weibo.com, AdBlock
 host-suffix, aliyoo999.com, AdBlock
 host-suffix, aliyuncss.com, AdBlock
 host-suffix, aliyune.xyz, AdBlock
@@ -3099,7 +3089,6 @@ host-suffix, bivitr.com, AdBlock
 host-suffix, biwkvlmnpwulfl.com, AdBlock
 host-suffix, bixuyao.com.cn, AdBlock
 host-suffix, biz.gexing.com, AdBlock
-host-suffix, biz.weibo.com, AdBlock
 host-suffix, biz37.net, AdBlock
 host-suffix, biz5.sandai.net, AdBlock
 host-suffix, bj-bytsk.com, AdBlock
