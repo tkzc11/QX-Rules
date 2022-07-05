@@ -1,4 +1,4 @@
-hostname=img-ys011.didistatic.com, www.baidu.com, www.google.com.hk, news.ssp.qq.com, r.inews.qq.com, flowplus.meituan.net, mi.gdt.qq.com, business.msstatic.com, 47.100.65.202, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, api.m.jd.com, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, *.bdstatic.com, ms.jr.jd.com, www.google.com, m.baidu.com, zhidao.baidu.com, -redirector*.googlevideo.com, www.youtube.com, mapi.weibo.com, *.uve.weibo.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, m*.amap.com, map.baidu.com, mime.baidu.com, act.vip.iqiyi.com, intl.iqiyi.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, gw.csdn.net, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, daoyu.sdo.com, weibointl.api.weibo.cn, tqt.weibo.cn, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.weibo.cn, youtubei.googleapis.com, s.youtube.com, youtube.com, wmapi.meituan.com, baidu.com, ptf.flyertrip.com, tc.qq.com, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, sofire.baidu.com, pan.baidu.com, *.tieba.baidu.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, images.client.vip.xunlei.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, account.wps.cn, vip1.kuwo.cn, musicpay.kuwo.cn, note.youdao.com, account.wps.*, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, mbd.baidu.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, mall.zuoyebang.com, adimg.uve.weibo.com, new.vip.weibo.cn, *.google.cn, sares.kfc.com.cn, gd.10086.cn, mea.meitudata.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, learn.chaoxing.com, m.yap.yahoo.com, res.xiaojukeji.com, ct.xiaojukeji.com, p.kuaidi100.com, cdn.kuaidi100.com, img0*.luckincoffeecdn.com,-res.xiaojukeji.com, edith.xiaohongshu.com, img.meituan.net, omgup*.xiaojukeji.com, webcdn.m.qq.com, 
+hostname=img-ys011.didistatic.com, www.baidu.com, news.ssp.qq.com, r.inews.qq.com, flowplus.meituan.net, mi.gdt.qq.com, business.msstatic.com, 47.100.65.202, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, api.m.jd.com, sf?-ttcdn-tos.pstatp.com, ad.12306.cn, *.bdstatic.com, ms.jr.jd.com, m.baidu.com, zhidao.baidu.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, m*.amap.com, map.baidu.com, mime.baidu.com, act.vip.iqiyi.com, intl.iqiyi.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, gw.csdn.net, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, daoyu.sdo.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, wmapi.meituan.com, baidu.com, ptf.flyertrip.com, tc.qq.com, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, sofire.baidu.com, pan.baidu.com, *.tieba.baidu.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, images.client.vip.xunlei.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, account.wps.cn, vip1.kuwo.cn, musicpay.kuwo.cn, note.youdao.com, account.wps.*, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, mbd.baidu.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, mall.zuoyebang.com, sares.kfc.com.cn, gd.10086.cn, mea.meitudata.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, learn.chaoxing.com, m.yap.yahoo.com, res.xiaojukeji.com, ct.xiaojukeji.com, p.kuaidi100.com, cdn.kuaidi100.com, img0*.luckincoffeecdn.com,-res.xiaojukeji.com, edith.xiaohongshu.com, img.meituan.net, omgup*.xiaojukeji.com, webcdn.m.qq.com, 
 
 # > 滴滴
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
@@ -185,20 +185,8 @@ https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
 ^https?+:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/ url reject-200
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/ url reject
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ url reject
-# > 油管
-ctier=[A-Z] url 302 ctier=A
-^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
 # > 爱思助手
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
-#微博
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
-^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 # > 飞常准
 ^https?:\/\/app\.variflight\.com\/ad\/ url reject
 ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
@@ -285,17 +273,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? url reject
  # > 雅虎
 ^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do url reject
-# > 谷歌
-^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
-^https?:\/\/.+?\.googlevideo\.com\/ptracking\?pltype=adhost url reject-img
-^https?:\/\/.+\.googleapis.com/.+log_event url reject-img
-^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-img
-^https?:\/\/.+\.googlevideo\.com\/.+oad= url reject-img
-^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
-^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject-img
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
-^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-img
-^https?:\/\/(www\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)).* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_contentFarm.js
  # > 北京首汽
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
  # > 酷我音乐
