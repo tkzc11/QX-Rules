@@ -72,7 +72,59 @@ HOST-SUFFIX,mobilead.kuwo.cn, AdBlock
 HOST-SUFFIX,rich.kuwo.cn, AdBlock
 # > 向日葵
 host-keyword, upload-cdn.orayimg.com, AdBlock
-
+# > 微博
+HOST-KEYWORD, fastimage.uve.weibo.com,  AdBlock
+HOST-KEYWORD, adimg.uve.weibo.com,  AdBlock
+HOST-SUFFIX, adimg.vue.weibo.com,  AdBlock
+HOST-SUFFIX, zymo.mps.weibo.com,  AdBlock
+HOST-SUFFIX, weibomingzi.com,  AdBlock
+HOST-SUFFIX, sdkapp.uve.weibo.com,  AdBlock
+HOST-SUFFIX, s.alitui.weibo.com,  AdBlock
+HOST-SUFFIX, promote.biz.weibo.cn,  AdBlock
+HOST-SUFFIX, gw5.push.mcp.weibo.cn,  AdBlock
+HOST-SUFFIX, game.weibo.cn,  AdBlock
+HOST-SUFFIX, biz.weibo.com,  AdBlock
+HOST-SUFFIX, adimg.uve.weibo.com,  AdBlock
+HOST-SUFFIX, game.weibo.com,  AdBlock
+HOST-SUFFIX, gw6.push.mcp.weibo.cn,  AdBlock
+HOST-KEYWORD, ads.viber.com,  AdBlock
+HOST-KEYWORD, ads-d.viber.com,  AdBlock
+HOST-KEYWORD, ads.aws.viber.com,  AdBlock
+HOST-SUFFIX, alitui.weibo.com,  AdBlock
+HOST, adimg.uve.weibo.com,  AdBlock
+HOST, adimg.vue.weibo.com,  AdBlock
+HOST-KEYWORD, adimg.uve.weibo.com, AdBlock
+HOST-KEYWORD, alitui.weibo.com, AdBlock
+HOST-KEYWORD, biz.weibo.com, AdBlock
+HOST-KEYWORD, game.weibo.cn, AdBlock
+HOST-KEYWORD, game.weibo.com, AdBlock
+HOST-KEYWORD, gw5.push.mcp.weibo.cn, AdBlock
+HOST-KEYWORD, gw6.push.mcp.weibo.cn, AdBlock
+HOST-KEYWORD, promote.biz.weibo.cn, AdBlock
+HOST-KEYWORD, s.alitui.weibo.com, AdBlock
+HOST-KEYWORD, sdkapp.uve.weibo.com, AdBlock
+HOST-KEYWORD, weibomingzi.com, AdBlock
+HOST-KEYWORD, zymo.mps.weibo.com, AdBlock
+HOST-KEYWORD, adimg.vue.weibo.com, AdBlock
+HOST-KEYWORD, dp.im.weibo.cn, AdBlock
+HOST-KEYWORD, m.game.weibo.cn, AdBlock
+HOST-KEYWORD, c.biz.weibo.com, AdBlock
+HOST-KEYWORD, c.wcpt.biz.weibo.com, AdBlock
+HOST-KEYWORD, click.uve.weibo.com, AdBlock
+HOST-KEYWORD, wax.weibo.com, AdBlock
+HOST-KEYWORD, wbapp.uve.weibo.com, AdBlock
+HOST-KEYWORD, widget.weibo.com, AdBlock
+HOST-KEYWORD, zc.biz.weibo.com, AdBlock
+HOST-KEYWORD, dsp.edm.weibo.cn, AdBlock
+HOST-KEYWORD, alitui.weibo.com.cn, AdBlock
+HOST-KEYWORD, biz.weibo.com.cn, AdBlock
+HOST-KEYWORD, game.weibo.com.cn, AdBlock
+HOST-KEYWORD, tui.weibo.com, AdBlock
+HOST-KEYWORD, wax.weibo.com.cn, AdBlock
+HOST-KEYWORD, ad.weibo.com, AdBlock
+HOST-KEYWORD, adstrategy.biz.weibo.com, AdBlock
+HOST-KEYWORD, s.weibo.com, AdBlock
+HOST-KEYWORD, vs.biz.weibo.com, AdBlock
 ## QQ音乐广告
 HOST,tmeadcomm.y.qq.com, AdBlock
 HOST,ad.tencentmusic.com, AdBlock
