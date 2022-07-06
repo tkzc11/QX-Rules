@@ -203,7 +203,7 @@ host-suffix, cupid.iqiyi.com, AdBlock
 host, f74f7f7765f8a2f6.ngaa.net.cn, AdBlock
 host, ef-dongfeng.tanx.com, AdBlock
 host, iqiyim.adtrack.enlightent.cn, AdBlock
-HOST,dig.bdurl.net, AdBlock
+;HOST,dig.bdurl.net, AdBlock
 HOST,ads3-normal-lq.zijieapi.com, AdBlock
 HOST,ads5-normal-lq.zijieapi.com, AdBlock
 # > 央视
