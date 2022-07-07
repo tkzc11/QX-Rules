@@ -95,7 +95,7 @@ HOST, adimg.uve.weibo.com,  AdBlock
 HOST, adimg.vue.weibo.com,  AdBlock
 HOST-KEYWORD, adimg.uve.weibo.com, AdBlock
 HOST-KEYWORD, alitui.weibo.com, AdBlock
-;HOST-KEYWORD, biz.weibo.com, AdBlock
+-HOST-KEYWORD, biz.weibo.com, AdBlock
 HOST-KEYWORD, game.weibo.cn, AdBlock
 HOST-KEYWORD, game.weibo.com, AdBlock
 HOST-KEYWORD, gw5.push.mcp.weibo.cn, AdBlock
@@ -117,7 +117,7 @@ HOST-KEYWORD, widget.weibo.com, AdBlock
 HOST-KEYWORD, zc.biz.weibo.com, AdBlock
 HOST-KEYWORD, dsp.edm.weibo.cn, AdBlock
 HOST-KEYWORD, alitui.weibo.com.cn, AdBlock
-;HOST-KEYWORD, biz.weibo.com.cn, AdBlock
+-HOST-KEYWORD, biz.weibo.com.cn, AdBlock
 HOST-KEYWORD, game.weibo.com.cn, AdBlock
 HOST-KEYWORD, tui.weibo.com, AdBlock
 HOST-KEYWORD, wax.weibo.com.cn, AdBlock
