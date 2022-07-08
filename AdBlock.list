@@ -14,229 +14,229 @@ host-keyword, c1img.ali.kugou.com, AdBlock
 host-keyword, kgstaticdlbssdlbig.tx.kugou.com, AdBlock
 host-keyword, adsfilebssdlbig.ali.kugou.com, AdBlock
 host-keyword, splashimgbssdl.yun.kugou.com, AdBlock
-HOST-KEYWORD, adservice.kugou.com,AdBlock
-HOST-KEYWORD, kgipadstat.kugou.com,AdBlock
-HOST-KEYWORD, kgipadstatbak.kugou.com,AdBlock
-HOST-KEYWORD, logwebs.kugou.com,AdBlock
-HOST-KEYWORD, tracker.kugou.com,AdBlock
-HOST-KEYWORD, trackercdnbj.kugou.com,AdBlock
+host-keyword, adservice.kugou.com,AdBlock
+host-keyword, kgipadstat.kugou.com,AdBlock
+host-keyword, kgipadstatbak.kugou.com,AdBlock
+host-keyword, logwebs.kugou.com,AdBlock
+host-keyword, tracker.kugou.com,AdBlock
+host-keyword, trackercdnbj.kugou.com,AdBlock
 host-keyword, rich.kuwo.cn, AdBlock
 host-keyword, mobilead.kuwo.cn, AdBlock
 host, adsfile.bssdlbig.kugou.com, AdBlock
-HOST-SUFFIX,oth.eve.mdt.qq.com, AdBlock
-HOST,pgdt.gtimg.cn, AdBlock
-HOST-SUFFIX,pgdt.gtimg.cn, AdBlock
-HOST,pgdt.gtimg.com, AdBlock
-HOST,adsmind.gdtimg.com, AdBlock
-HOST-SUFFIX,channel.fanxing.kugou.com, AdBlock
-HOST-SUFFIX,d.kugou.com, AdBlock
-HOST-SUFFIX,downmobile.kugou.com, AdBlock
-HOST-SUFFIX,gad.kugou.com, AdBlock
-HOST-SUFFIX,game.kugou.com, AdBlock
-HOST-SUFFIX,gamebox.kugou.com, AdBlock
-HOST-SUFFIX,gcapi.sy.kugou.com, AdBlock
-HOST-SUFFIX,gg.kugou.com, AdBlock
-HOST-SUFFIX,install.kugou.com, AdBlock
-HOST-SUFFIX,install2.kugou.com, AdBlock
-HOST-SUFFIX,minidcsc.kugou.com, AdBlock
-HOST-SUFFIX,mo.kugou.com, AdBlock
-HOST-SUFFIX,msg.mobile.kugou.com, AdBlock
-HOST-SUFFIX,mvads.kugou.com, AdBlock
-HOST-SUFFIX,p.kugou.com, AdBlock
-HOST-SUFFIX,push.mobile.kugou.com, AdBlock
-HOST-SUFFIX,rtmonitor.kugou.com, AdBlock
-HOST-SUFFIX,sdn.kugou.com, AdBlock
-HOST-SUFFIX,song.fanxing.kugou.com, AdBlock
-HOST-SUFFIX,update.mobile.kugou.com, AdBlock
-HOST-SUFFIX,youxi.kugou.com, AdBlock
-HOST-SUFFIX,adserviceretry.kugou.com, AdBlock
-HOST-SUFFIX,ads.service.kugou.com, AdBlock
-HOST-SUFFIX,adsfile.bssdlbig.kugou.com, AdBlock
-HOST-SUFFIX,log.stat.kugou.com, AdBlock
-HOST-SUFFIX,log.web.kugou.com, AdBlock
-HOST-SUFFIX,kgmobilestat.kugou.com, AdBlock
-HOST-SUFFIX,kgmobilestatbak.kugou.com, AdBlock
-HOST-SUFFIX,mobilelog.kugou.com, AdBlock
+host-suffix,oth.eve.mdt.qq.com, AdBlock
+host,pgdt.gtimg.cn, AdBlock
+host-suffix,pgdt.gtimg.cn, AdBlock
+host,pgdt.gtimg.com, AdBlock
+host,adsmind.gdtimg.com, AdBlock
+host-suffix,channel.fanxing.kugou.com, AdBlock
+host-suffix,d.kugou.com, AdBlock
+host-suffix,downmobile.kugou.com, AdBlock
+host-suffix,gad.kugou.com, AdBlock
+host-suffix,game.kugou.com, AdBlock
+host-suffix,gamebox.kugou.com, AdBlock
+host-suffix,gcapi.sy.kugou.com, AdBlock
+host-suffix,gg.kugou.com, AdBlock
+host-suffix,install.kugou.com, AdBlock
+host-suffix,install2.kugou.com, AdBlock
+host-suffix,minidcsc.kugou.com, AdBlock
+host-suffix,mo.kugou.com, AdBlock
+host-suffix,msg.mobile.kugou.com, AdBlock
+host-suffix,mvads.kugou.com, AdBlock
+host-suffix,p.kugou.com, AdBlock
+host-suffix,push.mobile.kugou.com, AdBlock
+host-suffix,rtmonitor.kugou.com, AdBlock
+host-suffix,sdn.kugou.com, AdBlock
+host-suffix,song.fanxing.kugou.com, AdBlock
+host-suffix,update.mobile.kugou.com, AdBlock
+host-suffix,youxi.kugou.com, AdBlock
+host-suffix,adserviceretry.kugou.com, AdBlock
+host-suffix,ads.service.kugou.com, AdBlock
+host-suffix,adsfile.bssdlbig.kugou.com, AdBlock
+host-suffix,log.stat.kugou.com, AdBlock
+host-suffix,log.web.kugou.com, AdBlock
+host-suffix,kgmobilestat.kugou.com, AdBlock
+host-suffix,kgmobilestatbak.kugou.com, AdBlock
+host-suffix,mobilelog.kugou.com, AdBlock
 # > 酷我音乐
-HOST-SUFFIX,c.kuwo.cn, AdBlock
-HOST-SUFFIX,deliver.kuwo.cn, AdBlock
-HOST-SUFFIX,game.kuwo.cn, AdBlock
-HOST-SUFFIX,kuwoyy.com, AdBlock
-HOST-SUFFIX,kwmsg.kuwo.cn, AdBlock
-HOST-SUFFIX,msclick2.kuwo.cn, AdBlock
-HOST-SUFFIX,msphoneclick.kuwo.cn, AdBlock
-HOST-SUFFIX,updatepage.kuwo.cn, AdBlock
-HOST-SUFFIX,wa.kuwo.cn, AdBlock
-HOST-SUFFIX,webstat.kuwo.cn, AdBlock
-HOST-SUFFIX,mobilead.kuwo.cn, AdBlock
-HOST-SUFFIX,rich.kuwo.cn, AdBlock
+host-suffix,c.kuwo.cn, AdBlock
+host-suffix,deliver.kuwo.cn, AdBlock
+host-suffix,game.kuwo.cn, AdBlock
+host-suffix,kuwoyy.com, AdBlock
+host-suffix,kwmsg.kuwo.cn, AdBlock
+host-suffix,msclick2.kuwo.cn, AdBlock
+host-suffix,msphoneclick.kuwo.cn, AdBlock
+host-suffix,updatepage.kuwo.cn, AdBlock
+host-suffix,wa.kuwo.cn, AdBlock
+host-suffix,webstat.kuwo.cn, AdBlock
+host-suffix,mobilead.kuwo.cn, AdBlock
+host-suffix,rich.kuwo.cn, AdBlock
 # > 向日葵
 host-keyword, upload-cdn.orayimg.com, AdBlock
 # > 微博
 host-suffix, yf.intra.weibo.com, AdBlock
-HOST-KEYWORD, fastimage.uve.weibo.com,  AdBlock
-HOST-KEYWORD, adimg.uve.weibo.com,  AdBlock
-HOST-SUFFIX, adimg.vue.weibo.com,  AdBlock
-HOST-SUFFIX, zymo.mps.weibo.com,  AdBlock
-HOST-SUFFIX, weibomingzi.com,  AdBlock
-HOST-SUFFIX, sdkapp.uve.weibo.com,  AdBlock
-HOST-SUFFIX, s.alitui.weibo.com,  AdBlock
-HOST-SUFFIX, promote.biz.weibo.cn,  AdBlock
-HOST-SUFFIX, gw5.push.mcp.weibo.cn,  AdBlock
-HOST-SUFFIX, game.weibo.cn,  AdBlock
--HOST-SUFFIX, biz.weibo.com,  AdBlock
-HOST-SUFFIX, adimg.uve.weibo.com,  AdBlock
-HOST-SUFFIX, game.weibo.com,  AdBlock
-HOST-SUFFIX, gw6.push.mcp.weibo.cn,  AdBlock
-HOST-KEYWORD, ads.viber.com,  AdBlock
-HOST-KEYWORD, ads-d.viber.com,  AdBlock
-HOST-KEYWORD, ads.aws.viber.com,  AdBlock
-HOST-SUFFIX, alitui.weibo.com,  AdBlock
-HOST, adimg.uve.weibo.com,  AdBlock
-HOST, adimg.vue.weibo.com,  AdBlock
-HOST-KEYWORD, adimg.uve.weibo.com, AdBlock
-HOST-KEYWORD, alitui.weibo.com, AdBlock
--HOST-KEYWORD, biz.weibo.com, AdBlock
-HOST-KEYWORD, game.weibo.cn, AdBlock
-HOST-KEYWORD, game.weibo.com, AdBlock
-HOST-KEYWORD, gw5.push.mcp.weibo.cn, AdBlock
-HOST-KEYWORD, gw6.push.mcp.weibo.cn, AdBlock
-HOST-KEYWORD, promote.biz.weibo.cn, AdBlock
-HOST-KEYWORD, s.alitui.weibo.com, AdBlock
-HOST-KEYWORD, sdkapp.uve.weibo.com, AdBlock
-HOST-KEYWORD, weibomingzi.com, AdBlock
-HOST-KEYWORD, zymo.mps.weibo.com, AdBlock
-HOST-KEYWORD, adimg.vue.weibo.com, AdBlock
-HOST-KEYWORD, dp.im.weibo.cn, AdBlock
-HOST-KEYWORD, m.game.weibo.cn, AdBlock
-HOST-KEYWORD, c.biz.weibo.com, AdBlock
-HOST-KEYWORD, c.wcpt.biz.weibo.com, AdBlock
-HOST-KEYWORD, click.uve.weibo.com, AdBlock
-HOST-KEYWORD, wax.weibo.com, AdBlock
-HOST-KEYWORD, wbapp.uve.weibo.com, AdBlock
-HOST-KEYWORD, widget.weibo.com, AdBlock
-HOST-KEYWORD, zc.biz.weibo.com, AdBlock
-HOST-KEYWORD, dsp.edm.weibo.cn, AdBlock
-HOST-KEYWORD, alitui.weibo.com.cn, AdBlock
-HOST-KEYWORD, biz.weibo.com.cn, AdBlock
-HOST-KEYWORD, game.weibo.com.cn, AdBlock
-HOST-KEYWORD, tui.weibo.com, AdBlock
-HOST-KEYWORD, wax.weibo.com.cn, AdBlock
-HOST-KEYWORD, ad.weibo.com, AdBlock
-HOST-KEYWORD, adstrategy.biz.weibo.com, AdBlock
-HOST-KEYWORD, s.weibo.com, AdBlock
-HOST-KEYWORD, vs.biz.weibo.com, AdBlock
+host-keyword, fastimage.uve.weibo.com,  AdBlock
+host-keyword, adimg.uve.weibo.com,  AdBlock
+host-suffix, adimg.vue.weibo.com,  AdBlock
+host-suffix, zymo.mps.weibo.com,  AdBlock
+host-suffix, weibomingzi.com,  AdBlock
+host-suffix, sdkapp.uve.weibo.com,  AdBlock
+host-suffix, s.alitui.weibo.com,  AdBlock
+host-suffix, promote.biz.weibo.cn,  AdBlock
+host-suffix, gw5.push.mcp.weibo.cn,  AdBlock
+host-suffix, game.weibo.cn,  AdBlock
+-host-suffix, biz.weibo.com,  AdBlock
+host-suffix, adimg.uve.weibo.com,  AdBlock
+host-suffix, game.weibo.com,  AdBlock
+host-suffix, gw6.push.mcp.weibo.cn,  AdBlock
+host-keyword, ads.viber.com,  AdBlock
+host-keyword, ads-d.viber.com,  AdBlock
+host-keyword, ads.aws.viber.com,  AdBlock
+host-suffix, alitui.weibo.com,  AdBlock
+host, adimg.uve.weibo.com,  AdBlock
+host, adimg.vue.weibo.com,  AdBlock
+host-keyword, adimg.uve.weibo.com, AdBlock
+host-keyword, alitui.weibo.com, AdBlock
+-host-keyword, biz.weibo.com, AdBlock
+host-keyword, game.weibo.cn, AdBlock
+host-keyword, game.weibo.com, AdBlock
+host-keyword, gw5.push.mcp.weibo.cn, AdBlock
+host-keyword, gw6.push.mcp.weibo.cn, AdBlock
+host-keyword, promote.biz.weibo.cn, AdBlock
+host-keyword, s.alitui.weibo.com, AdBlock
+host-keyword, sdkapp.uve.weibo.com, AdBlock
+host-keyword, weibomingzi.com, AdBlock
+host-keyword, zymo.mps.weibo.com, AdBlock
+host-keyword, adimg.vue.weibo.com, AdBlock
+host-keyword, dp.im.weibo.cn, AdBlock
+host-keyword, m.game.weibo.cn, AdBlock
+host-keyword, c.biz.weibo.com, AdBlock
+host-keyword, c.wcpt.biz.weibo.com, AdBlock
+host-keyword, click.uve.weibo.com, AdBlock
+host-keyword, wax.weibo.com, AdBlock
+host-keyword, wbapp.uve.weibo.com, AdBlock
+host-keyword, widget.weibo.com, AdBlock
+host-keyword, zc.biz.weibo.com, AdBlock
+host-keyword, dsp.edm.weibo.cn, AdBlock
+host-keyword, alitui.weibo.com.cn, AdBlock
+host-keyword, biz.weibo.com.cn, AdBlock
+host-keyword, game.weibo.com.cn, AdBlock
+host-keyword, tui.weibo.com, AdBlock
+host-keyword, wax.weibo.com.cn, AdBlock
+host-keyword, ad.weibo.com, AdBlock
+host-keyword, adstrategy.biz.weibo.com, AdBlock
+host-keyword, s.weibo.com, AdBlock
+host-keyword, vs.biz.weibo.com, AdBlock
 ## QQ音乐广告
-HOST,tmeadcomm.y.qq.com, AdBlock
-HOST,ad.tencentmusic.com, AdBlock
-HOST,adstats.tencentmusic.com, AdBlock
-HOST,tmead.y.qq.com, AdBlock
-HOST-SUFFIX,rqd.qq.com, AdBlock
-HOST-SUFFIX,wup.imtt.qq.com, AdBlock
-HOST-SUFFIX,gdt.qq.com, AdBlock
-HOST-SUFFIX,android.rqd.qq.com, AdBlock
-HOST-SUFFIX,e.qq.com, AdBlock
-HOST-SUFFIX,beacon.qq.com, AdBlock
-HOST-SUFFIX,v.gdt.qq.com, AdBlock
+host,tmeadcomm.y.qq.com, AdBlock
+host,ad.tencentmusic.com, AdBlock
+host,adstats.tencentmusic.com, AdBlock
+host,tmead.y.qq.com, AdBlock
+host-suffix,rqd.qq.com, AdBlock
+host-suffix,wup.imtt.qq.com, AdBlock
+host-suffix,gdt.qq.com, AdBlock
+host-suffix,android.rqd.qq.com, AdBlock
+host-suffix,e.qq.com, AdBlock
+host-suffix,beacon.qq.com, AdBlock
+host-suffix,v.gdt.qq.com, AdBlock
 # > 小米
-HOST,data.mistat.xiaomi.com, AdBlock
-HOST,tracking.intl.miui.com, AdBlock
+host,data.mistat.xiaomi.com, AdBlock
+host,tracking.intl.miui.com, AdBlock
 # > 高德
-HOST-SUFFIX,adiu.amap.com,AdBlock
-HOST,aboard.apilocate.amap.com,AdBlock
-HOST,apiinit.amap.com,AdBlock
-HOST,icloud-amap.com,AdBlock
-HOST,logs.amap.com,AdBlock
-HOST-SUFFIX,dualstack-logs.amap.com,AdBlock
-HOST-SUFFIX,logs.amap.com,AdBlock
-HOST-SUFFIX,optimus-ads.amap.com,AdBlock
-HOST-SUFFIX,page.amap.com,AdBlock
-HOST,optimus-ads.amap.com, AdBlock
-HOST,optimus-ads.amap.com.w.alikunlun.com, AdBlock
-HOST-SUFFIX, shouji.sougou.com, AdBlock
-HOST, u51.me, AdBlock
-HOST-SUFFIX, u51.me, AdBlock
+host-suffix,adiu.amap.com,AdBlock
+host,aboard.apilocate.amap.com,AdBlock
+host,apiinit.amap.com,AdBlock
+host,icloud-amap.com,AdBlock
+host,logs.amap.com,AdBlock
+host-suffix,dualstack-logs.amap.com,AdBlock
+host-suffix,logs.amap.com,AdBlock
+host-suffix,optimus-ads.amap.com,AdBlock
+host-suffix,page.amap.com,AdBlock
+host,optimus-ads.amap.com, AdBlock
+host,optimus-ads.amap.com.w.alikunlun.com, AdBlock
+host-suffix, shouji.sougou.com, AdBlock
+host, u51.me, AdBlock
+host-suffix, u51.me, AdBlock
 # > 美团
-HOST, flowplus.meituan.net, AdBlock
-HOST-SUFFIX, analytics.meituan.net, AdBlock
-HOST-SUFFIX, meituan.xn--io0a7i, AdBlock
-HOST-SUFFIX, meituan.yoga, AdBlock
-HOST-SUFFIX, meituangov.cn, AdBlock
-HOST-SUFFIX, report.meituan.com, AdBlock
-HOST-SUFFIX, wmlog.meituan.com, AdBlock
+host, flowplus.meituan.net, AdBlock
+host-suffix, analytics.meituan.net, AdBlock
+host-suffix, meituan.xn--io0a7i, AdBlock
+host-suffix, meituan.yoga, AdBlock
+host-suffix, meituangov.cn, AdBlock
+host-suffix, report.meituan.com, AdBlock
+host-suffix, wmlog.meituan.com, AdBlock
 # > 交管12123
 host, static.122.gov.cn, AdBlock
 ip-cidr, 203.107.1.1/24, AdBlock
-HOST-SUFFIX, v3.fstats.xyz, AdBlock
-HOST-SUFFIX, wss.haoyundmn.com, AdBlock 
-HOST-SUFFIX, new.xiongzhangad.com, AdBlock  
-HOST-SUFFIX, alexametrics.com, AdBlock 
-HOST-KEYWORD, in-page-push, AdBlock
+host-suffix, v3.fstats.xyz, AdBlock
+host-suffix, wss.haoyundmn.com, AdBlock 
+host-suffix, new.xiongzhangad.com, AdBlock  
+host-suffix, alexametrics.com, AdBlock 
+host-keyword, in-page-push, AdBlock
 # > 优酷
-HOST-SUFFIX,atm.youku.com, AdBlock
-HOST,ad.mobile.youku.com, AdBlock
-HOST,iyes.youku.com, AdBlock
-HOST,pl.cp31.ott.cibntv.net, AdBlock
+host-suffix,atm.youku.com, AdBlock
+host,ad.mobile.youku.com, AdBlock
+host,iyes.youku.com, AdBlock
+host,pl.cp31.ott.cibntv.net, AdBlock
 # > 汽车之家
 host-keyword, adm3.autoimg.cn, AdBlock
 host-keyword, audid-api.taobao.com, AdBlock
 host-keyword, collectionpv.che168.com, AdBlock
 host-keyword, adproxy.autohome.com, AdBlock
 host-keyword, applogapi.autohome.com, AdBlock
-HOST,adproxy.autohome.com.cn, AdBlock
-HOST,rd.autohome.com.cn, AdBlock
-HOST,al.autohome.com.cn, AdBlock
-HOST,applogapi.autohome.com.cn, AdBlock
-HOST,adm0.autoimg.cn, AdBlock
-HOST,adm1.autoimg.cn, AdBlock
-HOST,adm2.autoimg.cn, AdBlock
-HOST,adm3.autoimg.cn, AdBlock
+host,adproxy.autohome.com.cn, AdBlock
+host,rd.autohome.com.cn, AdBlock
+host,al.autohome.com.cn, AdBlock
+host,applogapi.autohome.com.cn, AdBlock
+host,adm0.autoimg.cn, AdBlock
+host,adm1.autoimg.cn, AdBlock
+host,adm2.autoimg.cn, AdBlock
+host,adm3.autoimg.cn, AdBlock
 # >爱奇艺
-HOST,t7z.cupid.iqiyi.com, AdBlock
-HOST,t7z.cupid.ptqy.gitv.tv, AdBlock
-IP-CIDR,203.107.63.154/32, AdBlock
-IP-CIDR,101.227.97.240/32, AdBlock
-IP-CIDR,101.227.200.11/32, AdBlock
-IP-CIDR,101.227.200.28/32, AdBlock
-IP-CIDR,124.192.153.42/32, AdBlock
+host,t7z.cupid.iqiyi.com, AdBlock
+host,t7z.cupid.ptqy.gitv.tv, AdBlock
+ip-cidr,203.107.63.154/32, AdBlock
+ip-cidr,101.227.97.240/32, AdBlock
+ip-cidr,101.227.200.11/32, AdBlock
+ip-cidr,101.227.200.28/32, AdBlock
+ip-cidr,124.192.153.42/32, AdBlock
 host, cr-status.iqiyi.com, AdBlock
 host-suffix, cupid.iqiyi.com, AdBlock
 host, f74f7f7765f8a2f6.ngaa.net.cn, AdBlock
 host, ef-dongfeng.tanx.com, AdBlock
 host, iqiyim.adtrack.enlightent.cn, AdBlock
-;HOST,dig.bdurl.net, AdBlock
-HOST,ads3-normal-lq.zijieapi.com, AdBlock
-HOST,ads5-normal-lq.zijieapi.com, AdBlock
+;host,dig.bdurl.net, AdBlock
+host,ads3-normal-lq.zijieapi.com, AdBlock
+host,ads5-normal-lq.zijieapi.com, AdBlock
 # > 央视
-HOST-SUFFIX,a.cctv.com, AdBlock
-HOST-SUFFIX,ad.cctv.com, AdBlock
-HOST-SUFFIX,ad.cntv.cn, AdBlock
-HOST-SUFFIX,adguanggao.eee114.com, AdBlock
-HOST-SUFFIX,afp.qiyi.com, AdBlock
-HOST-SUFFIX,cctv.adsunion.com, AdBlock
-HOST-SUFFIX,d.cntv.cn, AdBlock
-HOST-SUFFIX,de.pandora.xiaomi.com, AdBlock
-HOST-SUFFIX,mishop.pandora.xiaomi.com, AdBlock
-HOST-SUFFIX,cws-cctv.conviva.com, AdBlock
-HOST,galaxy.bjcathay.com, AdBlock
-HOST,mdrecv.app.cntvwb.cn, AdBlock
-HOST,sdapprecv.app.cntvwb.cn, AdBlock
-HOST,vdapprecv.app.cntvwb.cn, AdBlock
-HOST-SUFFIX,mdrecv.app.cntvwb.cn, AdBlock
-HOST-SUFFIX,sdapprecv.app.cntvwb.cn, AdBlock
-HOST-SUFFIX,vdapprecv.app.cntvwb.cn, AdBlock
+host-suffix,a.cctv.com, AdBlock
+host-suffix,ad.cctv.com, AdBlock
+host-suffix,ad.cntv.cn, AdBlock
+host-suffix,adguanggao.eee114.com, AdBlock
+host-suffix,afp.qiyi.com, AdBlock
+host-suffix,cctv.adsunion.com, AdBlock
+host-suffix,d.cntv.cn, AdBlock
+host-suffix,de.pandora.xiaomi.com, AdBlock
+host-suffix,mishop.pandora.xiaomi.com, AdBlock
+host-suffix,cws-cctv.conviva.com, AdBlock
+host,galaxy.bjcathay.com, AdBlock
+host,mdrecv.app.cntvwb.cn, AdBlock
+host,sdapprecv.app.cntvwb.cn, AdBlock
+host,vdapprecv.app.cntvwb.cn, AdBlock
+host-suffix,mdrecv.app.cntvwb.cn, AdBlock
+host-suffix,sdapprecv.app.cntvwb.cn, AdBlock
+host-suffix,vdapprecv.app.cntvwb.cn, AdBlock
 # > 中国电信
-HOST,ad.21cn.com, AdBlock
-HOST,ad.k.21cn.com, AdBlock
-HOST,admarket.21cn.com, AdBlock
-HOST,adshows.21cn.com, AdBlock
+host,ad.21cn.com, AdBlock
+host,ad.k.21cn.com, AdBlock
+host,admarket.21cn.com, AdBlock
+host,adshows.21cn.com, AdBlock
 # > 微软
-HOST-SUFFIX,ads.msn.com, AdBlock
-HOST-SUFFIX,ads1.msn.com, AdBlock
-HOST-SUFFIX,ads2.msn.com, AdBlock
-HOST-SUFFIX,bingads.microsoft.com, AdBlock
-HOST-SUFFIX,rads.msn.com, AdBlock
-HOST,mobileads.msn.com, AdBlock
+host-suffix,ads.msn.com, AdBlock
+host-suffix,ads1.msn.com, AdBlock
+host-suffix,ads2.msn.com, AdBlock
+host-suffix,bingads.microsoft.com, AdBlock
+host-suffix,rads.msn.com, AdBlock
+host,mobileads.msn.com, AdBlock
 # > 腾讯视频
 host-suffix, tetrack.qq.com, AdBlock
 host-suffix, tpns.tencent.com, AdBlock
@@ -244,33 +244,33 @@ host-suffix, api.poll.video.qq.com, AdBlock
 host-suffix, stat.tpns.tencent.com, AdBlock
 host, h.trace.qq.com, AdBlock
 # > 迅雷
-HOST,adsp.xunlei.com, AdBlock
-HOST,etl.xlmc.sandai.net, AdBlock
+host,adsp.xunlei.com, AdBlock
+host,etl.xlmc.sandai.net, AdBlock
 # > 快手
-;HOST-SUFFIX,yximgs.com, AdBlock
-;HOST-SUFFIX,e.kuaishou.com, AdBlock
-HOST,js-ad.a.yximgs.com, AdBlock
-HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, AdBlock
-HOST-SUFFIX,cm.ad.gifshow.com, AdBlock
-HOST-SUFFIX,cm.kwad.com, AdBlock
+-host-suffix,yximgs.com, AdBlock
+-host-suffix,e.kuaishou.com, AdBlock
+host,js-ad.a.yximgs.com, AdBlock
+host-suffix,cm.downloader.commercial.kuaishou.com, AdBlock
+host-suffix,cm.ad.gifshow.com, AdBlock
+host-suffix,cm.kwad.com, AdBlock
 # > 车来了（包括小程序）
 host-suffix, atrace.chelaile.net.cn, AdBlock
 host, logs.chelaile.net.cn, AdBlock
 host, ad.chelaile.net.cn, AdBlock
 # > 铁路12306
-HOST, ad.12306.cn, AdBlock
+host, ad.12306.cn, AdBlock
 #可选, 由于qx纯tun特性, 不添加规则可能会导致脚本失效. https://github.com/NobyDa/Script/issues/382
 ip-cidr, 203.107.1.1/24, reject
 host-suffix, cm.bilibili.com, AdBlock
 # 知乎去广告，以下规则请放置在filter_local最顶部
-IP-CIDR,118.89.204.198/32, AdBlock
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, AdBlock
-HOST,118.89.204.198, AdBlock
+ip-cidr,118.89.204.198/32, AdBlock
+ip6-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, AdBlock
+host,118.89.204.198, AdBlock
 # 知乎去广告，以下规则的位置越前方越好
-HOST,appcloud2.in.zhihu.com, AdBlock
-HOST,mqtt.zhihu.com, AdBlock
-HOST,sugar.zhihu.com, AdBlock
-USER-AGENT,AVOS*, AdBlock
+host,appcloud2.in.zhihu.com, AdBlock
+host,mqtt.zhihu.com, AdBlock
+host,sugar.zhihu.com, AdBlock
+user-agent,AVOS*, AdBlock
 
 host-suffix, tracking.intl.miui.com, AdBlock
 host-suffix, ad.12306.cn, AdBlock
@@ -396,24 +396,24 @@ host-suffix, cmts.iqiyi.com, AdBlock
 host-suffix, data.video.qiyi.com, AdBlock
 host-suffix, msg.71.am, AdBlock
 host-suffix, msga.cupid.iqiyi.com, AdBlock
-IP-CIDR,101.227.14.80/29, AdBlock
-IP-CIDR,101.227.200.0/22, AdBlock
-IP-CIDR,112.13.64.0/22, AdBlock
-IP-CIDR,112.253.36.0/24, AdBlock
-IP-CIDR,117.139.16.0/22, AdBlock
-IP-CIDR,117.139.18.141/22, AdBlock
-IP-CIDR,119.188.13.32/29, AdBlock
-IP-CIDR,119.188.172.192/28, AdBlock
-IP-CIDR,119.188.173.0/27, AdBlock
-IP-CIDR,119.188.43.61/32, AdBlock
-IP-CIDR,123.125.116.0/22, AdBlock
-IP-CIDR,123.125.117.0/22, AdBlock
-IP-CIDR,123.130.122.128/28, AdBlock
-IP-CIDR,183.221.244.0/22, AdBlock
-IP-CIDR,183.221.247.189/22, AdBlock
-IP-CIDR,27.221.89.128/28, AdBlock
-IP-CIDR,60.211.171.128/29, AdBlock
-IP-CIDR,60.211.211.1/32, AdBlock
+ip-cidr,101.227.14.80/29, AdBlock
+ip-cidr,101.227.200.0/22, AdBlock
+ip-cidr,112.13.64.0/22, AdBlock
+ip-cidr,112.253.36.0/24, AdBlock
+ip-cidr,117.139.16.0/22, AdBlock
+ip-cidr,117.139.18.141/22, AdBlock
+ip-cidr,119.188.13.32/29, AdBlock
+ip-cidr,119.188.172.192/28, AdBlock
+ip-cidr,119.188.173.0/27, AdBlock
+ip-cidr,119.188.43.61/32, AdBlock
+ip-cidr,123.125.116.0/22, AdBlock
+ip-cidr,123.125.117.0/22, AdBlock
+ip-cidr,123.130.122.128/28, AdBlock
+ip-cidr,183.221.244.0/22, AdBlock
+ip-cidr,183.221.247.189/22, AdBlock
+ip-cidr,27.221.89.128/28, AdBlock
+ip-cidr,60.211.171.128/29, AdBlock
+ip-cidr,60.211.211.1/32, AdBlock
 host-suffix, im-x.jd.com, AdBlock
 host-suffix, ad.ipadview.com, AdBlock
 host-suffix, .maizhenai.cn, AdBlock
@@ -551,7 +551,7 @@ host-suffix, 1.1010pic.com, AdBlock
 host-suffix, 1.11467.com, AdBlock
 host-suffix, 1.15lu.com, AdBlock
 host-suffix, 1.201980.com, AdBlock
-IP-CIDR,1.3.0.10/32, AdBlock
+ip-cidr,1.3.0.10/32, AdBlock
 host-suffix, 1.32xp.com, AdBlock
 host-suffix, 1.5000yan.com, AdBlock
 host-suffix, 1.51sxue.cn, AdBlock
@@ -609,99 +609,99 @@ host-suffix, 1002.men, AdBlock
 host-suffix, 1005fdh.xyz, AdBlock
 host-suffix, 100fenlm.com, AdBlock
 host-suffix, 1017.cn, AdBlock
-IP-CIDR,103.249.254.113/32, AdBlock
-IP-CIDR,103.49.209.27/32, AdBlock
-IP-CIDR,103.75.47.19/32, AdBlock
-IP-CIDR,104.195.62.12/32, AdBlock
-IP-CIDR,104.197.140.120/32, AdBlock
-IP-CIDR,104.198.198.188/32, AdBlock
-IP-CIDR,104.201.20.196/32, AdBlock
-IP-CIDR,104.203.214.3/32, AdBlock
-IP-CIDR,104.203.72.254/32, AdBlock
-IP-CIDR,104.233.154.134/32, AdBlock
-IP-CIDR,104.233.177.93/32, AdBlock
-IP-CIDR,104.233.203.164/32, AdBlock
-IP-CIDR,104.237.67.78/32, AdBlock
+ip-cidr,103.249.254.113/32, AdBlock
+ip-cidr,103.49.209.27/32, AdBlock
+ip-cidr,103.75.47.19/32, AdBlock
+ip-cidr,104.195.62.12/32, AdBlock
+ip-cidr,104.197.140.120/32, AdBlock
+ip-cidr,104.198.198.188/32, AdBlock
+ip-cidr,104.201.20.196/32, AdBlock
+ip-cidr,104.203.214.3/32, AdBlock
+ip-cidr,104.203.72.254/32, AdBlock
+ip-cidr,104.233.154.134/32, AdBlock
+ip-cidr,104.233.177.93/32, AdBlock
+ip-cidr,104.233.203.164/32, AdBlock
+ip-cidr,104.237.67.78/32, AdBlock
 host-suffix, 104610.com, AdBlock
-IP-CIDR,106.187.95.251/32, AdBlock
-IP-CIDR,107.172.176.197/32, AdBlock
-IP-CIDR,107.183.137.18/32, AdBlock
-IP-CIDR,107.187.122.172/32, AdBlock
-IP-CIDR,107.187.255.178/32, AdBlock
-IP-CIDR,108.171.248.234/32, AdBlock
+ip-cidr,106.187.95.251/32, AdBlock
+ip-cidr,107.172.176.197/32, AdBlock
+ip-cidr,107.183.137.18/32, AdBlock
+ip-cidr,107.187.122.172/32, AdBlock
+ip-cidr,107.187.255.178/32, AdBlock
+ip-cidr,108.171.248.234/32, AdBlock
 host-suffix, 10b883b3d61d.com, AdBlock
 host-suffix, 10desires.com, AdBlock
 host-suffix, 11.96131.com.cn, AdBlock
 host-suffix, 11.golang8.com, AdBlock
 host-suffix, 11.yiqig.com, AdBlock
 host-suffix, 110380d053f716c4.com, AdBlock
-IP-CIDR,112.74.95.46/32, AdBlock
+ip-cidr,112.74.95.46/32, AdBlock
 host-suffix, 1133.cc, AdBlock
-IP-CIDR,114.95.102.77/32, AdBlock
+ip-cidr,114.95.102.77/32, AdBlock
 host-suffix, 114com.cc, AdBlock
 host-suffix, 114so.cn, AdBlock
-IP-CIDR,115.238.246.181/32, AdBlock
-IP-CIDR,115.29.141.121/32, AdBlock
-IP-CIDR,116.55.227.242/32, AdBlock
-IP-CIDR,117.25.133.209/32, AdBlock
-IP-CIDR,118.144.88.216/32, AdBlock
-IP-CIDR,118.24.199.184/32, AdBlock
+ip-cidr,115.238.246.181/32, AdBlock
+ip-cidr,115.29.141.121/32, AdBlock
+ip-cidr,116.55.227.242/32, AdBlock
+ip-cidr,117.25.133.209/32, AdBlock
+ip-cidr,118.144.88.216/32, AdBlock
+ip-cidr,118.24.199.184/32, AdBlock
 host-suffix, 118aa629a7968e75e.com, AdBlock
-IP-CIDR,119.29.207.87/32, AdBlock
-IP-CIDR,119.29.80.185/32, AdBlock
-IP-CIDR,119.4.249.166/32, AdBlock
+ip-cidr,119.29.207.87/32, AdBlock
+ip-cidr,119.29.80.185/32, AdBlock
+ip-cidr,119.4.249.166/32, AdBlock
 host-suffix, 11a581bbb5038e.com, AdBlock
 host-suffix, 11ccda709b5cdf5.com, AdBlock
 host-suffix, 12.cookcai.com, AdBlock
-IP-CIDR,120.27.34.156/32, AdBlock
+ip-cidr,120.27.34.156/32, AdBlock
 host-suffix, 12086.net, AdBlock
-IP-CIDR,121.40.25.88/32, AdBlock
+ip-cidr,121.40.25.88/32, AdBlock
 host-suffix, 1214bdk.xyz, AdBlock
-IP-CIDR,122.114.239.160/32, AdBlock
-IP-CIDR,122.227.254.195/32, AdBlock
-IP-CIDR,122.228.236.165/32, AdBlock
+ip-cidr,122.114.239.160/32, AdBlock
+ip-cidr,122.227.254.195/32, AdBlock
+ip-cidr,122.228.236.165/32, AdBlock
 host-suffix, 1221dhb.xyz, AdBlock
 host-suffix, 1221e236c3f8703.com, AdBlock
 host-suffix, 1224.dxsbb.com, AdBlock
-IP-CIDR,123.59.150.56/32, AdBlock
+ip-cidr,123.59.150.56/32, AdBlock
 host-suffix, 123456.asia, AdBlock
 host-suffix, 1234xm.com, AdBlock
 host-suffix, 12365chia.com, AdBlock
 host-suffix, 123advertising.nl, AdBlock
 host-suffix, 123hala.com, AdBlock
-IP-CIDR,124.232.160.178/32, AdBlock
+ip-cidr,124.232.160.178/32, AdBlock
 host-suffix, 1298bab69bbc4.com, AdBlock
 host-suffix, 12cdee5830.com, AdBlock
 host-suffix, 12dc71b7cb820f2a.com, AdBlock
 host-suffix, 12xlwin6a.net, AdBlock
 host-suffix, 1314sss.top, AdBlock
 host-suffix, 13190546cd1dec9bbdc.com, AdBlock
-IP-CIDR,134.73.54.252/32, AdBlock
-IP-CIDR,137.175.18.113/32, AdBlock
+ip-cidr,134.73.54.252/32, AdBlock
+ip-cidr,137.175.18.113/32, AdBlock
 host-suffix, 138lm.com, AdBlock
-IP-CIDR,139.159.32.82/32, AdBlock
-IP-CIDR,139.196.166.21/32, AdBlock
+ip-cidr,139.159.32.82/32, AdBlock
+ip-cidr,139.196.166.21/32, AdBlock
 host-suffix, 13hangpifa.com, AdBlock
 host-suffix, 13wn.com, AdBlock
-IP-CIDR,146.148.85.61/32, AdBlock
+ip-cidr,146.148.85.61/32, AdBlock
 host-suffix, 1494.top, AdBlock
 host-suffix, 14nuzznszbdp.com, AdBlock
 host-suffix, 153105c2f9564.com, AdBlock
-IP-CIDR,154.196.143.171/32, AdBlock
-IP-CIDR,154.83.113.19/32, AdBlock
-IP-CIDR,156.247.120.15/32, AdBlock
-IP-CIDR,156.247.120.31/32, AdBlock
-IP-CIDR,156.247.99.219/32, AdBlock
-IP-CIDR,156.249.32.50/32, AdBlock
+ip-cidr,154.196.143.171/32, AdBlock
+ip-cidr,154.83.113.19/32, AdBlock
+ip-cidr,156.247.120.15/32, AdBlock
+ip-cidr,156.247.120.31/32, AdBlock
+ip-cidr,156.247.99.219/32, AdBlock
+ip-cidr,156.249.32.50/32, AdBlock
 host-suffix, 15fa37b45d.com, AdBlock
-IP-CIDR,162.209.213.66/32, AdBlock
-IP-CIDR,163.197.136.33/32, AdBlock
-IP-CIDR,163.197.167.236/32, AdBlock
-IP-CIDR,164.155.185.254/32, AdBlock
+ip-cidr,162.209.213.66/32, AdBlock
+ip-cidr,163.197.136.33/32, AdBlock
+ip-cidr,163.197.167.236/32, AdBlock
+ip-cidr,164.155.185.254/32, AdBlock
 host-suffix, 16482f75cb.com, AdBlock
 host-suffix, 16577716.com, AdBlock
 host-suffix, 165a7c15380874ef3.com, AdBlock
-IP-CIDR,167.206.10.148/32, AdBlock
+ip-cidr,167.206.10.148/32, AdBlock
 host-suffix, 1680go.com, AdBlock
 host-suffix, 168ad.cc, AdBlock
 host-suffix, 168xiazai.com, AdBlock
@@ -711,11 +711,11 @@ host-suffix, 16k6.com, AdBlock
 host-suffix, 17.huanqiu.com, AdBlock
 host-suffix, 170yy.com, AdBlock
 host-suffix, 1711811.com, AdBlock
-IP-CIDR,172.120.35.94/32, AdBlock
-IP-CIDR,172.247.15.58/32, AdBlock
-IP-CIDR,172.81.246.180/32, AdBlock
-IP-CIDR,174.123.15.43/32, AdBlock
-IP-CIDR,174.139.53.195/32, AdBlock
+ip-cidr,172.120.35.94/32, AdBlock
+ip-cidr,172.247.15.58/32, AdBlock
+ip-cidr,172.81.246.180/32, AdBlock
+ip-cidr,174.123.15.43/32, AdBlock
+ip-cidr,174.139.53.195/32, AdBlock
 host-suffix, 1740f665a91b68.com, AdBlock
 host-suffix, 175bar.com, AdBlock
 host-suffix, 176um.com, AdBlock
@@ -727,20 +727,20 @@ host-suffix, 17leyi.com, AdBlock
 host-suffix, 17tuozhai.com, AdBlock
 host-suffix, 17un.co, AdBlock
 host-suffix, 17ys.top, AdBlock
-IP-CIDR,180.76.171.28/32, AdBlock
+ip-cidr,180.76.171.28/32, AdBlock
 host-suffix, 1818bobo.com, AdBlock
-IP-CIDR,182.92.81.104/32, AdBlock
+ip-cidr,182.92.81.104/32, AdBlock
 host-suffix, 1888pro.com, AdBlock
 host-suffix, 188xiaoba.net, AdBlock
 host-suffix, 18dusun.com, AdBlock
 host-suffix, 18tzx.com, AdBlock
 host-suffix, 192b1a49d57.com, AdBlock
-IP-CIDR,194.36.101.178/32, AdBlock
+ip-cidr,194.36.101.178/32, AdBlock
 host-suffix, 1955dcb2fee1a13.com, AdBlock
 host-suffix, 196f25ce95a.com, AdBlock
-IP-CIDR,198.2.215.131/32, AdBlock
+ip-cidr,198.2.215.131/32, AdBlock
 host-suffix, 1983c499735.com, AdBlock
-IP-CIDR,199.231.214.62/32, AdBlock
+ip-cidr,199.231.214.62/32, AdBlock
 host-suffix, 1999019.com, AdBlock
 host-suffix, 199zw.com, AdBlock
 host-suffix, 19a782bc982.com, AdBlock
@@ -795,35 +795,35 @@ host-suffix, 2018haoyunlai.com, AdBlock
 host-suffix, 201n.com, AdBlock
 host-suffix, 2020mustang.com, AdBlock
 host-suffix, 203fb7a4cb1.com, AdBlock
-IP-CIDR,205.209.138.102/32, AdBlock
+ip-cidr,205.209.138.102/32, AdBlock
 host-suffix, 20a840a14a0ef7d6.com, AdBlock
 host-suffix, 20cefb09fe910f.com, AdBlock
 host-suffix, 20tracks.com, AdBlock
 host-suffix, 21.cizhibaogao.org, AdBlock
 host-suffix, 21.fh21static.com, AdBlock
 host-suffix, 21.zhaozongjie.com, AdBlock
-IP-CIDR,211.103.159.32/32, AdBlock
-IP-CIDR,211.149.225.23/32, AdBlock
-IP-CIDR,211.167.105.131/32, AdBlock
-IP-CIDR,212.64.34.17/32, AdBlock
+ip-cidr,211.103.159.32/32, AdBlock
+ip-cidr,211.149.225.23/32, AdBlock
+ip-cidr,211.167.105.131/32, AdBlock
+ip-cidr,212.64.34.17/32, AdBlock
 host-suffix, 2137dc12f9d8.com, AdBlock
 host-suffix, 215to.cn, AdBlock
-IP-CIDR,218.25.246.118/32, AdBlock
-IP-CIDR,219.234.83.60/32, AdBlock
+ip-cidr,218.25.246.118/32, AdBlock
+ip-cidr,219.234.83.60/32, AdBlock
 host-suffix, 21a3dd8ea39c0.com, AdBlock
 host-suffix, 21c9a53484951.com, AdBlock
 host-suffix, 21kk.cc, AdBlock
 host-suffix, 21sexturycash.com, AdBlock
 host-suffix, 21union.com, AdBlock
-IP-CIDR,220.115.251.25/32, AdBlock
+ip-cidr,220.115.251.25/32, AdBlock
 host-suffix, 220efda3143.com, AdBlock
-IP-CIDR,221.204.213.222/32, AdBlock
+ip-cidr,221.204.213.222/32, AdBlock
 host-suffix, 2227q.com, AdBlock
 host-suffix, 222im.com, AdBlock
-IP-CIDR,23.244.43.212/32, AdBlock
-IP-CIDR,23.251.45.156/32, AdBlock
-IP-CIDR,23.89.50.180/32, AdBlock
-IP-CIDR,23.91.3.114/32, AdBlock
+ip-cidr,23.244.43.212/32, AdBlock
+ip-cidr,23.251.45.156/32, AdBlock
+ip-cidr,23.89.50.180/32, AdBlock
+ip-cidr,23.91.3.114/32, AdBlock
 host-suffix, 23205523023daea6.com, AdBlock
 host-suffix, 2334ea708ab6d79.com, AdBlock
 host-suffix, 233fb5b59351.com, AdBlock
@@ -957,7 +957,7 @@ host-suffix, 341073be6e9db7d2.com, AdBlock
 host-suffix, 34baedd2d0b9.com, AdBlock
 host-suffix, 34c2f22e9503ace.com, AdBlock
 host-suffix, 34ed5da2977d1ace.com, AdBlock
-IP-CIDR,35.232.188.118/32, AdBlock
+ip-cidr,35.232.188.118/32, AdBlock
 host-suffix, 3585656d9351553f.com, AdBlock
 host-suffix, 35clouds.com.cn, AdBlock
 host-suffix, 35d59588f15966.com, AdBlock
@@ -1047,15 +1047,15 @@ host-suffix, 442d9f2ac50ca502.com, AdBlock
 host-suffix, 4465ef53c8ffded.com, AdBlock
 host-suffix, 4480dy.net, AdBlock
 host-suffix, 448ff4fcfcd199a.com, AdBlock
-IP-CIDR,45.126.123.80/32, AdBlock
-IP-CIDR,45.192.59.62/32, AdBlock
-IP-CIDR,45.34.240.72/32, AdBlock
+ip-cidr,45.126.123.80/32, AdBlock
+ip-cidr,45.192.59.62/32, AdBlock
+ip-cidr,45.34.240.72/32, AdBlock
 host-suffix, 45f2373b26b8e2.com, AdBlock
 host-suffix, 45le.cn, AdBlock
 host-suffix, 45xa.cn, AdBlock
 host-suffix, 46186911.vtt, AdBlock
 host-suffix, 4690y10pvpq8.com, AdBlock
-IP-CIDR,47.90.50.177/32, AdBlock
+ip-cidr,47.90.50.177/32, AdBlock
 host-suffix, 4702fb341ddf276d.com, AdBlock
 host-suffix, 473863a8ef28.com, AdBlock
 host-suffix, 47api.cn, AdBlock
@@ -1170,7 +1170,7 @@ host-suffix, 5783.org, AdBlock
 host-suffix, 57e3ascxh1.com, AdBlock
 host-suffix, 57fd2911f09b76.com, AdBlock
 host-suffix, 57union.com, AdBlock
-IP-CIDR,58.215.179.159/32, AdBlock
+ip-cidr,58.215.179.159/32, AdBlock
 host-suffix, 584e8fce1b418.com, AdBlock
 host-suffix, 58b14921719ec.com, AdBlock
 host-suffix, 58b291f917728a2.com, AdBlock
@@ -1222,13 +1222,13 @@ host-suffix, 5yw028ngxe9x.com, AdBlock
 host-suffix, 5zi2.top, AdBlock
 host-suffix, 5zi3.top, AdBlock
 host-suffix, 5zi5.top, AdBlock
-IP-CIDR,60.190.139.164/32, AdBlock
+ip-cidr,60.190.139.164/32, AdBlock
 host-suffix, 602d76e204c032.com, AdBlock
 host-suffix, 605296.com, AdBlock
 host-suffix, 6068a17eed25.com, AdBlock
 host-suffix, 606w.cn, AdBlock
-IP-CIDR,61.152.223.15/32, AdBlock
-IP-CIDR,61.174.50.211/32, AdBlock
+ip-cidr,61.152.223.15/32, AdBlock
+ip-cidr,61.174.50.211/32, AdBlock
 host-suffix, 614514.com, AdBlock
 host-suffix, 615b68cc9c8528e.com, AdBlock
 host-suffix, 61739011039d41a.com, AdBlock
@@ -1252,7 +1252,7 @@ host-suffix, 6548579f50dc08be9.com, AdBlock
 host-suffix, 65a29ceed813bbca61.com, AdBlock
 host-suffix, 65tgh.com, AdBlock
 host-suffix, 65vk1fba34.com, AdBlock
-IP-CIDR,66.212.56.229/32, AdBlock
+ip-cidr,66.212.56.229/32, AdBlock
 host-suffix, 660a755deb8829fe.com, AdBlock
 host-suffix, 6612151.cn, AdBlock
 host-suffix, 6612152.cn, AdBlock
@@ -1274,7 +1274,7 @@ host-suffix, 6868bbe42af8e518.com, AdBlock
 host-suffix, 68710266.com, AdBlock
 host-suffix, 688de7b3822de.com, AdBlock
 host-suffix, 68d0d5e26bb0ae.com, AdBlock
-IP-CIDR,69.28.57.245/32, AdBlock
+ip-cidr,69.28.57.245/32, AdBlock
 host-suffix, 6942f24115b63.com, AdBlock
 host-suffix, 69i.club, AdBlock
 host-suffix, 69oxt4q05.com, AdBlock
