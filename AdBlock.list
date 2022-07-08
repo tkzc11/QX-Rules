@@ -84,7 +84,7 @@ host-suffix, s.alitui.weibo.com,  AdBlock
 host-suffix, promote.biz.weibo.cn,  AdBlock
 host-suffix, gw5.push.mcp.weibo.cn,  AdBlock
 host-suffix, game.weibo.cn,  AdBlock
--host-suffix, biz.weibo.com,  AdBlock
+;host-suffix, biz.weibo.com,  AdBlock
 host-suffix, adimg.uve.weibo.com,  AdBlock
 host-suffix, game.weibo.com,  AdBlock
 host-suffix, gw6.push.mcp.weibo.cn,  AdBlock
@@ -96,7 +96,7 @@ host, adimg.uve.weibo.com,  AdBlock
 host, adimg.vue.weibo.com,  AdBlock
 host-keyword, adimg.uve.weibo.com, AdBlock
 host-keyword, alitui.weibo.com, AdBlock
--host-keyword, biz.weibo.com, AdBlock
+;host-keyword, biz.weibo.com, AdBlock
 host-keyword, game.weibo.cn, AdBlock
 host-keyword, game.weibo.com, AdBlock
 host-keyword, gw5.push.mcp.weibo.cn, AdBlock
