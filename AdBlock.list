@@ -74,6 +74,7 @@ host-suffix,rich.kuwo.cn, AdBlock
 host-keyword, upload-cdn.orayimg.com, AdBlock
 # > 微博
 host-suffix, yf.intra.weibo.com, AdBlock
+host-keyword, yf.intra.weibo.com, AdBlock
 host-keyword, fastimage.uve.weibo.com,  AdBlock
 host-keyword, adimg.uve.weibo.com,  AdBlock
 host-suffix, adimg.vue.weibo.com,  AdBlock
