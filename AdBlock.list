@@ -264,10 +264,9 @@ host, ad.12306.cn, AdBlock
 ip-cidr, 203.107.1.1/24, AdBlock
 host-suffix, cm.bilibili.com, AdBlock
 # 知乎去广告，以下规则请放置在filter_local最顶部
-IP-CIDR,118.89.204.198/32,REJECT
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-# 贴吧屏蔽域名dns查询
-IP-CIDR,180.76.76.200/32,REJECT
+ip-cidr, 118.89.204.198/32, AdBlock
+ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, AdBlock
+ip-cidr, 180.76.76.200/32, AdBlock
 ## /*  
 host-suffix, 10086.cn.baidu.cdn.yiwk.com, AdBlock
 host-suffix, 360baidus.com, AdBlock
