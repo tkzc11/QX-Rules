@@ -50,17 +50,11 @@ hostname = g.cn, google.cn, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com
 ^https://res.yunbusiness.ccb.com/service/resource/mng/adMng/2022/202203/20220325/20220325070000000078/b406caab-da67-40fd-bda8-4317af93f49e.jpg url reject
 # > 得物
 ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
-# > 百度贴吧（副作用:新回复等通知功能不可用,需手动进入消息tab页点击查看）
-^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
-^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
-^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= url reject-img
-^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= url reject-img
-^https?:\/\/.+?\/c\/s\/splashSchedule url reject
-^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule url reject
-^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
-^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+# 贴吧去广告
+# 开屏广告;推荐和吧内帖子列表的直播及广告;详情页直播/关联商品/广告;看图模式广告;首页和帖子详情页右下角悬浮广告;部分吧内的置顶/最新中间的广告/head图片广告
+hostname = tiebac.baidu.com
+^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
+^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
 # > 百度地图
 ^https:\/\/dss0.bdstatic.com\/-0U0bnSm1A5BphGlnYG\/ url reject-200
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg url reject
@@ -363,4 +357,7 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject-200
 # > 腾讯手机管家
 ^https?:\/\/webcdn\.m\.qq\.com\/qiantu\/upload\/202[0-9]{5}\/.*.(jpg|png) url reject-200
-
+#  知乎App去广告
+# 开屏页广告,首页右下角悬浮框,推荐列表广告,问题回答列表广告,具体回答下广告
+hostname = api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com
+^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/(answers\/\d+\/recommendations|articles\/\d+\/recommendation)|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?)) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/zhihu.js
