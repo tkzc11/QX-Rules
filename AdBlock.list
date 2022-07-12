@@ -264,18 +264,10 @@ host, ad.12306.cn, AdBlock
 ip-cidr, 203.107.1.1/24, AdBlock
 host-suffix, cm.bilibili.com, AdBlock
 # 知乎去广告，以下规则请放置在filter_local最顶部
-ip-cidr, 118.89.204.198/32, AdBlock
-ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, AdBlock
-host, 118.89.204.198, AdBlock
-# 知乎去广告，以下规则的位置越前方越好
-host, appcloud2.in.zhihu.com, AdBlock
-host, mqtt.zhihu.com, AdBlock
-host, sugar.zhihu.com, AdBlock
-user-agent,AVOS*, AdBlock
-# > 百度贴吧屏蔽域名dns查询
-ip-cidr, 180.76.76.200/32,AdBlock
-# > 百度贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
-host, im.tieba.baidu.com,AdBlock
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# 贴吧屏蔽域名dns查询
+IP-CIDR,180.76.76.200/32,REJECT
 ## /*  
 host-suffix, 10086.cn.baidu.cdn.yiwk.com, AdBlock
 host-suffix, 360baidus.com, AdBlock
