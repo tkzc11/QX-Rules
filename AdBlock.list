@@ -123,7 +123,7 @@ host-keyword, biz.weibo.com.cn, AdBlock
 host-keyword, game.weibo.com.cn, AdBlock
 host-keyword, tui.weibo.com, AdBlock
 host-keyword, wax.weibo.com.cn, AdBlock
-host-keyword, ad.weibo.com, AdBlock
+host-suffix, ad.weibo.com, AdBlock
 host-keyword, adstrategy.biz.weibo.com, AdBlock
 -host-keyword, s.weibo.com, AdBlock
 host-keyword, vs.biz.weibo.com, AdBlock
