@@ -1,3 +1,7 @@
+host-suffix, suo.yt, direct
+host-suffix, adservice.google.cn, reject
+# > 携程开屏广告
+host-suffix, dimg04.c-ctrip.com, AdBlock
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
 host-keyword, sdk.open.talk.getui.net, AdBlock
