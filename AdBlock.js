@@ -6,8 +6,6 @@
 # > 单集评分
 ^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
 
-# > 携程开屏广告@ddgksf2013
-^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
 # > 滴滴
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
 # >> 新浪微博
