@@ -399,9 +399,6 @@ host-suffix, static.tieba.baidu.com, AdBlock
 host-suffix, ucstat.baidu.com, AdBlock
 host-suffix, union.baidu.com, AdBlock
 host-suffix, imageplus.baidu.com, AdBlock
-host-suffix, t10.baidu.com, AdBlock
-host-suffix, t11.baidu.com, AdBlock
-host-suffix, t12.baidu.com, AdBlock
 host-suffix, stats.chinaz.com, AdBlock
 host-suffix, google-analytics.com, AdBlock
 host-suffix, doubleclick.net, AdBlock
