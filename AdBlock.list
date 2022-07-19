@@ -1,7 +1,5 @@
 host-suffix, suo.yt, direct
 host-suffix, adservice.google.cn, reject
-# > 携程开屏广告
-host-suffix, dimg04.c-ctrip.com, AdBlock
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
 host-keyword, sdk.open.talk.getui.net, AdBlock
@@ -270,6 +268,7 @@ host-suffix, cm.bilibili.com, AdBlock
 # 知乎去广告，以下规则请放置在filter_local最顶部
 ip-cidr, 118.89.204.198/32, AdBlock
 ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, AdBlock
+# 贴吧屏蔽域名dns查询
 ip-cidr, 180.76.76.200/32, AdBlock
 ## /*  
 host-suffix, 10086.cn.baidu.cdn.yiwk.com, AdBlock
