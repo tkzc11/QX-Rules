@@ -1,5 +1,6 @@
 host, sub.id9.cc, direct
 host, suo.yt, direct
+host, fuqing.ch, direct
 host-suffix, adservice.google.cn, reject
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
