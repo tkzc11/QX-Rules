@@ -1,4 +1,3 @@
-host, fuqing.ch, direct
 host-suffix, ip.sb, direct
 host-suffix, adservice.google.cn, reject
 # > 云闪付
