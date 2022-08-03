@@ -1,4 +1,3 @@
-host-suffix, ip.sb, direct
 host-suffix, adservice.google.cn, reject
 host-suffix, adservice.google.com, reject
 
