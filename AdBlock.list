@@ -1,5 +1,6 @@
 host-suffix, adservice.google.cn, reject
 host-suffix, adservice.google.com, reject
+host-suffix, formula1.com, direct
 
 # > 路路通（内嵌去哪儿）
 host, activitynew.qunar.com, AdBlock
