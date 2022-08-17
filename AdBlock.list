@@ -115,7 +115,7 @@ host-keyword, sdkapp.uve.weibo.com, AdBlock
 host-keyword, weibomingzi.com, AdBlock
 host-keyword, zymo.mps.weibo.com, AdBlock
 host-keyword, adimg.vue.weibo.com, AdBlock
-;host-keyword, dp.im.weibo.cn, AdBlock
+host-keyword, dp.im.weibo.cn, AdBlock
 host-keyword, m.game.weibo.cn, AdBlock
 host-keyword, c.biz.weibo.com, AdBlock
 host-keyword, c.wcpt.biz.weibo.com, AdBlock
