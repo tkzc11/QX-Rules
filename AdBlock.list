@@ -81,9 +81,9 @@ host-suffix, rich.kuwo.cn, AdBlock
 host-keyword, upload-cdn.orayimg.com, AdBlock
 # > 微博
 host-suffix, yf.intra.weibo.com, AdBlock
-;host-keyword, yf.intra.weibo.com, AdBlock
+host-keyword, yf.intra.weibo.com, AdBlock
 host-keyword, fastimage.uve.weibo.com,  AdBlock
-;host-keyword, adimg.uve.weibo.com,  AdBlock
+host-keyword, adimg.uve.weibo.com,  AdBlock
 host-suffix, adimg.vue.weibo.com,  AdBlock
 host-suffix, zymo.mps.weibo.com,  AdBlock
 host-suffix, weibomingzi.com,  AdBlock
@@ -102,7 +102,7 @@ host-keyword, ads.aws.viber.com,  AdBlock
 host-suffix, alitui.weibo.com,  AdBlock
 host, adimg.uve.weibo.com,  AdBlock
 host, adimg.vue.weibo.com,  AdBlock
-;host-keyword, adimg.uve.weibo.com, AdBlock
+host-keyword, adimg.uve.weibo.com, AdBlock
 host-keyword, alitui.weibo.com, AdBlock
 ;host-keyword, biz.weibo.com, AdBlock
 host-keyword, game.weibo.cn, AdBlock
