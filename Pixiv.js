@@ -1,7 +1,7 @@
 [rewrite_local]
 
 # ～ Pixiv去除广告（2022-05-19）@ddgksf2013
-^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/pixivpro.js
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Pixiv.js
 
 [mitm] 
 
