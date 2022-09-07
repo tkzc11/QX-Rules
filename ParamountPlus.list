@@ -1,0 +1,11 @@
+host, cbsi.live.ott.irdeto.com ,Paramount+
+host, cbsplaylistserver.aws.syncbak.com ,Paramount+
+host, cbsservice.aws.syncbak.com ,Paramount+
+host, link.theplatform.com ,Paramount+
+host, bakery-pplus.cbs.com
+host-suffix, cbsaavideo.com ,Paramount+
+host-suffix, cbsi.com ,Paramount+
+host-suffix, cbsivideo.com ,Paramount+
+host-suffix, paramountplus.com ,Paramount+
+host-suffix, pplusstatic.com ,Paramount+
+user-agent, PPlus* ,Paramount+
