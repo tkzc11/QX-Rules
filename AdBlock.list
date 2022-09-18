@@ -1,8 +1,6 @@
 host-suffix, adservice.google.cn, reject
 host-suffix, adservice.google.com, reject
 
-# > 路路通（内嵌去哪儿）
-host, activitynew.qunar.com, AdBlock
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
 host-keyword, sdk.open.talk.getui.net, AdBlock
