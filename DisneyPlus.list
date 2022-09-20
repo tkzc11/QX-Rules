@@ -151,6 +151,3 @@ host-suffix, watchespn.com, Disney+
 host, cdn.registerdisney.go.com, Disney+
 host-suffix, cdn.registerdisney.go.com, Disney+
 host-suffix, cws.conviva.com, Disney+
-ip-cidr, 13.35.0.0/17, Disney+
-ip-cidr, 52.84.0.0/15, Disney+
-ip-cidr, 13.32.0.0/15, Disney+
