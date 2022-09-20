@@ -1,3 +1,5 @@
+host-suffix, mail.me.com, direct
+
 host-suffix, adservice.google.cn, reject
 host-suffix, adservice.google.com, reject
 
