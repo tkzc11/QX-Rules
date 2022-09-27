@@ -534,7 +534,7 @@ host-suffix, api.instabug.com, AdBlock
 host-suffix, adlog.flurry.com, AdBlock
 host-suffix, ads.flurry.com, AdBlock
 host-suffix, sd.domob.cn, AdBlock
-host-suffix, adjust.com, AdBlock
+
 host-suffix, adjust.io, AdBlock
 host-suffix, beacon.tingyun.com, AdBlock
 host-suffix, cmcore.com, AdBlock
