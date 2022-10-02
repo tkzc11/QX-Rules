@@ -287,7 +287,6 @@ host, dm.toutiao.com, AdBlock
 host-keyword, ad.toutiao.com, AdBlock
 host-keyword, clk.gentags.net, AdBlock
 host-keyword, dm.toutiao.com, AdBlock
-host-keyword, dm.pstatp.com, AdBlock
 host-keyword, dm.bytedance.com, AdBlock
 host-keyword, uop.umeng.com, AdBlock
 host-keyword, policy.jd.com, AdBlock
@@ -298,10 +297,6 @@ host-keyword, m.suning.com, AdBlock
 host-keyword, adshare.toutiao.com, AdBlock
 host-keyword, tunion-api.m.taobao.com, AdBlock
 host-keyword, mapi.m.jd.com, AdBlock
-host-keyword, s1.pstatp.com, AdBlock
-host-keyword, s2.pstatp.com, AdBlock
-host-keyword, s3.pstatp.com, AdBlock
-host-keyword, a3.pstatp.com, AdBlock
 host-keyword, a3.bytecdn.cn, AdBlock
 host-keyword, ichannel.snssdk.com, AdBlock
 # > PConline
@@ -526,7 +521,6 @@ host-suffix, union.baidu.com, AdBlock
 host-suffix, imageplus.baidu.com, AdBlock
 host-suffix, stats.chinaz.com, AdBlock
 host-suffix, google-analytics.com, AdBlock
-host-suffix, doubleclick.net, AdBlock
 host-suffix, zhihu-analytics.zhihu.com, AdBlock
 host-suffix, log.cmbchina.com, AdBlock
 host-suffix, api.segment.io, AdBlock
@@ -7289,7 +7283,6 @@ host-suffix, goodkee.cn, AdBlock
 host-suffix, google-analytics.com, AdBlock
 host-suffix, googleadservices.com, AdBlock
 host-suffix, googlesierai.xyz, AdBlock
-host-suffix, googlesyndication.com, AdBlock
 host-suffix, gopejk.com, AdBlock
 host-suffix, gopfltvoiflf.com, AdBlock
 host-suffix, goredi.com, AdBlock
