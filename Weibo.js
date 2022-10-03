@@ -15,7 +15,7 @@
 ^https?:\/\/wx[0-9]\.sinaimg\.cn\/large\/.+\.gif$ url reject-200
 
 # > 微博积分弹窗
-^https?:\/\/luck\.sc\.weibo\.com\/aj\/Action\/indexInfo$ url script-response-body https://hub.nange.cn/Mock/Blank/Blank_Dict.json https://hub.nange.cn/Mock/Blank/Blank_Dict.json
+^https?:\/\/luck\.sc\.weibo\.com\/aj\/Action\/indexInfo$ url script-response-body https://hub.nange.cn/Mock/Blank/Blank_Dict.json
 
 # > 会员中心弹窗
 ^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/popalert url script-response-body https://hub.nange.cn/Mock/Blank/Blank_Dict.json
