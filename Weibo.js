@@ -1,0 +1,47 @@
+^https?:\/\/.+\/wbts\.png$ url reject-200
+^https?:\/\/.+\/licai\.png$ url reject-200
+^https?:\/\/.+\/3fc\.png$ url reject-200
+^https?:\/\/.+\/pull-flv-(.*)\.douyincdn\.com\/stage\/.+\.flv url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/upload\/.+\/NavigationBar_Video_Icon_Live_Normal\.png$ url reject-200
+^https?:\/\/.+\.sinaimg\.cn\/.+\/(.*)?(fish|redicon|redpacket)(.*)?\.(png|jpg|jpeg|gif)$ url reject-200
+^https?:\/\/.+\.sinaimg\.cn\/.+\/lipin_dongtu\.gif$ url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/m\/taskcenter url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/m\/taskcenter\/js\/vendor\.+\.js$ url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/m\/taskcenter\/js\/app\.+\.js$ url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/m\/taskcenter\/js\/0\.+\.js$ url reject-200
+^https?:\/\/h5\.sinaimg\.cn\/m\/taskcenter\/js\/index\.lazy\.+\.js$ url reject-200
+^https?:\/\/captcha\.weibo\.com\/static\/js\/jigsawLock\.min\.js$ url reject-200
+^https?:\/\/wx[0-9]\.sinaimg\.cn\/large\/.+\.gif$ url reject-200
+^https?:\/\/luck\.sc\.weibo\.com\/aj\/Action\/indexInfo$ url reject-dict
+^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/popalert url reject-dict
+^https?:\/\/new\.vip\.weibo\.c(n|om)\/aj\/vipcenter\/popalert url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_hot_timeline\?gsid= url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/device\/get url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_getdotinfo url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/huati\/discovery_home_bottom_channel_list url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/unread_topic_timeline url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/statuses\/container_timeline_topic url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/carrier\/get\/info url reject-dict
+^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/prolist url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/redpacket url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/community_tab url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/playback\/batch_get url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/comments\/get_comments_order_by_hot url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_channel_list url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/tiny_stream_video_list url reject-dict
+^https?:\/\/letsgo\.e\.weibo\.com\/stracker\/fe\/report url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/!\/multimedia\/video\/red_package\/grow_follower\/active_uids url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/client\/tabbar url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/daily url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/page\/get_fragment url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/push\/active url reject-dict
+^https?:\/\/m\.weibo\.cn\/c\/checkin url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/video\/machine url reject-dict
+^https?:\/\/fastimage\.uve\.weibo\.com\/interface\/sdk\/getad\.php$ url reject-dict
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/actionpro\.php url reject-dict
+^https?:\/\/sdkclick\.uve\.weibo\.com\/interface\/sdk\/sdkclick\.php url reject-dict
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php url reject-dict
+^https?:\/\/m?api\.weibo\.c(n|om)\/2\/hot\/repost_daily url reject-dict
+(^https?:\/\/js\.t\.sinajs\.cn\/c2p\/sam\/frontend\/assets\/walletcache\.json|^https?:\/\/pay\.sc\.weibo\.com\/api\/client\/sdk\/app\/indexnew\/(index|person)|^https?:\/\/shop\.sc\.weibo\.com\/aj\/h5\/order\/center) url script-response-body https://hub.nange.cn/Script/Weibo/Wallet.js
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, h5.sinaimg.cn, *.sc.weibo.com, captcha.weibo.com, wx*.sinaimg.cn, js.t.sinajs.cn
