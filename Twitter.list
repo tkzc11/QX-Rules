@@ -1,15 +1,9 @@
-ip-asn, 13414, Twitter
-ip-asn, 35995, Twitter
-ip-asn, 63179, Twitter
-host-suffix, ads-twitter.com, Twitter
-host-suffix, periscope.tv, Twitter
 host-suffix, pscp.tv, Twitter
+host-suffix, periscope.tv, Twitter
 host-suffix, t.co, Twitter
-host-suffix, tweetdeck.com, Twitter
 host-suffix, twimg.co, Twitter
 host-suffix, twimg.com, Twitter
-host-suffix, twimg.org, Twitter
 host-suffix, twitpic.com, Twitter
 host-suffix, twitter.com, Twitter
-host-suffix, twitter.jps, Twitter
+host-suffix, twitter.jp, Twitter
 host-suffix, vine.co, Twitter
