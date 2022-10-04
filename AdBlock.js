@@ -8,7 +8,7 @@
 ^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
 
 # > Pixiv去广告
-^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/tkzc11/Cuttlefish/master/Crack/pixivpro.js
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Pixiv.js
 # > 携程广告
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
 ;^https:\/\/m\.ctrip\.com\/restapi\/.+json\/tripAds url reject
