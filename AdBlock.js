@@ -30,7 +30,7 @@
 # ^https?:\/\/.*\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET \/aweme\/v\d\/(follow\/)?feed\/(.+\r\n) request-header GET /aweme/v1/$1feed/$2
 # ^https?:\/\/.*\.amemv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
 # > 网易云音乐
-^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ URL reject
+^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ url reject
 # > 网易邮箱开屏广告
 https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject
 # > 网易严选（清除缓存使用）@ddgksf2013
