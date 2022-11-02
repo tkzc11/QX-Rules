@@ -10,8 +10,6 @@
 ;^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
 # > 抖音去广告, 去水印
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/28413761/QX/main/JS/douyin.js
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/douyin.js
 ^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ url reject
 ^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/ url reject
 ^https?:\/\/.+?\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject-200
@@ -214,10 +212,12 @@ https://homefront.qunar.com/front/splash/ad url reject
 ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
 # > 顺丰优选
 ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* url reject
- # > 京东
+# > 京东
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/182114\/23\/23904\/121433\/62593c9cEd77c4519\/2e3f4c518b771094\.jpg url reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/202971\/34\/26906\/282671\/6319c862E1818d3fa\/0597464cf6bc8e2f\.jpg url reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/143222\/27\/29233\/141967\/631b1f8cE3a112e54\/d3fe0b2f9f0a9f30\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs url reject
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22/22400\/119193\/62562ef0Eff59b4d4 url reject
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
@@ -230,7 +230,6 @@ https://homefront.qunar.com/front/splash/ad url reject
 ^https?:\/\/bdsp-x\.jd\.com\/adx\/ url reject
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) url reject
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/startup.js
 ^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ url reject
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22\/22400\/119193\/62562ef0Eff59b4d4 url reject
@@ -266,7 +265,13 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4} url reject
 ^https:\/\/gw.alicdn.com\/tps\/.+\d{3,4}-\d{4} url reject
 # > 小红书
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/xiaohongshu.ad.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record* url reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage* url reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource* url reject
+^https:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches* url reject
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list url response-body items":\[.+\] response-body items":[]
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending url response-body queries":\[.+\] response-body queries":[]
 # > 酷我音乐
 ^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ url reject-200
 ^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer\/AdPlayPage\/adinfo url reject-200
