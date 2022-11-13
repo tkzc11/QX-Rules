@@ -5,6 +5,7 @@ host-suffix, adservice.google.com, AdBlock
 host, wwads.cn, AdBlock
 host, huiduapi.nuomi.com, AdBlock
 host, log.b612kaji.com, AdBlock
+host, adx-cn.anythinktech.com, AdBlock
 
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
