@@ -3,7 +3,7 @@ host-suffix, mail.me.com, direct
 host-suffix, adservice.google.cn, AdBlock
 host-suffix, adservice.google.com, AdBlock
 host, wwads.cn, AdBlock
-host, huiduapi.nuomi.com, AdBlock
+ip-cidr, 203.107.1.1/24, reject
 host, log.b612kaji.com, AdBlock
 host, adx-cn.anythinktech.com, AdBlock
 
