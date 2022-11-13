@@ -3,7 +3,8 @@ host-suffix, mail.me.com, direct
 host-suffix, adservice.google.cn, AdBlock
 host-suffix, adservice.google.com, AdBlock
 host, wwads.cn, AdBlock
-host-suffix, log.b612kaji.com, AdBlock
+host, huiduapi.nuomi.com, AdBlock
+host, log.b612kaji.com, AdBlock
 
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
