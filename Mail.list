@@ -7,3 +7,4 @@ host, smtp.gmail.com, Mail
 host, smtp.office365.com, Mail
 host, m.hotmail.com, Mail
 host, apple.imap.mail.yahoo.com, Mail
+host-suffix, mail.me.com, direct
