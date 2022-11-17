@@ -1,12 +1,7 @@
 // ==UserScript==
-// @ScriptName        BiliBili_AdBlock_DIY
+// @ScriptName        BiliBili_AdBlock
 // @UpdateTime        2022-11-05
 // @ConfigVersion     V0.0.84
-// @Attention         如果广告仍然存在，请清除缓存或卸载应用重新安装
-// @Attention         如需引用请注明出处，谢谢合作！
-// @Function          去广告配置（自用，不定期更新）
-// @Suitable          自行观看“# > ”注释内容
-// @ScriptURL         https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Rewrite/AdBlock/Bilibili.conf
 // ==/UserScript==
 
 
