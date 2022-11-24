@@ -53,7 +53,21 @@ https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject-dict
 ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
 # > 建行生活
 ^https://res.yunbusiness.ccb.com/service/resource/mng/adMng/2022/202203/20220325/20220325070000000078/b406caab-da67-40fd-bda8-4317af93f49e.jpg url reject
-# 贴吧去广告
+# > 中国移动（倒计时还在）
+^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg url reject-200
+# > 中国电信
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
+# > 天翼云盘
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners url reject-200
+# > 爱奇艺
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
+^https?:\/\/.+\/videos\/other\/ url reject
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
+# > 芒果TV
+^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
+# > 百度贴吧
 # 开屏广告;推荐和吧内帖子列表的直播及广告;详情页直播/关联商品/广告;看图模式广告;首页和帖子详情页右下角悬浮广告;部分吧内的置顶/最新中间的广告/head图片广告
 ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
 ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
@@ -65,9 +79,7 @@ https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject-dict
 ^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png url reject-img
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump url reject-img
 # > 百度文库
-^https?:\/\/wapwenku.baidu.com\/view\/fengchaoTwojump\/ url reject
-^https?:\/\/wapwenku\.baidu\.com\/view\/fengchao\/ url reject-img
-^https?:\/\/wenku\.baidu\.com\/shifen\/ url reject-img
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
 # > 百度网盘广告屏蔽(会员卖卡赚钱)
 #hostname=sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com
 ^https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info url reject
@@ -99,24 +111,7 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip url reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg url reject-img
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads url reject-img
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ url reject
-# > 中国移动
-^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg url reject
-^https?+:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
-^https?+:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject-200
-^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver url reject
-# > 中国电信
-^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
-^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
-# > 天翼云盘
-^https?:\/\/api\.cloud\.189\.cn\/guns\/img\/recommendedPosition\/.*.jpg url reject-200
-^https?:\/\/cloud\.189\.cn\/include\/splash\/20170512mother\/.*.jpg url reject-200
-# > 爱奇艺
-^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
-^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
-^https?:\/\/.+\/videos\/other\/ url reject
-^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
-# > 芒果TV
-^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
+
 # > 腾讯游戏社区
 ^https?:\/\/static\.gameplus\.qq\.com\/img\/\d{10}-\d{4}$ url reject
 # > d{10} 10位纯数字-\d{4}4位纯数字 $ 结尾符号 ：只拦截10位纯数字-4位纯数字结尾的短连接，后面带尾巴的长连接不拦截。
@@ -336,6 +331,7 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 # > 美团外卖
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
+^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
 # > 雅虎
 ^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do url reject
 # > 车来了
@@ -407,4 +403,4 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 # > 知乎网页版强制登陆弹窗@HotKids
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js url reject
 
-hostname = www.google.cn, www.google.com.hk, oauth.secure.pixiv.net, m.ctrip.com, mbd.baidu.com, img-ys011.didistatic.com, sdkapp.uve.weibo.com, mapi.weibo.com, *.uve.weibo.com, wbapp.uve.weibo.com, api.weibo.cn, weibointl.api.weibo.cn, adimg.uve.weibo.com, capis.didapinche.com, capis*.didapinche.com, api.douban.com, api.pinduoduo.com, *.music.163.com, support.you.163.com, appconf.mail.163.com, analytics.163.com, www.baidu.com, news.ssp.qq.com, r.inews.qq.com, mi.gdt.qq.com, business.msstatic.com, res.yunbusiness.ccb.com, 47.100.65.202, ad.12306.cn, api.m.jd.com, ms.jr.jd.com, *.bdstatic.com, m.baidu.com, zhidao.baidu.com, gw.alicdn.com, acs.m.taobao.com, m*.amap.com, map.baidu.com, mime.baidu.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, daoyu.sdo.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, mapi.sfbest.com, baidu.com, ptf.flyertrip.com, tc.qq.com, sofire.baidu.com, ndstatic.cdn.bcebos.com, issuecdn.baidupcs.com, tiebac.baidu.com, kingsoft-office-service.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, images.client.vip.xunlei.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, note.youdao.com, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, s3plus.meituan.net,flowplus.meituan.net, p*.meituan.net, img.meituan.net, mbd.baidu.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, gd.10086.cn, mea.meitudata.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, tagit.hyhuo.com, learn.chaoxing.com, m.yap.yahoo.com, res.xiaojukeji.com, ct.xiaojukeji.com, p.kuaidi100.com, cdn.kuaidi100.com, img0*.luckincoffeecdn.com,-res.xiaojukeji.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, omgup*.xiaojukeji.com, webcdn.m.qq.com, dili.bdatu.com, *.pstatp.com.*, adproxy.autohome.com, ptmpcap.caocaokeji.cn, cap.caocaokeji.cn, gfp.veta.naver.com, api.hanju.koudaibaobao.com, awg.enmonster.com, static1.keepcdn.com, adpai.thepaper.cn, img.jiemian.com, api.caijingmobile.com, gateway.shouqiev.com, static.zhihu.com
+hostname = www.google.cn, www.google.com.hk, oauth.secure.pixiv.net, m.ctrip.com, mbd.baidu.com, img-ys011.didistatic.com, sdkapp.uve.weibo.com, mapi.weibo.com, *.uve.weibo.com, wbapp.uve.weibo.com, api.weibo.cn, weibointl.api.weibo.cn, adimg.uve.weibo.com, capis.didapinche.com, capis*.didapinche.com, api.douban.com, api.pinduoduo.com, *.music.163.com, support.you.163.com, appconf.mail.163.com, analytics.163.com, www.baidu.com, news.ssp.qq.com, r.inews.qq.com, mi.gdt.qq.com, business.msstatic.com, res.yunbusiness.ccb.com, 47.100.65.202, ad.12306.cn, api.m.jd.com, ms.jr.jd.com, *.bdstatic.com, m.baidu.com, zhidao.baidu.com, appwk.baidu.comgw.alicdn.com, acs.m.taobao.com, m*.amap.com, map.baidu.com, mime.baidu.com, res.app.coc.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, daoyu.sdo.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, mapi.sfbest.com, baidu.com, ptf.flyertrip.com, tc.qq.com, sofire.baidu.com, ndstatic.cdn.bcebos.com, issuecdn.baidupcs.com, tiebac.baidu.com, kingsoft-office-service.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, images.client.vip.xunlei.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, note.youdao.com, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, s3plus.meituan.net,flowplus.meituan.net, p*.meituan.net, img.meituan.net, mbd.baidu.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, gd.10086.cn, mea.meitudata.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, tagit.hyhuo.com, learn.chaoxing.com, m.yap.yahoo.com, res.xiaojukeji.com, ct.xiaojukeji.com, p.kuaidi100.com, cdn.kuaidi100.com, img0*.luckincoffeecdn.com,-res.xiaojukeji.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, omgup*.xiaojukeji.com, webcdn.m.qq.com, dili.bdatu.com, *.pstatp.com.*, adproxy.autohome.com, ptmpcap.caocaokeji.cn, cap.caocaokeji.cn, gfp.veta.naver.com, api.hanju.koudaibaobao.com, awg.enmonster.com, static1.keepcdn.com, adpai.thepaper.cn, img.jiemian.com, api.caijingmobile.com, gateway.shouqiev.com, static.zhihu.com
