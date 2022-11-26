@@ -99,6 +99,10 @@ https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ url reject
 https:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adv\? url reject
 # https://pan\.baidu\.com\/act\/api\/activityentry\? - reject
 https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip url reject
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/bchannel\/list url reject-200
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list url reject-200
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad url reject-200
+
 # > 腾讯手机管家
 ^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* url reject
 # > 腾讯地图
