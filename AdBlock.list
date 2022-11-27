@@ -387,8 +387,6 @@ host, aaid.uyunad.com, reject
 host-suffix, atrace.chelaile.net.cn, AdBlock
 host, logs.chelaile.net.cn, AdBlock
 host, ad.chelaile.net.cn, AdBlock
-# > 铁路12306
-host, ad.12306.cn, AdBlock
 # 贴吧屏蔽域名dns查询
 ip-cidr, 180.76.76.200/32, AdBlock
 ## /* 
@@ -507,7 +505,6 @@ host, hm.baidu.com, AdBlock
 host, hmma.baidu.com, AdBlock
 
 host-suffix, tracking.intl.miui.com, AdBlock
-host-suffix, ad.12306.cn, AdBlock
 host-suffix, eclick.baidu.com, AdBlock
 host-suffix, entry.baidu.com, AdBlock
 host-suffix, hmma.baidu.com, AdBlock
