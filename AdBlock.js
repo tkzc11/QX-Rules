@@ -127,7 +127,7 @@
 # > Google跳转
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 ^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
-^https?:\/\/translate.google\.cn url 302 translate.google.com
+^https?:\/\/translate.google\.cn url 302 https://translate.google.com
 # > 怪兽充电
 https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) url reject-dict
 # > 国家地理
