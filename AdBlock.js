@@ -2,7 +2,7 @@
 # > 12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
 # > 12306
-https://ad.12306.cn/* url reject
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/12306.js
 # > 58同城
 ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
