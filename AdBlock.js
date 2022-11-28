@@ -273,8 +273,6 @@ https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body htt
 # > 去哪儿
 https://homefront.qunar.com/front/splash/ad url reject
 ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd url reject
-# >> 全民K歌
-^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}+x\d{4} url reject-200
 
 # ======= R ======= #
 # > 人民日报
