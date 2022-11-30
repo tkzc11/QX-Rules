@@ -2,7 +2,7 @@
 # > 12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
 # > 12306
-^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/12306.js
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/12306.js
 # > 58同城
 ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
@@ -16,7 +16,7 @@
 # > 阿里巴巴
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
 # > 阿里云盘
-^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/alidrive.js
+^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/alidrive.js
 # > 爱奇艺
 ^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
 ^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
@@ -166,8 +166,8 @@ https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9) url 
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-dict
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url reject
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/jd_json.js
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/jd_json.js
 # > 京东读书
 https://jdread-api.jd.com/jdread/api/channel/module/opens url reject-200
 https://jdread-api.jd.com/jdread/api/popup url reject-200
@@ -180,7 +180,7 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 # > 京东金融
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture url reject
 # > 京喜
-^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/startup.js
+^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/startup.js
 
 # ======= K ======= #
 # > Keep
@@ -195,15 +195,15 @@ https://api.gotokeep.com/cauchy/user/notice/growth/guide url reject-dict
 ^https?:\/\/api\.gotokeep\.com\/ads\/v\d\/ads\/preload url reject
 ^https?:\/\/api\.gotokeep\.com\/training\/box\/config url reject
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check url reject
-^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/keepStyle.js
-^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/keepStyle.js
-https://api.gotokeep.com/homepage/v7/tab/find url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/keepStyle.js
-https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/keepStyle.js
-https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/keepStyle.js
+^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
+^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
+https://api.gotokeep.com/homepage/v7/tab/find url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
+https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
+https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
 # > 肯德基
 ^https?:\/\/res.kfc.com.cn\/advertisement\/ url reject
 # > 酷安
-^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/coolapk.js
+^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 ^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk url reject
 # > 酷我音乐
@@ -290,7 +290,7 @@ https://homefront.qunar.com/front/splash/ad url reject
 https://ios.sspai.com/api/v3/recommend/page/get\?ad.*ios_home_modal url reject
 # > 顺丰
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
-https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/shunfeng_json.js
+https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/shunfeng_json.js
 https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages url reject-dict
 ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
 # > 顺丰优选
