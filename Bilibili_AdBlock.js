@@ -1,9 +1,9 @@
 // ==UserScript==
 // @ScriptName        BiliBili_AdBlock
-// @UpdateTime        2022-11-05
-// @ConfigVersion     V0.0.84
+// @UpdateTime        2022-11-18
+// @ConfigVersion     V0.0.85
+// @ScriptURL         https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Bilibili.conf
 // ==/UserScript==
-
 
 //更新日志：Made by ddgksf2013
 //2021-12-20 1、 移除首页右上角的玩游戏
@@ -32,7 +32,7 @@
 //2022-04-02 24、增加哔哩哔哩繁体CC字幕转中文简体功能
 //2022-05-04 25、彻底去除追番页面顶部Banner轮播图中的AD，及其下部圆形图标中的AD（诸如：'五一旅行'、'专属称号'、'最后一天'）
 //2022-05-04 26、移除我的页面墨鱼手记Tag
-//2022-05-14 27、移除繁体CC字幕转中文简体，有需要的可以单独引用-> https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Rewrite/Function/Bilibili_CC.conf
+//2022-05-14 27、移除繁体CC字幕转中文简体，有需要的可以单独引用-> https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_cc.js
 //2022-05-14 28、去除观影页面下部圆形图标中的AD（诸如：'正式营业'、'非正7'）
 //2022-05-23 29、新增B站启动时开启直连模式
 //2022-06-04 29、去除B站视频流（类似抖音界面）中的广告推送
@@ -43,9 +43,12 @@
 //2022-09-12 34、屏蔽视频播放页面下方浮动方框的广告
 //2022-10-02 35、B站解锁普通视频高码率仅适用国区粉色APP，外区为自我安慰
 //2022-11-04 36、修改B站首页右上角活动屏蔽方式，对应第30条，新的无需卸载重装@shiro
+//2022-11-18 37、屏蔽直播间商品广告浮窗@ddgksf2013
 
+hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
 
-hostname = app.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net, api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
+# ～ BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗@ddgksf2013
+^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? url reject-dict
 # ～ BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
 ^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive url reject-dict
 # ～ BiliBili_哔哩哔哩_屏蔽IP请求@ddgksf2013
@@ -63,13 +66,13 @@ hostname = app.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, api.bil
 # ～ BiliBili_哔哩哔哩_应用开屏去广告@bm7
 ^https://app.bilibili.com/x/v2/splash/show url reject-dict
 # ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
-;^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
-;^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
+^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
-;^https://app.bilibili.com/x/v2/search/square url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
+^https://app.bilibili.com/x/v2/search/square url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_Defaultword@ddgksf2013
 ^https://app.bilibili.com/x/v2/search/defaultwords url reject-dict
 # ～ BiliBili_哔哩哔哩_Material_Ad@ddgksf2013
@@ -77,11 +80,11 @@ hostname = app.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, api.bil
 # ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
 ^https://api.bilibili.com/pgc/season/player/cards url reject-dict
 # ～ BiliBili_哔哩哔哩_去除动态中的话题@bm7
-;^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
+^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
 # ～ BiliBili_哔哩哔哩_漫画去广告@ddgksf2013
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash) url reject-dict
 # ～ BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
-;^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
+^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
 ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_直播去广告@bm7
@@ -91,4 +94,4 @@ hostname = app.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, api.bil
 # ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Bilibili_json.js
 # ～ BiliBili_哔哩哔哩_Proto去广告@app2smile
-;^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
+^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
