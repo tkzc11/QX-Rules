@@ -44,6 +44,7 @@
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/bchannel\/list url reject-200
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list url reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad url reject-200
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
 # > 百度文库
 ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
 # > 北京首汽
@@ -101,6 +102,7 @@
 ^https?:\/\/aweme\.snssdk\.com\/service\/2\/app_log url reject-img
 
 # ======= E ======= #
+
 # > 饿了么
 ;^https?:\/\/elemecdn.com\/.+\/sitemap url reject
 ^https?:\/\/elemecdn\.com\/.+?\/sitemap url reject-img
