@@ -7,7 +7,7 @@
 [rewrite_local]
 
 # ～ B站启动时开启直连模式（2022-085-11）@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/bilibili_startup_direct.js
+^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_startup_direct.js
 
 [mitm] 
 
