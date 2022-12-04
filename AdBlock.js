@@ -256,7 +256,7 @@ https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body htt
 
 # ======= P ======= #
 # > Pixiv
-^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Pixiv.js
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js
 # > 澎湃新闻
 ^https?:\/\/adpai\.thepaper\.cn\/.+&ad= url reject
 # > 拼多多
