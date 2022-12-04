@@ -133,7 +133,7 @@ host-keyword, wax.weibo.com.cn, AdBlock
 host-suffix, ad.weibo.com, AdBlock
 host-keyword, adstrategy.biz.weibo.com, AdBlock
 host-keyword, vs.biz.weibo.com, AdBlock
-## QQ音乐广告
+# > QQ音乐广告
 host, tmeadcomm.y.qq.com, AdBlock
 host, ad.tencentmusic.com, AdBlock
 host, adstats.tencentmusic.com, AdBlock
@@ -387,6 +387,8 @@ host, aaid.uyunad.com, reject
 host-suffix, atrace.chelaile.net.cn, AdBlock
 host, logs.chelaile.net.cn, AdBlock
 host, ad.chelaile.net.cn, AdBlock
+# > 蓝奏云
+host-suffix, statics.woozooo.com, AdBlock
 # 贴吧屏蔽域名dns查询
 ip-cidr, 180.76.76.200/32, AdBlock
 ## /* 
