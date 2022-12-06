@@ -472,6 +472,7 @@ https://mapi.appvipshop.com/vips-mobile/rest/activity/advertisement/get url reje
 # > 向日葵
 ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN url reject-200
 # > 小红书
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(open|get_style)\? url reject-array
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
