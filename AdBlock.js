@@ -47,7 +47,6 @@
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list url reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad url reject-200
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
-^https?:\/\/update\.pan\.baidu\.com\/statistics\? url reject-dict
 # > 百度文库
 ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
 # > 北京首汽
