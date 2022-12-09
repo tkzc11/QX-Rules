@@ -2,18 +2,17 @@
 // ==UserScript==
 // @ScriptName        小红书去广告
 // @MainFunction      去开屏、瀑布流、启动服务广告及一些隐私、广告、青少年请求
-// @UpdateTime        2022-11-04
+// @UpdateTime        2022-12-08
 // ==/UserScript==
-
 
 hostname = edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com
 
 # > XiaoHongShu_小红书_开屏广告@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
 # > XiaoHongShu_小红书_瀑布流@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
 # > XiaoHongShu_小红书_启动处理@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
 # > XiaoHongShu_小红书_热词删除@ddgksf2013
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list url response-body items":\[.+\] response-body items":[]
 # > XiaoHongShu_小红书_热搜删除@ddgksf2013
