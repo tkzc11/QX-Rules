@@ -3,7 +3,7 @@ host-suffix, adservice.google.com, AdBlock
 host, wwads.cn, AdBlock
 ip-cidr, 203.107.1.1/24, reject
 host, log.b612kaji.com, AdBlock
-host, adx-cn.anythinktech.com, AdBlock
+host-suffix, anythinktech.com, AdBlock
 host-suffix, u3.ucweb.com, reject
 
 # > 云闪付
