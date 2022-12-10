@@ -1,4 +1,3 @@
-host, platform.twitter.com, Twitter
 host-suffix, ads-twitter.com, Twitter
 host-suffix, cms-twdigitalassets.com, Twitter
 host-suffix, periscope.tv, Twitter
@@ -8,6 +7,7 @@ host-suffix, twimg.co, Twitter
 host-suffix, twimg.com, Twitter
 host-suffix, twimg.org, Twitter
 host-suffix, twitpic.com, Twitter
+host-suffix, twitter.com, Twitter
 host-suffix, twitter.biz, Twitter
 host-suffix, twittercommunity.com, Twitter
 host-suffix, twitterflightschool.com, Twitter
