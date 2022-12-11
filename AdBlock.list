@@ -86,6 +86,7 @@ host-keyword, p6-pack.byteimg.com, AdBlock
 # > 微博
 host, gw.im.weibo.cn, AdBlock
 host, gw1.i.weibo.cn, AdBlock
+host-suffix, biz.weibo.com, AdBlock
 # > QQ音乐广告
 host, tmeadcomm.y.qq.com, AdBlock
 host, ad.tencentmusic.com, AdBlock
@@ -125,11 +126,11 @@ host-suffix, meituangov.cn, AdBlock
 host-suffix, report.meituan.com, AdBlock
 host-suffix, wmlog.meituan.com, AdBlock
 # > 交管12123
-host, static.122.gov.cn, reject
-host-suffix, v3.fstats.xyz, reject
-host-suffix, wss.haoyundmn.com, reject 
-host-suffix, new.xiongzhangad.com, reject  
-host-suffix, alexametrics.com, reject 
+host, static.122.gov.cn, AdBlock
+host-suffix, v3.fstats.xyz, AdBlock
+host-suffix, wss.haoyundmn.com, AdBlock 
+host-suffix, new.xiongzhangad.com, AdBlock  
+host-suffix, alexametrics.com, AdBlock 
 host-keyword, in-page-push, AdBlock
 # > 优酷
 host-suffix, atm.youku.com, AdBlock
