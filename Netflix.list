@@ -21,7 +21,6 @@ host-suffix, nflxext.com, Netflix
 host-suffix, nflximg.com, Netflix
 host-suffix, nflximg.net, Netflix
 host-suffix, nflxsearch.net, Netflix
-host-suffix, nflxvideo.net, Netflix
 host-suffix, us-west-2.amazonaws.com, Netflix
 ip-cidr, 198.38.108.0/24, Netflix
 ip-cidr, 198.38.109.0/24, Netflix
