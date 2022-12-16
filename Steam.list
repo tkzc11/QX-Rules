@@ -1,3 +1,4 @@
+ip-asn, 32590, Steam
 host, steambroadcast.akamaized.net, Steam
 host, steamcdn-a.akamaihd.net, Steam
 host, steamcommunity-a.akamaihd.net, Steam
@@ -24,7 +25,6 @@ host-suffix, steamstat.us, Steam
 host-suffix, steamstatic.com, Steam
 host-suffix, steamstatic.com.8686c.com, Steam
 host-suffix, steamstore-a.akamaihd.net, Steam
-host-suffix, steamserver.net, Steam
 host-suffix, steamunlocked.net, Steam
 host-suffix, steamvideo-a.akamaihd.net, Steam
 host-suffix, underlords.com, Steam
