@@ -1,6 +1,5 @@
-host, api.fast.com, Netflix
-host, netflix.com.edgesuite.net, Netflix
-host-suffix, fast.com, Netflix
+ip-asn, 2906, Netflix
+ip-asn, 40027, Netflix
 host-suffix, netflix.ca, Netflix
 host-suffix, netflix.com, Netflix
 host-suffix, netflix.com.edgesuite.net, Netflix
@@ -22,7 +21,6 @@ host-suffix, nflxext.com, Netflix
 host-suffix, nflximg.com, Netflix
 host-suffix, nflximg.net, Netflix
 host-suffix, nflxsearch.net, Netflix
-host-suffix, nflxso.net, Netflix
 host-suffix, nflxvideo.net, Netflix
 host-suffix, us-west-2.amazonaws.com, Netflix
 ip-cidr, 198.38.108.0/24, Netflix
@@ -896,5 +894,3 @@ ip-cidr, 176.34.159.192/26, Netflix
 ip-cidr, 177.71.207.128/26, Netflix
 ip-cidr, 204.246.166.0/24, Netflix
 ip-cidr, 205.251.218.0/24, Netflix
-ip-asn, 2906, Netflix
-ip-asn, 40027, Netflix
