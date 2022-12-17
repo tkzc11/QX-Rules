@@ -96,9 +96,6 @@ host-suffix, microsoft.com.nsatc.net, Microsoft
 host-suffix, microsoftazuread-sso.com, Microsoft
 host-suffix, microsoftcloudworkshop.com, Microsoft
 host-suffix, microsoftemail.com, Microsoft
-host-suffix, , Microsoft
-host-suffix, ;microsoftinternetsafety.net#3598-----------, Microsoft
-host-suffix, , Microsoft
 host-suffix, microsoftonline-p.com, Microsoft
 host-suffix, microsoftonline-p.net, Microsoft
 host-suffix, microsoftonline.com, Microsoft
