@@ -1,8 +1,9 @@
 // ==UserScript==
 // @ScriptName        微博&微博国际版净化
 // @Author            @ddgksf2013,@zmqcherish,@shiro
-// @UpdateTime        2022-12-20
-// @Version           V2.0.9
+// @UpdateTime        2022-12-31
+// @Version           V2.0.77
+// @ScriptURL         https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf
 // ==/UserScript==
 
 # 𝐂𝐮𝐭𝐭𝐥𝐞𝐟𝐢𝐬𝐡 𝐒𝐞𝐥𝐟-𝐮𝐬𝐞 𝐑𝐞𝐰𝐫𝐢𝐭𝐞 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐡𝐚𝐧𝐠𝐞𝐥𝐨𝐠 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑 𝐚𝐧𝐝 𝐳𝐦𝐪𝐜𝐡𝐞𝐫𝐢𝐬𝐡
@@ -35,44 +36,53 @@
 # [+]2022-12-16  27、请手动添加后面的分流至本地 host, sdkapp.uve.weibo.com, direct
 # [+]2022-12-16  28、删除主页顶部“#记录周五的开心时刻#”，去除搜索页面“实况热聊”栏以及group栏
 # [+]2022-12-16  29、删除微博评论详情页面最底部的“已过滤不当言论，部分评论暂不展示”等文字
-# [-]2022-12-17  30、脚本weibo_json.js已解除限制，其它工具诸如surge、Loon亦可使用
+# [-]2022-12-17  30、脚本weibo_json.js已解除限制，其它工具诸如surge、Loon、小火箭亦可使用
 # [+]2022-12-18  31、优化超话tab看帖页面，保留搜索(去除自动填充内容)及感兴趣的超话以及去除一些无关group和card
 # [+]2022-12-20  32、删除超话搜索栏目下方的“可能感兴趣”、“热门超话”、“影视超话”、“游戏超话”等card
+# [+]2022-12-21  33、去除搜索页面tab中热搜下面一排圆圈图标内容
+# [+]2022-12-23  34、屏蔽hot_hours_spotlight请求
+# [+]2022-12-24  35、修复主页浏览动态微博时广告图片的空白占位问题，修复每日首次打开SearchTab页面广告轮播失效问题
+# [+]2022-12-24  36、删除发现页下拉刷新时的背景广告图片，瞬间清爽
+# [+]2022-12-24  37、删除微博短视频流中的广告，让你无广告享受刷短视频的快感
+# [+]2022-12-25  38、删除搜索页面热搜顶部偶尔出现的HotSearchPush
+# [+]2022-12-27  39、删除微博用户页“可能感兴趣的人”内容
+# [+]2022-12-29  40、删除微博信息流中商品橱窗内容（并未将整个CARD一起删除）
 
 
 hostname = *api.weibo*, *uve.weibo.com, new.vip.weibo.cn
 # > 微博_请手动添加以下分流至本地
 #host, sdkapp.uve.weibo.com, direct
+# > 微博_Spotlight@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/hot\/hours_spotlight url reject-dict
 # > 微博_自定义tab皮肤@zmqcherish
-^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 # > 微博_非会员设置tab皮肤@zmqcherish
-^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-# > 微博_去广告以及去除各部分推广模块@zmqcherish
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-# > 微博国际版_hot_search@ddgksf2013
+^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+# > 微博_去广告以及去除各部分推广模块@zmqcherish,@ddgksf2013
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+# > 微博国际版_屏蔽hotsearch@ddgksf2013
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users url reject-dict
-# > 微博国际版_热推荐@ddgksf2013
+# > 微博国际版_屏蔽热推荐@ddgksf2013
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? url reject-dict
 # > 微博国际版_屏蔽search_suggest@ddgksf2013
 # ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest url reject-dict
 # > 微博国际版_屏蔽searching_info@ddgksf2013
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url echo-response text/html echo-response https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url echo-response text/html echo-response https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_search_info.json
 # > 微博国际版_屏蔽search_topic@ddgksf2013 
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url echo-response text/html echo-response https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url echo-response text/html echo-response https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_search_topic.json
 # > 微博国际版_屏蔽开屏广告@ddgksf2013 
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-# > 微博&国际版_sdkad@ddgksf2013
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-# > 微博国际版_趋势顶部CARD去广告@ddgksf2013
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-# > 微博国际版_用户中心@ddgksf2013
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
-   
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+# > 微博国际版_屏蔽sdkad@ddgksf2013
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+# > 微博国际版_趋势顶部Card去广告@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
+# > 微博国际版_屏蔽用户VIP栏@ddgksf2013
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
