@@ -98,6 +98,6 @@ hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilib
 # ～ BiliBili_哔哩哔哩_启动时开启直连模式[自行启用]@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/domain url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_startup_direct.js
 # ～ BiliBili_哔哩哔哩_繁体CC字幕转中文简体[自行启用]@ddgksf2013
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body hhttps://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_cc.js
+^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_cc.js
 # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_json.js
