@@ -1,7 +1,6 @@
 ip-asn, 2906, Netflix
 ip-asn, 40027, Netflix
-host, netflix.com, Netflix
-host, ichnaea-web.netflix.com, Netflix
+host-suffix, netflix.com, Netflix
 host-suffix, netflix.ca, Netflix
 host-suffix, netflix.com.edgesuite.net, Netflix
 host-suffix, netflix.net, Netflix
