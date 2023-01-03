@@ -78,8 +78,6 @@ host-suffix, wa.kuwo.cn, AdBlock
 host-suffix, webstat.kuwo.cn, AdBlock
 host-suffix, mobilead.kuwo.cn, AdBlock
 host-suffix, rich.kuwo.cn, AdBlock
-# > 向日葵
-host-keyword, upload-cdn.orayimg.com, AdBlock
 # > 懂车帝
 host-keyword, p3-pack.byteimg.com, AdBlock
 host-keyword, p6-pack.byteimg.com, AdBlock
@@ -194,19 +192,14 @@ host, adm1.autoimg.cn, AdBlock
 host, adm2.autoimg.cn, AdBlock
 host, adm3.autoimg.cn, AdBlock
 # >爱奇艺
-ip-cidr, 203.107.63.154/32, AdBlock
-ip-cidr, 101.227.97.240/32, AdBlock
-ip-cidr, 101.227.200.11/32, AdBlock
-ip-cidr, 101.227.200.28/32, AdBlock
-ip-cidr, 124.192.153.42/32, AdBlock
-host-suffix, t7z.cupid.iqiyi.com, AdBlock
-host, t7z.cupid.ptqy.gitv.tv, AdBlock
 host, cr-status.iqiyi.com, AdBlock
+host-suffix, cupid.iqiyi.com, AdBlock
 host, f74f7f7765f8a2f6.ngaa.net.cn, AdBlock
 host, ef-dongfeng.tanx.com, AdBlock
 host, iqiyim.adtrack.enlightent.cn, AdBlock
-host, ads3-normal-lq.zijieapi.com, AdBlock
-host, ads5-normal-lq.zijieapi.com, AdBlock
+HOST,dig.bdurl.net, AdBlock
+HOST,ads3-normal-lq.zijieapi.com, AdBlock
+HOST,ads5-normal-lq.zijieapi.com, AdBlock
 # > 网易
 host-suffix, dsp.youdao.com, AdBlock
 host-suffix, union.youdao.com, AdBlock
@@ -320,7 +313,10 @@ host, ads.yahoo.com, AdBlock
 host, ads.yahoo.de, AdBlock
 # > 腾讯视频
 host-suffix, tetrack.qq.com, AdBlock
+host-suffix, tpns.tencent.com, AdBlock
 host-suffix, api.poll.video.qq.com, AdBlock
+host-suffix, static-res.qq.com, AdBlock
+host-suffix, stat.tpns.tencent.com, AdBlock
 host, h.trace.qq.com, AdBlock
 host-keyword, omgmta.qq.com, AdBlock
 host-keyword, omgmta1.qq.com, AdBlock
