@@ -1,3 +1,8 @@
+ip-asn, 13414, Twitter
+ip-asn, 35995, Twitter
+ip-asn, 54888, Twitter
+ip-asn, 63179, Twitter
+host, dc.albtls.t.co, Twitter
 host, platform.twitter.com, Twitter
 host-suffix, ads-twitter.com, Twitter
 host-suffix, cms-twdigitalassets.com, Twitter
@@ -17,7 +22,4 @@ host-suffix, twtrdns.net, Twitter
 host-suffix, twttr.net, Twitter
 host-suffix, twvid.com, Twitter
 host-suffix, vine.co, Twitter
-ip-asn, 13414, Twitter
-ip-asn, 35995, Twitter
-ip-asn, 54888, Twitter
-ip-asn, 63179, Twitter
+
