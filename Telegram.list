@@ -3,7 +3,7 @@ host-suffix, telegram-cdn.org, Telegram
 ip-cidr, 109.239.140.0/24, Telegram
 ip-cidr, 5.28.195.163/32, Telegram
 ip-cidr, 5.28.195.205/32, Telegram
-ip-cidr6, 2a0a:f280::/32, Telegram
+ip6-cidr, 2a0a:f280::/32, Telegram
 ip-asn, 44907, Telegram
 ip-asn, 62014, Telegram
 ip-asn, 62041, Telegram
