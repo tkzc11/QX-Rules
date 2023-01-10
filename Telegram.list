@@ -4,7 +4,7 @@ ip-cidr, 109.239.140.0/24, Telegram
 ip-cidr, 5.28.195.163/32, Telegram
 ip-cidr, 5.28.195.205/32, Telegram
 ip-cidr, 91.108.0.0/16, Telegram
-ip-cidr6, 2a0a:f280::/32, Telegram
+ip6-cidr, 2a0a:f280::/32, Telegram
 ip-asn, 44907,no-resolve, Telegram
 ip-asn, 62014,no-resolve, Telegram
 ip-asn, 62041,no-resolve, Telegram
