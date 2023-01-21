@@ -1,5 +1,3 @@
-/* 更新时间：2023-01-20 */
-
 hostname = mobile.flightradar24.com
 
 ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-echo-response https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Flightradar24.js
