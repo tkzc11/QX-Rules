@@ -1,8 +1,8 @@
-ip-asn, 749, United States
+ip-asn, 749, United States15169
 ip-asn, 7018, United States
 ip-asn, 721, United States
 ip-asn, 7922, United States
-ip-asn, 8075, United States
+;ip-asn, 8075, United States
 ;ip-asn, 16509, United States
 ip-asn, 701, United States
 ip-asn, 3356, United States
@@ -174,7 +174,7 @@ ip-asn, 8070, United States
 ip-asn, 19994, United States
 ip-asn, 17184, United States
 ip-asn, 8190, United States
-ip-asn, 3598, United States
+;ip-asn, 3598, United States
 ip-asn, 19165, United States
 ip-asn, 13325, United States
 ip-asn, 8100, United States
@@ -446,7 +446,7 @@ ip-asn, 3614, United States
 ip-asn, 1462, United States
 ip-asn, 16399, United States
 ip-asn, 6041, United States
-ip-asn, 32934, United States
+;ip-asn, 32934, United States
 ip-asn, 8796, United States
 ip-asn, 33132, United States
 ip-asn, 3456, United States
@@ -1721,7 +1721,7 @@ ip-asn, 15011, United States
 ip-asn, 2559, United States
 ip-asn, 25977, United States
 ip-asn, 23118, United States
-ip-asn, 13414, United States
+;ip-asn, 13414, United States
 ip-asn, 5033, United States
 ip-asn, 27138, United States
 ip-asn, 3842, United States
@@ -2648,7 +2648,7 @@ ip-asn, 14477, United States
 ip-asn, 29914, United States
 ip-asn, 14343, United States
 ip-asn, 11855, United States
-ip-asn, 8068, United States
+;ip-asn, 8068, United States
 ip-asn, 54607, United States
 ip-asn, 393892, United States
 ip-asn, 22727, United States
@@ -2689,7 +2689,7 @@ ip-asn, 14755, United States
 ip-asn, 33481, United States
 ip-asn, 46841, United States
 ip-asn, 6493, United States
-ip-asn, 32590, United States
+;ip-asn, 32590, United States
 ip-asn, 17139, United States
 ip-asn, 4015, United States
 ip-asn, 1423, United States
@@ -5350,7 +5350,7 @@ ip-asn, 5790, United States
 ip-asn, 209394, United States
 ip-asn, 62798, United States
 ip-asn, 62744, United States
-ip-asn, 14907, United States
+;ip-asn, 14907, United States
 ip-asn, 203120, United States
 ip-asn, 9294, United States
 ip-asn, 20296, United States
@@ -5788,7 +5788,7 @@ ip-asn, 36724, United States
 ip-asn, 36693, United States
 ip-asn, 30047, United States
 ip-asn, 30016, United States
-ip-asn, 63179, United States
+;ip-asn, 63179, United States
 ip-asn, 4229, United States
 ip-asn, 62935, United States
 ip-asn, 21509, United States
@@ -6320,7 +6320,7 @@ ip-asn, 40585, United States
 ip-asn, 20038, United States
 ip-asn, 26958, United States
 ip-asn, 26955, United States
-ip-asn, 35995, United States
+;ip-asn, 35995, United States
 ip-asn, 26921, United States
 ip-asn, 8046, United States
 ip-asn, 19977, United States
