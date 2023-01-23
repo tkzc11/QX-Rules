@@ -11,8 +11,7 @@ host-suffix, periscope.tv, Twitter
 host-suffix, pscp.tv, Twitter
 host-suffix, tellapart.com, Twitter
 host-suffix, twimg.co, Twitter
-host-suffix, twimg.com, Twitter
-host-suffix, twimg.org, Twitter
+;host-suffix, twimg.com, Twitter
 host-suffix, twitpic.com, Twitter
 host-suffix, twitter.biz, Twitter
 host-suffix, twittercommunity.com, Twitter
