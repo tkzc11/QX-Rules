@@ -1,45 +1,56 @@
 # 隐私保护
-HOST-SUFFIX,airpr.com, reject
-HOST-SUFFIX,hotjar.com, reject
-HOST-SUFFIX,hotjar.io, reject
-HOST-SUFFIX,hs-analytics.net, reject
-HOST-SUFFIX,kissmetrics.com, reject
-HOST-SUFFIX,liadm.com, reject
-HOST-SUFFIX,mparticle.com, reject
-HOST-SUFFIX,nexac.com, reject
-HOST-SUFFIX,nr-data.net, reject
-HOST-SUFFIX,pardot.com, reject
-HOST-SUFFIX,parrable.com, reject
-HOST-SUFFIX,petametrics.com, reject
-HOST-SUFFIX,predic.io, reject
-HOST-SUFFIX,seewhy.com, reject
-HOST-SUFFIX,segment.io, reject
-HOST-SUFFIX,segmentify.com, reject
-HOST-SUFFIX,sentiance.com, reject
-HOST-SUFFIX,serverbid.com, reject
-HOST-SUFFIX,sessionm.com, reject
-HOST-SUFFIX,smartlook.com, reject
-HOST-SUFFIX,socdm.com, reject
-HOST-SUFFIX,socialannex.com, reject
-HOST-SUFFIX,socialbakers.com, reject
-HOST-SUFFIX,sociaplus.com, reject
-HOST-SUFFIX,stathat.com, reject
-HOST-SUFFIX,stats-locations.com, reject
-HOST-SUFFIX,tagcommander.com, reject
-HOST-SUFFIX,tailtarget.com, reject
-HOST-SUFFIX,tapad.com, reject
-HOST-SUFFIX,tapfiliate.com, reject
-HOST-SUFFIX,tapinfluence.com, reject
-HOST-SUFFIX,tapstream.com, reject
-HOST-SUFFIX,tend.io, reject
-HOST-SUFFIX,trackingio.com, reject
-HOST-SUFFIX,woopra.com, reject
-HOST-SUFFIX,wootric.com, reject
-HOST-SUFFIX,wowanalytics.co.uk, reject
-HOST-SUFFIX,zoomanalytics.co, reject
-HOST-SUFFIX,ads.linkedin.com, reject
-HOST,analytics.slashdotmedia.com, reject
-HOST,zgsdk.zhugeio.com, reject
+host, control.kochava.com, reject
+host, data.flurry.com, reject
+host, firebase-settings.crashlytics.com, reject
+host, is.snssdk.com, reject
+host, nt2.ele.me, reject
+host, ssdkauth.hpplay.cn, reject
+host, www.qchannel01.cn, reject
+host, zgsdk.zhugeio.com, reject
+host-suffix, airpr.com, reject
+host-suffix, branch.io, reject
+host-suffix, doubleclick.net, reject
+host-suffix, hotjar.com, reject
+host-suffix, hotjar.io, reject
+host-suffix, hs-analytics.net, reject
+host-suffix, kissmetrics.com, reject
+host-suffix, liadm.com, reject
+host-suffix, mparticle.com, reject
+host-suffix, n0909.com, reject
+host-suffix, nexac.com, reject
+host-suffix, nr-data.net, reject
+host-suffix, pardot.com, reject
+host-suffix, parrable.com, reject
+host-suffix, petametrics.com, reject
+host-suffix, predic.io, reject
+host-suffix, seewhy.com, reject
+host-suffix, segment.io, reject
+host-suffix, segmentify.com, reject
+host-suffix, sentiance.com, reject
+host-suffix, serverbid.com, reject
+host-suffix, sessionm.com, reject
+host-suffix, smartlook.com, reject
+host-suffix, socdm.com, reject
+host-suffix, socialannex.com, reject
+host-suffix, socialbakers.com, reject
+host-suffix, sociaplus.com, reject
+host-suffix, stathat.com, reject
+host-suffix, stats-locations.com, reject
+host-suffix, tagcommander.com, reject
+host-suffix, tailtarget.com, reject
+host-suffix, tapad.com, reject
+host-suffix, tapfiliate.com, reject
+host-suffix, tapinfluence.com, reject
+host-suffix, tapstream.com, reject
+host-suffix, tend.io, reject
+host-suffix, trackingio.com, reject
+host-suffix, woopra.com, reject
+host-suffix, wootric.com, reject
+host-suffix, wowanalytics.co.uk, reject
+host-suffix, zoomanalytics.co, reject
+host-suffix, ads.linkedin.com, reject
+host, analytics.slashdotmedia.com, reject
+
 # 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net, reject
 host, hub5emu.v6.shub.sandai.net, reject
