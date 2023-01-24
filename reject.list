@@ -2,8 +2,7 @@
 host, abtest.alibaba.com, reject
 host, int.vaicore.store, reject
 host, z.moatads.com, reject
-host, events.brightline.tv, reject
-host, services.brightline.tv, reject
+host-suffix, events.brightline.tv, reject
 host, c-gtc.getui.net, reject
 host-suffix, jpush.cn, reject
 host, a.pixiv.org, reject
