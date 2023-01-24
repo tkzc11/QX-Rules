@@ -1,7 +1,10 @@
 # 隐私保护
+host, analytics.twitter.com, reject
 host, control.kochava.com, reject
 host, data.flurry.com, reject
 host, dpm.demdex.net , reject
+host, mobiletelemetry.ebay.com, reject
+host, cdn.mobilefuse.com, reject
 host, firebase-settings.crashlytics.com, reject
 host, is.snssdk.com, reject
 host, int.akisinn.site , reject
@@ -10,6 +13,8 @@ host, nt2.ele.me, reject
 host, ssdkauth.hpplay.cn, reject
 host, www.qchannel01.cn, reject
 host, zgsdk.zhugeio.com, reject
+host, www.googletagmanager.com, reject
+host-suffix, everestop.io, reject
 host-suffix, airpr.com, reject
 host-suffix, branch.io, reject
 host-suffix, doubleclick.net, reject
