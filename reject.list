@@ -1,4 +1,11 @@
 # 隐私保护
+host, mc.yandex.ru, reject
+host, counter.yadro.ru, reject
+host, msg.umengcloud.com, reject
+host-suffix, stats.paypal.com, reject
+host-suffix, cpatrk.net, reject
+host, stats.appsflyer.com, reject
+host, telemetry-in.battle.net, reject
 host, abtest.alibaba.com, reject
 host, int.vaicore.store, reject
 host, z.moatads.com, reject
