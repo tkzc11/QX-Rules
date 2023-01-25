@@ -162,6 +162,3 @@ host-suffix, thewaltdisneycompany.com, Disney+
 host-suffix, thisispolaris.com, Disney+
 host-suffix, watchdisneyfe.com, Disney+
 host-suffix, watchespn.com, Disney+
-ip-cidr, 13.35.0.0/17, Disney+
-ip-cidr, 52.84.0.0/15, Disney+
-ip-cidr, 13.32.0.0/15, Disney+
