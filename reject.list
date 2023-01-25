@@ -14,6 +14,12 @@ host, dpm.demdex.net , reject
 host, mobiletelemetry.ebay.com, reject
 host, cdn.mobilefuse.com, reject
 host, firebase-settings.crashlytics.com, reject
+host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
+host, sdk.open.talk.igexin.com, reject
+host, wkrd.tingyun.com, reject
+host, device-metrics-us-2.amazon.com, reject
+host, ocean.sankuai.com, reject
+host, crashlyticsreports-pa.googleapis.com, reject
 host, is.snssdk.com, reject
 host, int.akisinn.site , reject
 host, h-adashx.ut.ele.me, reject
