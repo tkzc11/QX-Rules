@@ -121,7 +121,7 @@
 
 # ======= F ======= #
 # > Firefox
-^https?:\/\/firefox\.com\.cn url 302 https://firefox.com
+^https?:\/\/(www.)?firefox\.com\.cn url 302 https://firefox.com
 # > 飞常准
 ^https?:\/\/app\.variflight\.com\/ad\/ url reject
 ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
