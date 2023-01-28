@@ -1,4 +1,6 @@
 # 隐私保护
+host, device-metrics-us.amazon.com, reject
+host, app.adjust.com, reject
 host, mc.yandex.ru, reject
 host, counter.yadro.ru, reject
 host, msg.umengcloud.com, reject
