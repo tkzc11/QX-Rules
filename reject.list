@@ -4,6 +4,7 @@ host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, analytics.twitter.com, reject
 host, analytics.slashdotmedia.com, reject
+host, api2.appsflyer.com, reject
 host, app.adjust.com, reject
 host, b-gtc.gepush.com, reject
 host, c-gtc.getui.net, reject
