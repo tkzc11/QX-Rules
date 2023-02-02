@@ -6,7 +6,11 @@ host, log.b612kaji.com, AdBlock
 host-suffix, anythinktech.com, AdBlock
 host-suffix, adkwai.com, AdBlock
 host-suffix, mob.com, AdBlock
-host-suffix, u3.ucweb.com, reject
+
+# > Outlook
+host, acdn.adnxs.com, AdBlock
+host, mediation.adnxs.com, AdBlock
+host, sin3-ib.adnxs.com, AdBlock
 
 # > 云闪付
 host-keyword, switch.cup.com.cn, AdBlock
