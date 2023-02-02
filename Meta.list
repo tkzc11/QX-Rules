@@ -1,6 +1,4 @@
 ip-asn, 32934, Meta
-host, scontent.fman2-2.fna.fbcdn.net, Meta
-host, scontent.fpkr1-1.fna.fbcdn.net, Meta
 host-suffix, atscaleconference.com, Meta
 host-suffix, botorch.org, Meta
 host-suffix, buck.build, Meta
@@ -39,6 +37,7 @@ host-suffix, fbthirdpartypixel.org, Meta
 host-suffix, flow.dev, Meta
 host-suffix, flow.org, Meta
 host-suffix, flowtype.org, Meta
+host-suffix, fna.fbcdn.net, Meta
 host-suffix, friendbook.info, Meta
 host-suffix, hacklang.org, Meta
 host-suffix, hhvm.com, Meta
