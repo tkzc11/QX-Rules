@@ -1,4 +1,6 @@
 ip-asn, 32934, Meta
+host, scontent.fman2-2.fna.fbcdn.net, Meta
+host, scontent.fpkr1-1.fna.fbcdn.net, Meta
 host-suffix, atscaleconference.com, Meta
 host-suffix, botorch.org, Meta
 host-suffix, buck.build, Meta
