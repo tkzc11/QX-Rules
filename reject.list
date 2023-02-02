@@ -2,6 +2,7 @@
 host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
+host, alb.reddit.com, reject
 host, analytics.twitter.com, reject
 host, analytics.slashdotmedia.com, reject
 host, api2.appsflyer.com, reject
@@ -15,14 +16,19 @@ host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
+host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
 host, firebase-settings.crashlytics.com, reject
 host, h-adashx.ut.ele.me, reject
+host, int.dewrain.site, reject
+host, int.akisinn.info, reject
 host, int.akisinn.site , reject
+host, int.vaicore.site, reject
 host, is.snssdk.com, reject
 host, mc.yandex.ru, reject
 host, mobiletelemetry.ebay.com, reject
 host, msg.umengcloud.com, reject
+host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
 host, stats.appsflyer.com, reject
@@ -83,6 +89,9 @@ host-suffix, woopra.com, reject
 host-suffix, wootric.com, reject
 host-suffix, wowanalytics.co.uk, reject
 host-suffix, zoomanalytics.co, reject
+
+# 解除限制
+host-suffix, u3.ucweb.com, reject
 
 # 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net, reject
