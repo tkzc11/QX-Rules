@@ -27,6 +27,7 @@ host, int.vaicore.site, reject
 host, is.snssdk.com, reject
 host, mc.yandex.ru, reject
 host, mobiletelemetry.ebay.com, reject
+host, mobilelog.upqzfile.com, reject
 host, msg.umengcloud.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nt2.ele.me, reject
