@@ -2,6 +2,8 @@
 host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
+host, ad.turn.com, reject
+host, ads.pubmatic.com, reject
 host, alb.reddit.com, reject
 host, analytics.slashdotmedia.com, reject
 host, api2.appsflyer.com, reject
@@ -28,7 +30,9 @@ host, is.snssdk.com, reject
 host, mc.yandex.ru, reject
 host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
+host, mon.snssdk.com, reject
 host, msg.umengcloud.com, reject
+host, mtrace.qq.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
@@ -71,6 +75,7 @@ host-suffix, segmentify.com, reject
 host-suffix, sentiance.com, reject
 host-suffix, serverbid.com, reject
 host-suffix, sessionm.com, reject
+host-suffix, sharethis.com, reject
 host-suffix, smartlook.com, reject
 host-suffix, socdm.com, reject
 host-suffix, socialannex.com, reject
