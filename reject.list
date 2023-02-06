@@ -1,4 +1,5 @@
 # 隐私保护
+host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
@@ -16,7 +17,6 @@ host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
 host, device-metrics-us.amazon.com, reject
-host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
