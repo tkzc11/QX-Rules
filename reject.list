@@ -23,12 +23,15 @@ host, dpm.demdex.net , reject
 host, firebase-settings.crashlytics.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
+host, ifs.tanx.com, reject
+host, info.sony-semicon.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
 host, int.akisinn.site , reject
 host, int.vaicore.site, reject
 host, int.vaicore.store, reject
 host, is.snssdk.com, reject
+host, m.api.forter.com, reject
 host, mc.yandex.ru, reject
 host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
@@ -38,11 +41,13 @@ host, mtrace.qq.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
+host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
 host, stats.appsflyer.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, t.appsflyer.com, reject
+host, tags.tiqcdn.com, reject
 host, telemetry-in.battle.net, reject
 host, wkrd.tingyun.com, reject
 host, www.googletagmanager.com, reject
