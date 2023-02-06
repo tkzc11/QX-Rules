@@ -184,3 +184,6 @@ host-suffix, xbx.lv, Microsoft
 host-suffix, yammerusercontent.com, Microsoft
 host-suffix, livefilestore.com, Microsoft
 host-suffix, spoprod-a.akamaihd.net, Microsoft
+user-agent, Microsoft*, Microsoft
+user-agent, OneDrive*, Microsoft
+user-agent, OneDriveiOSApp*, Microsoft
