@@ -16,6 +16,7 @@ host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
 host, device-metrics-us.amazon.com, reject
+host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
@@ -26,6 +27,7 @@ host, int.dewrain.site, reject
 host, int.akisinn.info, reject
 host, int.akisinn.site , reject
 host, int.vaicore.site, reject
+host, int.vaicore.store, reject
 host, is.snssdk.com, reject
 host, mc.yandex.ru, reject
 host, mobiletelemetry.ebay.com, reject
@@ -40,8 +42,8 @@ host, qzs.gdtimg.com, reject
 host, stats.appsflyer.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, ssdkauth.hpplay.cn, reject
+host, t.appsflyer.com, reject
 host, telemetry-in.battle.net, reject
-host, int.vaicore.store, reject
 host, wkrd.tingyun.com, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
