@@ -244,7 +244,7 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 ^https?+:\/\/.+?\/cdn-adn\/ url reject-200
 
 # ======= N ======= #
-# > 南方航空更新弹窗
+# > 南方航空
 ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement url reject-200
 ^https?:\/\/3g\.csair\.com\/CSMBP\/data\/homePage\/getLaunchInfoNew\.do url reject-200
 
