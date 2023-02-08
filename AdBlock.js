@@ -52,7 +52,7 @@
 # > 北京首汽
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
 # > 必胜客
-^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome url reject-200
+^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/member\/app\/member url reject-200
 
 # ======= C ======= #
 # > CSDN
