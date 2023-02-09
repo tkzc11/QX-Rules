@@ -194,7 +194,10 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 # > 肯德基
 ^https?:\/\/res.kfc.com.cn\/advertisement\/ url reject
 # > 酷安
-^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/search\?.+type=hotSearch url reject-dict
 # > 酷我音乐
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
 ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
