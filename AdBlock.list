@@ -1,6 +1,7 @@
 ip-cidr, 203.107.1.1/24, reject
 host, ad.12306.cn, AdBlock
 host, amdc.m.taobao.com, AdBlock
+host, api-ad.kajicam.com, AdBlock
 host, log.b612kaji.com, AdBlock
 host, wwads.cn, AdBlock
 host-suffix, adservice.google.cn, AdBlock
