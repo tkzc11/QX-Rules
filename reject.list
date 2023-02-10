@@ -1,5 +1,6 @@
 # 隐私保护
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
+host, a1.api.bbc.co.uk, reject
 host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
@@ -7,11 +8,13 @@ host, ad.turn.com, reject
 host, ads.pubmatic.com, reject
 host, alb.reddit.com, reject
 host, analytics.slashdotmedia.com, reject
+host, api.permutive.com, reject
 host, api2.appsflyer.com, reject
 host, app.adjust.com, reject
 host, b-gtc.gepush.com, reject
 host, c-gtc.getui.net, reject
 host, cdn.mobilefuse.com, reject
+host, cdn.viglink.com, reject
 host, co.vaicore.xyz, reject
 host, counter.yadro.ru, reject
 host, control.kochava.com, reject
@@ -21,6 +24,7 @@ host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
+host, elb.the-ozone-project.com, reject
 host, firebase-settings.crashlytics.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
@@ -42,14 +46,18 @@ host, mtrace.qq.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
+host, pagead2.googlesyndication.com, reject
+host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
+host, static.adsafeprotected.com, reject
 host, stats.appsflyer.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
 host, telemetry-in.battle.net, reject
+host, tms.fmm.io, reject
 host, wkrd.tingyun.com, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
