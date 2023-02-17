@@ -413,6 +413,7 @@ https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages url reje
 ^http?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ url reject-200
 # > 天翼云盘
 ^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners url reject
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getPageBanners\.action\?clientVersion=.+serviceType=5 url reject-200
 
 # ======= U ======= #
 
