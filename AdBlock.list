@@ -1,6 +1,4 @@
-ip-cidr, 203.107.1.1/24, reject
 host, ad.12306.cn, AdBlock
-host, amdc.m.taobao.com, AdBlock
 host, api-ad.kajicam.com, AdBlock
 host, log.b612kaji.com, AdBlock
 host, wwads.cn, AdBlock
@@ -10,17 +8,27 @@ host-suffix, anythinktech.com, AdBlock
 host-suffix, adkwai.com, AdBlock
 host-suffix, mob.com, AdBlock
 
+# > 哔哩哔哩
+#proto支持
+host, grpc.biliapi.net, reject
+#自动换区支持
+ip-cidr, 203.107.1.1/24, reject
 # > Outlook
 host, acdn.adnxs.com, AdBlock
 host, mediation.adnxs.com, AdBlock
 host, sin3-ib.adnxs.com, AdBlock
-
+# > 高德地图
+host, amap-aos-info-nogw.amap.com, AdBlock
+host, amdc.m.taobao.com, AdBlock
+host, awaken.amap.com, AdBlock
+host, free-aos-cdn-image.amap.com, AdBlock
 # > 云闪付
-host-keyword, switch.cup.com.cn, AdBlock
-host-keyword, sdk.open.talk.getui.net, AdBlock
-host-keyword, sdk-conf.getui.com, AdBlock
-host-keyword, cm-10-138.getui.com, AdBlock
-host-keyword, ads.95516.com, AdBlock
+host, ads.95516.com, AdBlock
+host, cm-10-138.getui.com, AdBlock
+host, sdk.open.talk.getui.net, AdBlock
+host, sdk-conf.getui.com, AdBlock
+host, switch.cup.com.cn, AdBlock
+host, tysdk.95516.com, AdBlock
 # > 酷狗音乐
 host-keyword, searchrecommend.kugou.com, AdBlock
 host-keyword, nbcollectretry.kugou.com, AdBlock
@@ -75,18 +83,12 @@ host-suffix, kgmobilestat.kugou.com, AdBlock
 host-suffix, kgmobilestatbak.kugou.com, AdBlock
 host-suffix, mobilelog.kugou.com, AdBlock
 # > 酷我音乐
-host-suffix, c.kuwo.cn, AdBlock
-host-suffix, deliver.kuwo.cn, AdBlock
-host-suffix, game.kuwo.cn, AdBlock
-host-suffix, kuwoyy.com, AdBlock
-host-suffix, kwmsg.kuwo.cn, AdBlock
-host-suffix, msclick2.kuwo.cn, AdBlock
-host-suffix, msphoneclick.kuwo.cn, AdBlock
-host-suffix, updatepage.kuwo.cn, AdBlock
-host-suffix, wa.kuwo.cn, AdBlock
-host-suffix, webstat.kuwo.cn, AdBlock
-host-suffix, mobilead.kuwo.cn, AdBlock
-host-suffix, rich.kuwo.cn, AdBlock
+host, ad.tencentmusic.com, AdBlock
+host, g.koowo.com, AdBlock
+host, mobilead.kuwo.cn, AdBlock
+host, rich.kuwo.cn, AdBlock
+host, tmead.y.qq.com, AdBlock
+host, tmeadcomm.y.qq.com, AdBlock
 # > 懂车帝
 host-keyword, p3-pack.byteimg.com, AdBlock
 host-keyword, p6-pack.byteimg.com, AdBlock
@@ -346,7 +348,11 @@ host-suffix, atrace.chelaile.net.cn, AdBlock
 host, logs.chelaile.net.cn, AdBlock
 host, ad.chelaile.net.cn, AdBlock
 # > 蓝奏云
-host-suffix, statics.woozooo.com, AdBlock
+host, pos.baidu.com, AdBlock
+host, statics.woozooo.com, AdBlock
+# RARBG 推广跳转
+host, furiousfar.com, AdBlock
+host, swallowcrockerybless.com, AdBlock
 # 贴吧屏蔽域名dns查询
 ip-cidr, 180.76.76.200/32, AdBlock
 ## /* 
