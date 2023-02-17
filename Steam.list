@@ -1,14 +1,6 @@
 ip-asn, 32590, direct
 host, f3b7q2p3.ssl.hwcdn.net, direct
 host, help.steampowered.com, Steam
-host, steambroadcast.akamaized.net, direct
-host, steamcdn-a.akamaihd.net, direct
-host, steamcommunity-a.akamaihd.net, direct
-host, steammobile.akamaized.net, Steam
-host, steampipe.akamaized.net, direct
-host, steamstore-a.akamaihd.net, direct
-host, steamusercontent-a.akamaihd.net, direct
-host, steamuserimages-a.akamaihd.net, direct
 host-suffix, steam-api.com, Steam
 host-suffix, steam-chat.com, Steam
 host-suffix, steamcommunity.com, Steam
@@ -16,5 +8,3 @@ host-suffix, steamcontent.com, Steam
 host-suffix, steamgames.com, direct
 host-suffix, steampowered.com, direct
 host-suffix, steamstatic.com, Steam
-host-suffix, steamstore-a.akamaihd.net, direct
-host-suffix, steamvideo-a.akamaihd.net, direct
