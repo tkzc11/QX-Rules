@@ -151,6 +151,5 @@ host-suffix, themarvelexperiencetour.com, Disney+
 host-suffix, thestationbymaker.com, Disney+
 host-suffix, thewaltdisneycompany.com, Disney+
 host-suffix, thisispolaris.com, Disney+
-host-suffix, watchdisneyfe.com, Disney+
 user-agent, com.disney.disneyplus, Disney+
 user-agent, Disney+*, Disney+
