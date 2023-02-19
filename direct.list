@@ -2,6 +2,9 @@ host-keyword, push.apple.com, direct
 host, time.apple.com, direct
 host-keyword, weather-edge.apple.com, direct
 host-keyword, weather-adge.apple.com, direct
+host-keyword, weather-data.apple.com, direct
+host-keyword, weather-map.apple.com, direct
+host-keyword, weather-analytics-events.apple.com, direct
 host-keyword, buy.itunes.apple.com, direct
 host-keyword, icloud.com, direct
 host-keyword, api.smoot.apple.com, direct
