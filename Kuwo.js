@@ -1,19 +1,16 @@
 // ==UserScript==
-// @ScriptName        酷我音乐[净化+VIP]
+// @ScriptName        酷我音乐、酷我音乐纯净版[ SVIP+净化 ]
 // @Attention         史上最全酷我音乐净化加VIP音乐畅听，已兼容酷我原版与酷我畅听版
 // @Author            @ddgksf2013
-// @UpdateTime        2023-01-21
-// @Version           V2.0.40
+// @UpdateTime        2023-02-20
+// @Version           V2.0.42
 // @ScriptURL         https://gist.githubusercontent.com/ddgksf2013/0f76e952f0c4a2579932f45a209b40c3/raw/Kuwo.conf
 // ==/UserScript==
-
-
 
 //解决酷我发热问题，在本地添加下面的分流
 //host-suffix, kuwo.cn, direct
 
 hostname = *.kuwo.cn
-
 
 # > 酷我音乐_通用广告请求
 https?:\/\/vip1\.kuwo\.cn\/vip\/activity\/kwMemberDay url reject-200
