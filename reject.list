@@ -12,6 +12,7 @@ host, api.permutive.com, reject
 host, api2.appsflyer.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
+host, app.adjust.world, reject
 host, b-gtc.gepush.com, reject
 host, c-gtc.getui.net, reject
 host, cdn.mobilefuse.com, reject
@@ -21,6 +22,7 @@ host, counter.yadro.ru, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
+host, dcf.espn.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dit.whatsapp.net, reject
@@ -53,6 +55,7 @@ host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
 host, static.adsafeprotected.com, reject
 host, stats.appsflyer.com, reject
+host, sdkapi.netmera.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, t.appsflyer.com, reject
