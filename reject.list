@@ -97,6 +97,7 @@ host-suffix, sentiance.com, reject
 host-suffix, serverbid.com, reject
 host-suffix, sessionm.com, reject
 host-suffix, sharethis.com, reject
+host-suffix, siteintercept.qualtrics.com, reject
 host-suffix, smartlook.com, reject
 host-suffix, socdm.com, reject
 host-suffix, socialannex.com, reject
