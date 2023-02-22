@@ -7,6 +7,9 @@ host-suffix, anythinktech.com, AdBlock
 host-suffix, adkwai.com, AdBlock
 host-suffix, mob.com, AdBlock
 
+# > Facebook
+host-suffix, connect.facebook.net, AdBlock
+user-agent, FBiOSSDK*, AdBlock
 # > 哔哩哔哩
 #proto支持
 host, grpc.biliapi.net, reject
