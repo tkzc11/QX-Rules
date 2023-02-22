@@ -356,8 +356,8 @@ host, statics.woozooo.com, AdBlock
 host, furiousfar.com, AdBlock
 host, swallowcrockerybless.com, AdBlock
 # 贴吧屏蔽域名dns查询
-ip-cidr, 180.76.76.200/32, AdBlock
-## /* 
+ip-cidr, 180.76.76.200/32, reject
+
 host-suffix, 10086.cn.baidu.cdn.yiwk.com, AdBlock
 host-suffix, 360baidus.com, AdBlock
 host-suffix, app.ibaiducdn.com, AdBlock
