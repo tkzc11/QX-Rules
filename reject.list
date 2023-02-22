@@ -57,6 +57,7 @@ host, static.adsafeprotected.com, reject
 host, stats.appsflyer.com, reject
 host, sdkapi.netmera.com, reject
 host, sdk.open.talk.igexin.com, reject
+host, smetrics.aem.playstation.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
