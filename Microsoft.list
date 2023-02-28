@@ -32,7 +32,6 @@ host-suffix, azuredatabricks.net, Microsoft
 host-suffix, azuredns-prd.info, Microsoft
 host-suffix, azuredns-prd.org, Microsoft
 host-suffix, azureedge-test.net, Microsoft
-host-suffix, azureedge.net, Microsoft
 host-suffix, azurefd.net, Microsoft
 host-suffix, azurefd.us, Microsoft
 host-suffix, azuresmartspaces.net, Microsoft
