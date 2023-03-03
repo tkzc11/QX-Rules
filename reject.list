@@ -87,6 +87,7 @@ host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
+host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
 host-suffix, mparticle.com, reject
 host-suffix, n0909.com, reject
@@ -103,6 +104,7 @@ host-suffix, sentiance.com, reject
 host-suffix, serverbid.com, reject
 host-suffix, sessionm.com, reject
 host-suffix, sharethis.com, reject
+host-suffix, shouji.sougou.com, reject
 host-suffix, siteintercept.qualtrics.com, reject
 host-suffix, smartlook.com, reject
 host-suffix, socdm.com, reject
