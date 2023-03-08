@@ -473,7 +473,7 @@ https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject-dict
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject
 ^https:\/\/api\.jr\.mi\.com\/v\d\/adv url reject
 # > 米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner\? url reject
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab)\? url reject-dict
 # > 小米有品
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
 # > 携程广告
