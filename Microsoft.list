@@ -13,6 +13,7 @@ host-suffix, cs9.wac.phicdn.net, Microsoft
 host-suffix, dictate.ms, Microsoft
 host-suffix, fabric.io, Microsoft
 host-suffix, livetileedge.dsx.mp.microsoft.com.edgekey.net, Microsoft
+host-suffix, microsoft.com, Microsoft
 host-suffix, microsoftstore.com.hk, Microsoft
 host-suffix, minecraftshop.com, Microsoft
 host-suffix, msa.akadns6.net, Microsoft
@@ -21,6 +22,7 @@ host-suffix, msa.akadns6.net, Microsoft
 host-suffix, msauthimages.net, Microsoft
 host-suffix, msecnd.net, Microsoft
 host-suffix, msftauth.net, Microsoft
+host-suffix, office.net, Microsoft
 host-suffix, onestore.ms, Microsoft
 host-suffix, s-microsoft.com, Microsoft
 host-suffix, s-msn.com, Microsoft
