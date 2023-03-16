@@ -28,6 +28,7 @@ host, data.flurry.com, reject
 host, dcf.espn.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
+host, dig.zjurl.cn, reject
 host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
 host, elb.the-ozone-project.com, reject
