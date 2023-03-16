@@ -16,8 +16,8 @@ host-keyword, musical.ly, TikTok
 host-keyword, tiktok, TikTok
 user-agent, TikTok*, TikTok
 
-host, ecomuser.snssdk.com
-host, frontier.snssdk.com
-host, f-cpay.snssdk.com
-host, pigeon.snssdk.com
-host, tp-pay.snssdk.com
+host, ecomuser.snssdk.com, direct
+host, frontier.snssdk.com, direct
+host, f-cpay.snssdk.com, direct
+host, pigeon.snssdk.com, direct
+host, tp-pay.snssdk.com, direct
