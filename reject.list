@@ -79,6 +79,7 @@ host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, airpr.com, reject
 host-suffix, branch.io, reject
+host-suffix, cookielaw.org, reject
 host-suffix, cpatrk.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, everestop.io, reject
