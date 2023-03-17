@@ -24,6 +24,12 @@ host, amap-aos-info-nogw.amap.com, AdBlock
 host, amdc.m.taobao.com, AdBlock
 host, awaken.amap.com, AdBlock
 host, free-aos-cdn-image.amap.com, AdBlock
+# > 虎牙
+host, pp-cdnfile2pcdn.msstatic.com, AdBlock
+host, livewebbs2pcdn.msstatic.com, AdBlock
+host, huyafile.msstatic.com, AdBlock
+host, livewebbs2.msstatic.com, AdBlock
+host, business.msstatic.com, AdBlock
 # > 云闪付
 host, ads.95516.com, AdBlock
 host, cm-10-138.getui.com, AdBlock
@@ -6891,7 +6897,6 @@ host-suffix, fztmn.top, AdBlock
 host-suffix, g.3lian.com, AdBlock
 host-suffix, g.gegeyingshi.com, AdBlock
 host-suffix, g.hsw.cn, AdBlock
-host-suffix, g.huya.com, AdBlock
 host-suffix, g.lznews.cn, AdBlock
 host-suffix, g.mnw.cn, AdBlock
 host-suffix, g.ousns.net, AdBlock
@@ -16147,7 +16152,6 @@ host-suffix, ymztsuzm.com, AdBlock
 host-suffix, ynbojie.com, AdBlock
 host-suffix, ynbzxh.com, AdBlock
 host-suffix, ynelypolkq.com, AdBlock
-host-suffix, ynhuya.cn, AdBlock
 host-suffix, ynjkkj.com, AdBlock
 host-suffix, ynjyhm.com, AdBlock
 host-suffix, ynmbz.com, AdBlock
