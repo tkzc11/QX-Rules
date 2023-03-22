@@ -1,0 +1,49 @@
+#HK
+ip-cidr, 35.215.128.0/18, Discord
+
+#BR
+;ip-cidr, 35.215.192.0/18, Discord
+
+#JP
+ip-cidr, 35.213.0.0/17, Discord
+ip-cidr, 35.213.128.0/18, Discord
+ip-cidr, 35.213.192.0/18, Discord
+
+#US
+ip-cidr, 66.213.0.0/17, Discord
+ip-cidr, 66.213.128.0/19, Discord
+ip-cidr, 66.213.160.0/20, Discord
+ip-cidr, 66.213.176.0/22, Discord
+ip-cidr, 66.213.180.0/22, Discord
+ip-cidr, 66.213.184.0/22, Discord
+ip-cidr, 66.213.188.0/22, Discord
+ip-cidr, 66.213.192.0/18, Discord
+
+host-suffix, airhorn.solutions, Discord
+host-suffix, airhornbot.com, Discord
+host-suffix, bigbeans.solutions, Discord
+host-suffix, dis.gd, Discord
+host-suffix, discord-activities.com, Discord
+host-suffix, discord.co, Discord
+host-suffix, discord.com, Discord
+host-suffix, discord.design, Discord
+host-suffix, discord.dev, Discord
+host-suffix, discord.gg, Discord
+host-suffix, discord.gift, Discord
+host-suffix, discord.gifts, Discord
+host-suffix, discord.media, Discord
+host-suffix, discord.new, Discord
+host-suffix, discord.store, Discord
+host-suffix, discord.tools, Discord
+host-suffix, discordactivities.com, Discord
+host-suffix, discordapp.com, Discord
+host-suffix, discordapp.io, Discord
+host-suffix, discordapp.net, Discord
+host-suffix, discordapp.page.link, Discord
+host-suffix, discordcdn.com, Discord
+host-suffix, discordmerch.com, Discord
+host-suffix, discordpartygames.com, Discord
+host-suffix, discordsays.com, Discord
+host-suffix, discordstatus.com, Discord
+host-suffix, hammerandchisel.ssl.zendesk.com, Discord
+host-suffix, watchanimeattheoffice.com, Discord
