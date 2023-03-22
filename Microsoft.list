@@ -28,6 +28,7 @@ host-suffix, s-microsoft.com, Microsoft
 host-suffix, s-msn.com, Microsoft
 host-suffix, skypeassets.com, Microsoft
 host-suffix, skypeassets.net, Microsoft
+host-suffix, xboxlive.com, Microsoft
 user-agent, Microsoft*, Microsoft
 user-agent, OneDrive*, Microsoft
 user-agent, OneDriveiOSApp*, Microsoft
