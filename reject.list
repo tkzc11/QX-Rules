@@ -65,7 +65,7 @@ host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
 host, opus.analytics.yahoo.com, reject
 host, pagead2.googlesyndication.com, reject
-host, pr-bh.ybp.yahoo.com, rejec
+host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
