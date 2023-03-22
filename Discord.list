@@ -10,6 +10,37 @@ ip-cidr, 35.213.128.0/18, Discord
 ip-cidr, 35.213.192.0/18, Discord
 
 #US
+ip-cidr, 66.22.208.0/22, Discord
+ip-cidr, 66.22.0.0/24, Discord
+ip-cidr, 66.22.196.0/22, Discord
+ip-cidr, 66.22.200.0/22, Discord
+ip-cidr, 66.22.204.0/22, Discord
+ip-cidr, 66.22.208.0/22, Discord
+ip-cidr, 66.22.212.0/22, Discord
+ip-cidr, 66.22.216.0/23, Discord
+ip-cidr, 66.22.218.0/23, Discord
+ip-cidr, 66.22.220.0/23, Discord
+ip-cidr, 66.22.222.0/23, Discord
+ip-cidr, 66.22.224.0/23, Discord
+ip-cidr, 66.22.226.0/23, Discord
+ip-cidr, 66.22.230.0/24, Discord
+ip-cidr, 66.22.231.0/24, Discord
+ip-cidr, 66.22.232.0/24, Discord
+ip-cidr, 66.22.233.0/24, Discord
+ip-cidr, 66.22.234.0/24, Discord
+ip-cidr, 66.22.235.0/24, Discord
+ip-cidr, 66.22.236.0/24, Discord
+ip-cidr, 66.22.237.0/24, Discord
+ip-cidr, 66.22.238.0/24, Discord
+ip-cidr, 66.22.240.0/24, Discord
+ip-cidr, 66.22.241.0/24, Discord
+ip-cidr, 66.22.242.0/24, Discord
+ip-cidr, 66.22.243.0/24, Discord
+ip-cidr, 66.22.244.0/24, Discord
+ip-cidr, 66.22.245.0/24, Discord
+ip-cidr, 66.22.246.0/24, Discord
+ip-cidr, 66.22.247.0/24, Discord
+ip-cidr, 66.22.248.0/24, Discord
 ip-cidr, 66.213.0.0/17, Discord
 ip-cidr, 66.213.128.0/19, Discord
 ip-cidr, 66.213.160.0/20, Discord
