@@ -15,6 +15,8 @@ host, app.adjust.com, reject
 host, app.adjust.net.in, reject
 host, app.adjust.world, reject
 host, applog.uc.cn, reject
+host, appsrv.display.io, reject
+host, app-measurement.com, reject
 host, browser.events.data.msn.com, reject
 host, b-gtc.gepush.com, reject
 host, c-gtc.getui.net, reject
@@ -33,6 +35,7 @@ host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
 host, elb.the-ozone-project.com, reject
 host, firebase-settings.crashlytics.com, reject
+host, fp-it.fengkongcloud.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
 host, ifs.tanx.com, reject
@@ -43,9 +46,11 @@ host, int.akisinn.site , reject
 host, int.vaicore.site, reject
 host, int.vaicore.store, reject
 host, is.snssdk.com, reject
+host, jnn-pa.googleapis.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
 host, mc.yandex.ru, reject
+host, mobileconfig.sascdn.com, reject
 host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
 host, mon.snssdk.com, reject
@@ -69,6 +74,7 @@ host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
 host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
+host, unagi-na.amazon.com, reject
 host, wkrd.tingyun.com, reject
 host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
