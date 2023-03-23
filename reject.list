@@ -41,6 +41,7 @@ host, firebase-settings.crashlytics.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
+host, ib.snssdk.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
 host, info.sony-semicon.com, reject
@@ -57,6 +58,7 @@ host, mc.yandex.ru, reject
 host, mobileconfig.sascdn.com, reject
 host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
+host, mon.isnssdk.com, reject
 host, mon.snssdk.com, reject
 host, msg.umengcloud.com, reject
 host, mtrace.qq.com, reject
