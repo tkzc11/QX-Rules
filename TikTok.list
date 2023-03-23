@@ -1,3 +1,10 @@
+host, ecomuser.snssdk.com, direct
+host, frontier.snssdk.com, direct
+host, f-cpay.snssdk.com, direct
+host, pigeon.snssdk.com, direct
+host, tp-pay.snssdk.com, direct
+host, xxbg.snssdk.com, direct
+
 ip-asn, 138699, TikTok
 host, p16-tiktokcdn-com.akamaized.net, TikTok
 host-suffix, byteoversea.com, TikTok
@@ -16,10 +23,3 @@ host-suffix, tiktokv.com, TikTok
 host-keyword, musical.ly, TikTok
 host-keyword, tiktok, TikTok
 user-agent, TikTok*, TikTok
-
-host, ecomuser.snssdk.com, direct
-host, frontier.snssdk.com, direct
-host, f-cpay.snssdk.com, direct
-host, pigeon.snssdk.com, direct
-host, tp-pay.snssdk.com, direct
-host, xxbg.snssdk.com, direct
