@@ -4,7 +4,7 @@
 # > 12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
 # > 12306
-^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://github.com/ddgksf2013/Scripts/raw/master/12306.js
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/ddgksf2013/Scripts/master/12306.js
 # > 58同城
 ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
@@ -244,7 +244,7 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 
 # ======= P ======= #
 # > Pixiv
-^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js
 # > 澎湃新闻
 ^https?:\/\/adpai\.thepaper\.cn\/.+&ad= url reject
 # > 拼多多
