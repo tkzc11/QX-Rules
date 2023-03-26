@@ -7,6 +7,7 @@ host, iecvlist.microsoft.com, Microsoft
 host, microsoft-sap-events.com, Microsoft
 host, oneclient.sfx.ms, Microsoft
 host-suffix, aka.ms, Microsoft
+host-suffix, azureedge.net, Microsoft
 host-suffix, callersbane.com, Microsoft
 host-suffix, cs11.wpc.v0cdn.net, Microsoft
 host-suffix, cs9.wac.phicdn.net, Microsoft
