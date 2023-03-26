@@ -1,6 +1,6 @@
-user-agent, Argo*, Netflix
 ip-asn, 2906, Netflix
 ip-asn, 40027, Netflix
+host-suffix, fast.com, Netflix
 host-suffix, netflix.com, Netflix
 host-suffix, netflix.ca, Netflix
 host-suffix, netflix.com.edgesuite.net, Netflix
@@ -23,3 +23,4 @@ host-suffix, nflximg.com, Netflix
 host-suffix, nflximg.net, Netflix
 host-suffix, nflxsearch.net, Netflix
 host-suffix, us-west-2.amazonaws.com, Netflix
+user-agent, Argo*, Netflix
