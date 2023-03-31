@@ -9,6 +9,7 @@ host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, ad.turn.com, reject
 host, adashx.ut.ele.me, reject
 host, ads.pubmatic.com, reject
+host, adtag.sphdigital.com, reject
 host, alb.reddit.com, reject
 host, analytics.slashdotmedia.com, reject
 host, api.permutive.com, reject
@@ -21,6 +22,7 @@ host, app-measurement.com, reject
 host, beacon.shazam.com, reject
 host, browser.events.data.msn.com, reject
 host, b-gtc.gepush.com, reject
+host, b1t-nydc1.zemanta.com, reject
 host, c.bing.com, reject
 host, c.msn.com, reject
 host, c1.adform.net, reject
@@ -46,6 +48,7 @@ host, fp-it.fengkongcloud.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
 host, ib.snssdk.com, reject
+host, id.cxense.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
 host, info.sony-semicon.com, reject
@@ -87,7 +90,9 @@ host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
 host, srtb.msn.com, reject
 host, ssdkauth.hpplay.cn, reject
+host, stas.outbrain.com, reject
 host, static.adsafeprotected.com, reject
+host, static.bshare.cn, reject
 host, stats.appsflyer.com, reject
 host, t.appsflyer.com, reject
 host, tag.idsync.analytics.yahoo.com, reject
@@ -102,6 +107,7 @@ host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
 host, z.moatads.com, reject
+host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
@@ -127,8 +133,10 @@ host-suffix, nr-data.net, reject
 host-suffix, pardot.com, reject
 host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
+host-suffix, piano.io, reject
 host-suffix, predic.io, reject
 host-suffix, seewhy.com, reject
+host-suffix, seedtag.com, reject
 host-suffix, segment.io, reject
 host-suffix, segmentify.com, reject
 host-suffix, sentiance.com, reject
