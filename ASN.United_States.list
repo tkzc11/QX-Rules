@@ -1,5 +1,5 @@
 #广播
-ip-asn, 60068, United States
+;ip-asn, 60068, United States
 ip-asn, 63949, United States
 #原生
 ip-asn, 1, United States
@@ -10628,7 +10628,7 @@ ip-asn, 46480, United States
 ip-asn, 46481, United States
 ip-asn, 46483, United States
 ip-asn, 46485, United States
-ip-asn, 46489, United States
+;ip-asn, 46489, United States
 ip-asn, 46490, United States
 ip-asn, 46491, United States
 ip-asn, 46492, United States
