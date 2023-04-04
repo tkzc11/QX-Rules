@@ -1,4 +1,3 @@
-# 隐私保护
 host, adf0901f1861.cdn4.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
@@ -30,6 +29,7 @@ host, c-gtc.getui.net, reject
 host, cdn.mobilefuse.com, reject
 host, cdn.viglink.com, reject
 host, cdn.wwads.cn, reject
+host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, counter.yadro.ru, reject
 host, control.kochava.com, reject
