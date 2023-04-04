@@ -119,6 +119,7 @@ host-suffix, cpatrk.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, everestop.io, reject
 host-suffix, events.brightline.tv, reject
+host-suffix, fivecdm.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
