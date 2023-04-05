@@ -240,6 +240,11 @@ host, yt-adp.ws.126.net, AdBlock
 host-keyword, bds.snssdk.com, AdBlock
 host-keyword, p6-ad-sign.byteimg.com, AdBlock
 host-keyword, p3.pstatp.com, AdBlock
+# > 万能钥匙专业版
+host-suffix, mi.gdt.qq.com, AdBlock
+host-suffix, p9-be-pack-sign.pglstatp-toutiao.com, AdBlock
+host-suffix, p6-be-pack-sign.pglstatp-toutiao.com, AdBlock
+host-suffix, p3-be-pack-sign.pglstatp-toutiao.com, AdBlock
 # > 字节跳动
 host-suffix, pangolin-sdk-toutiao.com, AdBlock
 host-suffix, pangolin-sdk-toutiao-b.com, AdBlock
