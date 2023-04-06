@@ -17,6 +17,7 @@ host, app.adjust.net.in, reject
 host, app.adjust.world, reject
 host, applog.uc.cn, reject
 host, appsrv.display.io, reject
+host, app-alpha.bytedance.net, reject
 host, app-measurement.com, reject
 host, beacon.shazam.com, reject
 host, browser.events.data.msn.com, reject
