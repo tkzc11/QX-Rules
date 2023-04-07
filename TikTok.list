@@ -1,6 +1,10 @@
+host, aweme.snssdk.com, direct
 host, ecomuser.snssdk.com, direct
 host, frontier.snssdk.com, direct
 host, f-cpay.snssdk.com, direct
+host, gurd.snssdk.com, direct
+host, ichannel.snssdk.com, direct
+host, i-hl.snssdk.com, direct
 host, pigeon.snssdk.com, direct
 host, tnc3-alisc1.snssdk.com, direct
 host, tnc3-aliec2.snssdk.com, direct
