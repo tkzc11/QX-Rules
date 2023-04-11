@@ -92,6 +92,7 @@ host, snap.licdn.com, reject
 host, srtb.msn.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, stas.outbrain.com, reject
+host, static.addtoany.com, reject
 host, static.adsafeprotected.com, reject
 host, static.bshare.cn, reject
 host, stats.appsflyer.com, reject
