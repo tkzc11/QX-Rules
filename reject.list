@@ -136,10 +136,8 @@ host-suffix, nr-data.net, reject
 host-suffix, pardot.com, reject
 host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
-host-suffix, piano.io, reject
 host-suffix, predic.io, reject
 host-suffix, seewhy.com, reject
-host-suffix, seedtag.com, reject
 host-suffix, segment.io, reject
 host-suffix, segmentify.com, reject
 host-suffix, sentiance.com, reject
