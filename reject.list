@@ -83,6 +83,7 @@ host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
+host, rp.hpplay.cn, reject
 host, sdkapi.netmera.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, service.idsync.analytics.yahoo.com, reject
