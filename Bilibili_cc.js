@@ -1,19 +1,16 @@
 /***********************************
 
 > 应用名称：哔哩哔哩
-> 软件版本：7.1.0
-> 脚本作者：Cuttlefish
-> 更新时间：2022-11-22
-/***********************************
+> 更新时间：2023-04-11
  
 [rewrite_local]
 
-# ～ 哔哩哔哩繁体CC字幕转中文简体（2022-10-12）@ddgksf2013
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://github.com/ddgksf2013/Scripts/raw/main/bilibili_cc.js
+# ～ 嗶哩嗶哩繁体CC字幕转中文简体（2023-04-11）@ddgksf2013
+^https?:\/\/aisubtitle\.hdslb\.com\/bfs\/subtitle\/.+\.json url script-response-body https://github.com/ddgksf2013/Scripts/raw/main/bilibili_cc.js
 
 [mitm]
 
-hostname=i0.hdslb.com
+hostname=aisubtitle.hdslb.com
 
 ***********************************/
 
