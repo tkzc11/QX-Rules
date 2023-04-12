@@ -113,6 +113,7 @@ host, www.qchannel01.cn, reject
 host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
+host, zhihu-web-analytics.zhihu.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, airpr.com, reject
