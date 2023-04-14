@@ -97,6 +97,7 @@ host, static.addtoany.com, reject
 host, static.adsafeprotected.com, reject
 host, static.bshare.cn, reject
 host, stats.appsflyer.com, reject
+host, statusf.digitalcertvalidation.com, reject
 host, t.appsflyer.com, reject
 host, tag.idsync.analytics.yahoo.com, reject
 host, tags.tiqcdn.com, reject
