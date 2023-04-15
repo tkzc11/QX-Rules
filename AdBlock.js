@@ -62,9 +62,12 @@
 # ======= C ======= #
 # > CSDN
 ^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement url reject
-# > 曹操专车
-^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ url reject-img
+^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad url reject
+^https?:\/\/app-gw\.csdn\.net\/abtesting\/v2\/getList? url reject
+# > 曹操出行
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ url reject
+^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ url reject-img
+^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject
 # > 超星学习通
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject
 # > 车来了
@@ -86,14 +89,13 @@
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 ^https:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
 # > 滴滴出行/小桔科技
-^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject-dict
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject
+^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/didi.js
+^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
+^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) url reject-200
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds url reject
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
-# > 滴滴
-^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
-# > 滴滴青桔
-^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) url reject-200
 ^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api url reject-200
 ^https?:\/\/omgup*\.xiaojukeji\.com\/api url reject-200
 # > 电视家
@@ -147,6 +149,8 @@
 # > 怪兽充电
 ^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
 https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) url reject
+^https:\/\/aag\.enmonster\.com\/apa\/advert\/multi\/positions url reject
+^https:\/\/aag\.enmonster\.com\/apa\/advert\/demand\/home\/poster url reject
 # > 广告联盟
 ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 # > 国家地理
@@ -157,15 +161,20 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp url reject
 
 # ======= H ======= #
+# > 哈啰
+^https:\/\/api\.hellobike\.com\/api\?adx url reject
 # > 韩剧TV
 ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? url reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? url reject
-#> 航旅纵横
+# > 航旅纵横
 ^https?:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
 ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject-img
 # > 虎牙直播
 ^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject-img
+# > 花小猪打车
+^https:\/\/api\.hongyibo\.com\.cn url reject
+^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity url reject
 # > 黄油相机
 ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements url reject
 
@@ -548,4 +557,4 @@ https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject-dict
 # > 作业帮
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/impress url reject-200
 
-hostname = home.115.com, gab0.122.gov.cn, ad.12306.cn, *.58cdn.com.cn, app.58.com, api-new.app.acfun.cn, acs.m.taobao.com, heic.alicdn.com, api.aliyundrive.com, list-app-m.i4.cn, api.gamer.com.tw, *.bdstatic.com, bp-api.bestv.com.cn, mime.baidu.com, map.baidu.com, pan.baidu.com, appwk.baidu.com, gateway.shouqiev.com, res.pizzahut.com.cn, gw.csdn.net, cap.caocaokeji.cn, ptmpcap.caocaokeji.cn, learn.chaoxing.com, *.chelaile.net.cn, api.caiyunapp.com, img.meituan.net, api.dangdang.com, capis*.didapinche.com, conf.diditaxi.com.cn, ct.xiaojukeji.com, res.xiaojukeji.com, img-ys011.didistatic.com, pt-starimg.didistatic.com, omgup*.xiaojukeji.com, *gaoqingdianshi.com, cdn.dianshihome.com, api.douban.com, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, firefox.com.cn, app.variflight.com, m5.amap.com, www.google.cn, ditu.google.cn, maps.google.cn, translate.google.cn, aag.enmonster.com, awg.enmonster.com, wap.ngchina.cn, api-access.pangolin-sdk-toutiao.com, mi.gdt.qq.com, open.e.kuaishou.com, dili.bdatu.com, prom.mobile.gome.com.cn, gfp.veta.naver.com, api.hanju.koudaibaobao.com, discardrp.umetrip.com, oss.umetrip.com, business.msstatic.com, api4.bybutter.com, yunbusiness.ccb.com, s.jiediankeji.com, *.kingsoft-office-service.com, api.m.jd.com, bdsp-x.jd.com, dsp-x.jd.com, jdread-api.jd.com, m.360buyimg.com, ms.jr.jd.com, router-app-api.jdcloud.com, res.kfc.com.cn, api.coolapk.com, cdn.kuaidi100.com, p.kuaidi100.com, mobile-api.imlaidian.com, api.mcd.cn, p0.pipi.cn, mea.meitudata.com, peisongapi.meituan.com, img.meituan.net, s3plus.meituan.net, www.meituan.com, wmapi.meituan.com, flowplus.meituan.net, p*.meituan.net, 3g.csair.com, oauth.secure.pixiv.net, adpai.thepaper.cn, api.pinduoduo.com, api.yangkeduo.com, api.qdingnet.com， img1.qdingnet.com, us.l.qq.com, qde.qunar.com, fmapp.chinafamilymart.com.cn, y.gtimg.cn, *.peopleapp.com, img0*.luckincoffeecdn.com, data-collector.soulapp.cn, mapi.sichuanair.com, ios.sspai.com, app.homeinns.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, mapi.sfbest.com, *.k.sohu.com, *.tv.sohu.com, mpcs.suning.com, mrobot.pconline.com.cn, gw.alicdn.com, 4gimg.map.qq.com, btrace.qq.com, otheve.beacon.qq.com, y.gtimg.cn, news.l.qq.com, r.inews.qq.com, ssl.kohsocialapp.qq.com, static.gameplus.qq.com, tqt.weibo.cn, t1.market.xiaomi.com, api.cloud.189.cn, wx.17u.cn, open3.vistastory.com, sp.kaola.com, gw.kaola.com, easyreadfs.nosdn.127.net, support.you.163.com, yanxuan.nosdn.127.net, client.mail.163.com, appconf.mail.163.com, interface*.music.163.com, mapi.appvipshop.com, thor.weidian.com, weixin110.qq.com, mp.weixin.qq.com, *-release.wuta-cam.com, client-api.oray.com, api.m.mi.com, api-mifit.huami.com, api.jr.mi.com, home.mi.com, api-mifit.huami.com, m.ctrip.com, shopapi.io.mi.com, edit.sinaapp.com, api-shoulei-ssl.xunlei.com, images.client.vip.xunlei.com, m.yap.yahoo.com, www.cntv.com, cdn.cmgadx.com, issuecdn.baidupcs.com, app.yinxiang.com, xyst.yuanfudao.com, cloud.189.cn, client.app.coc.10086.cn, app.10086.cn, *.app.coc.10086.cn, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com, mbs.boc.cn, xyz.cnki.net, syh.zybang.com, 
+hostname = home.115.com, gab0.122.gov.cn, ad.12306.cn, *.58cdn.com.cn, app.58.com, api-new.app.acfun.cn, acs.m.taobao.com, heic.alicdn.com, api.aliyundrive.com, list-app-m.i4.cn, api.gamer.com.tw, *.bdstatic.com, bp-api.bestv.com.cn, mime.baidu.com, map.baidu.com, pan.baidu.com, appwk.baidu.com, gateway.shouqiev.com, res.pizzahut.com.cn, gw.csdn.net, app-gw.csdn.net, cap.caocaokeji.cn, ptmpcap.caocaokeji.cn, minicap.caocaokeji.cn, learn.chaoxing.com, *.chelaile.net.cn, api.caiyunapp.com, img.meituan.net, api.dangdang.com, capis*.didapinche.com, conf.diditaxi.com.cn, common.diditaxi.com.cn, res.xiaojukeji.com, ct.xiaojukeji.com, img-ys011.didistatic.com, pt-starimg.didistatic.com, omgup*.xiaojukeji.com, *gaoqingdianshi.com, cdn.dianshihome.com, api.douban.com, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, firefox.com.cn, app.variflight.com, m5.amap.com, www.google.cn, ditu.google.cn, maps.google.cn, translate.google.cn, aag.enmonster.com, awg.enmonster.com, wap.ngchina.cn, api-access.pangolin-sdk-toutiao.com, mi.gdt.qq.com, open.e.kuaishou.com, dili.bdatu.com, prom.mobile.gome.com.cn, api.hellobike.coming, gfp.veta.naver.com, api.hanju.koudaibaobao.com, discardrp.umetrip.com, oss.umetrip.com, business.msstatic.com, api.hongyibo.com.cn, res.hongyibo.com.cn, api4.bybutter.com, yunbusiness.ccb.com, s.jiediankeji.com, *.kingsoft-office-service.com, api.m.jd.com, bdsp-x.jd.com, dsp-x.jd.com, jdread-api.jd.com, m.360buyimg.com, ms.jr.jd.com, router-app-api.jdcloud.com, res.kfc.com.cn, api.coolapk.com, cdn.kuaidi100.com, p.kuaidi100.com, mobile-api.imlaidian.com, api.mcd.cn, p0.pipi.cn, mea.meitudata.com, peisongapi.meituan.com, img.meituan.net, s3plus.meituan.net, www.meituan.com, wmapi.meituan.com, flowplus.meituan.net, p*.meituan.net, 3g.csair.com, oauth.secure.pixiv.net, adpai.thepaper.cn, api.pinduoduo.com, api.yangkeduo.com, api.qdingnet.com， img1.qdingnet.com, us.l.qq.com, qde.qunar.com, fmapp.chinafamilymart.com.cn, y.gtimg.cn, *.peopleapp.com, img0*.luckincoffeecdn.com, data-collector.soulapp.cn, mapi.sichuanair.com, ios.sspai.com, app.homeinns.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, mapi.sfbest.com, *.k.sohu.com, *.tv.sohu.com, mpcs.suning.com, mrobot.pconline.com.cn, gw.alicdn.com, 4gimg.map.qq.com, btrace.qq.com, otheve.beacon.qq.com, y.gtimg.cn, news.l.qq.com, r.inews.qq.com, ssl.kohsocialapp.qq.com, static.gameplus.qq.com, tqt.weibo.cn, t1.market.xiaomi.com, api.cloud.189.cn, wx.17u.cn, open3.vistastory.com, sp.kaola.com, gw.kaola.com, easyreadfs.nosdn.127.net, support.you.163.com, yanxuan.nosdn.127.net, client.mail.163.com, appconf.mail.163.com, interface*.music.163.com, mapi.appvipshop.com, thor.weidian.com, weixin110.qq.com, mp.weixin.qq.com, *-release.wuta-cam.com, client-api.oray.com, api.m.mi.com, api-mifit.huami.com, api.jr.mi.com, home.mi.com, api-mifit.huami.com, m.ctrip.com, shopapi.io.mi.com, edit.sinaapp.com, api-shoulei-ssl.xunlei.com, images.client.vip.xunlei.com, m.yap.yahoo.com, www.cntv.com, cdn.cmgadx.com, issuecdn.baidupcs.com, app.yinxiang.com, xyst.yuanfudao.com, cloud.189.cn, client.app.coc.10086.cn, app.10086.cn, *.app.coc.10086.cn, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com, mbs.boc.cn, xyz.cnki.net, syh.zybang.com, 
