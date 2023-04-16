@@ -7,6 +7,7 @@ host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, ad.turn.com, reject
 host, adashx.ut.ele.me, reject
+host, ads-api.twitter.com, reject
 host, ads.pubmatic.com, reject
 host, adtag.sphdigital.com, reject
 host, alb.reddit.com, reject
@@ -86,6 +87,7 @@ host, px.effirst.com, reject
 host, qzs.gdtimg.com, reject
 host, rp.hpplay.cn, reject
 host, sdkapi.netmera.com, reject
+host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, service.idsync.analytics.yahoo.com, reject
 host, shftr.adnxs.net, reject
