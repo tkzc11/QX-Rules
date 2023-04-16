@@ -11,6 +11,7 @@ host, ads.pubmatic.com, reject
 host, adtag.sphdigital.com, reject
 host, alb.reddit.com, reject
 host, analytics.slashdotmedia.com, reject
+host, analytics.twitter.com, reject
 host, api.permutive.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
@@ -101,6 +102,7 @@ host, statusf.digitalcertvalidation.com, reject
 host, t.appsflyer.com, reject
 host, tag.idsync.analytics.yahoo.com, reject
 host, tags.tiqcdn.com, reject
+host, tdsdk.xdrig.com, reject
 host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
 host, toblog.ctobsnssdk.com, reject
