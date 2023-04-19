@@ -93,6 +93,7 @@ host, service.idsync.analytics.yahoo.com, reject
 host, shftr.adnxs.net, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
+host, sofire.baidu.com, reject
 host, srtb.msn.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, stas.outbrain.com, reject
@@ -104,6 +105,7 @@ host, statusf.digitalcertvalidation.com, reject
 host, t.appsflyer.com, reject
 host, tag.idsync.analytics.yahoo.com, reject
 host, tags.tiqcdn.com, reject
+host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
 host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
