@@ -68,6 +68,7 @@ host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
 host, mc.yandex.ru, reject
+host, metrics.icloud.com, reject
 host, mobileconfig.sascdn.com, reject
 host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
