@@ -64,6 +64,7 @@ host, int.vaicore.store, reject
 host, int.vaicore.xyz, reject
 host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
+host, log.umsns.com, reject
 host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
