@@ -115,6 +115,7 @@ host, toblog.ctobsnssdk.com, reject
 host, unagi-na.amazon.com, reject
 host, ups.analytics.yahoo.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
+host, weather-analytics-events.apple.com, reject
 host, wkrd.tingyun.com, reject
 host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
