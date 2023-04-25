@@ -150,7 +150,6 @@ host-suffix, pardot.com, reject
 host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, predic.io, reject
-host-suffix, pstatp.com, reject
 host-suffix, seewhy.com, reject
 host-suffix, segment.io, reject
 host-suffix, segmentify.com, reject
