@@ -84,7 +84,6 @@ host, nbcstreaming.sc.omtrdc.net, reject
 host, networksdk.ssacdn.com, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
-host, opus.analytics.yahoo.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pixel.adsafeprotected.com, reject
 host, pm-gateway.supersonicads.com, reject
@@ -96,7 +95,6 @@ host, rp.hpplay.cn, reject
 host, sdkapi.netmera.com, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
-host, service.idsync.analytics.yahoo.com, reject
 host, shftr.adnxs.net, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
@@ -110,7 +108,6 @@ host, static.bshare.cn, reject
 host, stats.appsflyer.com, reject
 host, statusf.digitalcertvalidation.com, reject
 host, t.appsflyer.com, reject
-host, tag.idsync.analytics.yahoo.com, reject
 host, tags.tiqcdn.com, reject
 host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
@@ -118,7 +115,6 @@ host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
 host, toblog.ctobsnssdk.com, reject
 host, unagi-na.amazon.com, reject
-host, ups.analytics.yahoo.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, weather-analytics-events.apple.com, reject
 host, wkrd.tingyun.com, reject
@@ -134,7 +130,7 @@ host-suffix, adcolony.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, airpr.com, reject
-host-suffix, analytics.yahoo.com, rejec
+host-suffix, analytics.yahoo.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
 host-suffix, cookielaw.org, reject
