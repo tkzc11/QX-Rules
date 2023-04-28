@@ -85,11 +85,15 @@ host, networksdk.ssacdn.com, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
 host, pagead2.googlesyndication.com, reject
+host, pangolin.snssdk.com, reject
+host, personalization.bloomberg.com, reject
 host, pixel.adsafeprotected.com, reject
+host, pixel.zprk.io, reject
 host, pm-gateway.supersonicads.com, reject
 host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
+host, px.moatads.com, reject
 host, qzs.gdtimg.com, reject
 host, rp.hpplay.cn, reject
 host, sdkapi.netmera.com, reject
@@ -113,6 +117,7 @@ host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
 host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
+host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
@@ -133,6 +138,7 @@ host-suffix, airpr.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
+host-suffix, chartbeat.com, reject
 host-suffix, cookielaw.org, reject
 host-suffix, cpatrk.net, reject
 host-suffix, doubleclick.net, reject
@@ -154,6 +160,7 @@ host-suffix, pardot.com, reject
 host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, predic.io, reject
+host-suffix, px-cloud.net, reject
 host-suffix, seewhy.com, reject
 host-suffix, segment.io, reject
 host-suffix, segmentify.com, reject
