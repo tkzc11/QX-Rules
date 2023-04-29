@@ -139,6 +139,7 @@ host-suffix, analytics.yahoo.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
 host-suffix, chartbeat.com, reject
+host-suffix, cnzz.com, reject
 host-suffix, cookielaw.org, reject
 host-suffix, cpatrk.net, reject
 host-suffix, doubleclick.net, reject
