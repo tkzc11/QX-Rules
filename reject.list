@@ -23,6 +23,7 @@ host, appsrv.display.io, reject
 host, app-alpha.bytedance.net, reject
 host, app-measurement.com, reject
 host, beacon.shazam.com, reject
+host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
 host, b-gtc.gepush.com, reject
 host, b1t-nydc1.zemanta.com, reject
@@ -86,6 +87,7 @@ host, nbcstreaming.sc.omtrdc.net, reject
 host, networksdk.ssacdn.com, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
+host, p9.pstatp.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pangolin.snssdk.com, reject
 host, personalization.bloomberg.com, reject
