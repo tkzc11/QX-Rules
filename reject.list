@@ -37,6 +37,7 @@ host, cdn.wwads.cn, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, counter.yadro.ru, reject
+host, conduit.redfast.com, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
@@ -48,6 +49,7 @@ host, dit.whatsapp.net, reject
 host, dpm.demdex.net , reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
+host, entitlements.jwplayer.com, reject
 host, events.mz.unity3d.com, reject
 host, fc.yahoo.com, reject
 host, firebase-settings.crashlytics.com, reject
@@ -91,6 +93,7 @@ host, p9.pstatp.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pangolin.snssdk.com, reject
 host, personalization.bloomberg.com, reject
+host, ping.chartbeat.net, reject
 host, pixel.adsafeprotected.com, reject
 host, pixel.zprk.io, reject
 host, pm-gateway.supersonicads.com, reject
@@ -113,6 +116,7 @@ host, stas.outbrain.com, reject
 host, static.addtoany.com, reject
 host, static.adsafeprotected.com, reject
 host, static.bshare.cn, reject
+host, static.scroll.com, reject
 host, stats.appsflyer.com, reject
 host, statusf.digitalcertvalidation.com, reject
 host, stun.voiparound.com, reject
@@ -136,6 +140,7 @@ host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
+host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
