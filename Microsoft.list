@@ -2,6 +2,7 @@ ip-asn, 3598, Microsoft
 ip-asn, 8068, Microsoft
 ip-asn, 8075, Microsoft
 host, api-extractor.com, Microsoft
+host, catalog.gamepass.com, Microsoft
 host, go.microsoft.com, Microsoft
 host, iecvlist.microsoft.com, Microsoft
 host, img-prod-cms-rt-microsoft-com.akamaized.net, Microsoft
@@ -33,6 +34,7 @@ host-suffix, msauthimages.net, Microsoft
 host-suffix, msecnd.net, Microsoft
 host-suffix, msftauth.net, Microsoft
 host-suffix, mwf-service.akamaized.net, Microsoft
+host-suffix, office365.com, Microsoft
 host-suffix, office.net, Microsoft
 host-suffix, officecdn-microsoft-com.akamaized.net, Microsoft
 host-suffix, onestore.ms, Microsoft
@@ -45,6 +47,7 @@ host-suffix, statics-marketingsites-neu-ms-com.akamaized.net, Microsoft
 host-suffix, statics-marketingsites-wcus-ms-com.akamaized.net, Microsoft
 host-suffix, skypeassets.com, Microsoft
 host-suffix, skypeassets.net, Microsoft
+host-suffix, xbox.com, Microsoft
 host-suffix, xboxlive.com, Microsoft
 user-agent, Microsoft*, Microsoft
 user-agent, OneDrive*, Microsoft
