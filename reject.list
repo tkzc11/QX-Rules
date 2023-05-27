@@ -46,6 +46,7 @@ host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dig.zjurl.cn, reject
 host, dit.whatsapp.net, reject
+host, dl-s.tripcdn.cn, reject
 host, dpm.demdex.net , reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
@@ -77,6 +78,7 @@ host, logs.browser-intake-datadoghq.com, reject
 host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
+host, ma-adx.ctrip.com, reject
 host, mc.yandex.ru, reject
 host, metrics.icloud.com, reject
 host, mobileconfig.sascdn.com, reject
