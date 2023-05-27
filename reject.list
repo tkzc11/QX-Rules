@@ -60,6 +60,7 @@ host, ib.snssdk.com, reject
 host, id.cxense.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
+host, imasdk.googleapis.com, reject
 host, info.sony-semicon.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
@@ -107,6 +108,7 @@ host, rp.hpplay.cn, reject
 host, sdkapi.netmera.com, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
+host, services.brightline.tv, reject
 host, shftr.adnxs.net, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
@@ -129,6 +131,7 @@ host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
 host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
+host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, weather-analytics-events.apple.com, reject
