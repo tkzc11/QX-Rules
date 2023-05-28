@@ -1,3 +1,4 @@
+host, ad.cyapi.cn, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
@@ -12,6 +13,7 @@ host, ads-api.twitter.com, reject
 host, ads.pubmatic.com, reject
 host, adtag.sphdigital.com, reject
 host, alb.reddit.com, reject
+host, analytics.cloud.coveo.com, reject
 host, analytics.slashdotmedia.com, reject
 host, analytics.twitter.com, reject
 host, api.permutive.com, reject
@@ -34,6 +36,7 @@ host, c-gtc.getui.net, reject
 host, cdn.mobilefuse.com, reject
 host, cdn.viglink.com, reject
 host, cdn.wwads.cn, reject
+host, cdn-settings.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, counter.yadro.ru, reject
