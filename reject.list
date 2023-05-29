@@ -82,7 +82,7 @@ host, logs.browser-intake-datadoghq.com, reject
 host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
-host, ma-adx.ctrip.com, reject
+;host, ma-adx.ctrip.com, reject
 host, mc.yandex.ru, reject
 host, metrics.icloud.com, reject
 host, mobileconfig.sascdn.com, reject
