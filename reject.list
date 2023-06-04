@@ -1,5 +1,4 @@
-host, ad.cyapi.cn, reject
-host, adf0901f1861.cdn4.forter.com, reject
+host, 240e-925-2-400-8000--100.volcsiriusbd.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
@@ -7,9 +6,11 @@ host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, acsbap.com, reject
+host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
 host, adashx.ut.ele.me, reject
 host, adc-ad-assets.adtilt.com, reject
+host, adf0901f1861.cdn4.forter.com, reject
 host, ads-api.twitter.com, reject
 host, ads.pubmatic.com, reject
 host, adtag.sphdigital.com, reject
