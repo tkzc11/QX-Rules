@@ -351,7 +351,7 @@ https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^https?+:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ url reject-200
 ^https?:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+1125-1602\.jpg url reject-200
 # > 淘票票
-^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner url reject-200
 # > 腾讯地图
 ^https?+:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ url reject-200
 ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ url reject
