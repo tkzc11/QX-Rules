@@ -44,6 +44,7 @@ host, cdn.tinypass.com, reject
 host, cdn.viglink.com, reject
 host, cdn.wwads.cn, reject
 host, cdn2.inner-active.mobi, reject
+host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
@@ -123,6 +124,7 @@ host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, sdkapi.netmera.com, reject
 host, sdk-events.inner-active.mobi, reject
+host, seoab.io, reject
 host, services.brightline.tv, reject
 host, shftr.adnxs.net, reject
 host, skadnetworks.fyber.com, reject
