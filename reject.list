@@ -103,6 +103,7 @@ host, mtrace.qq.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
 host, nbcstreaming.sc.omtrdc.net, reject
 host, networksdk.ssacdn.com, reject
+host, ns.zdbb.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
 host, p9.pstatp.com, reject
