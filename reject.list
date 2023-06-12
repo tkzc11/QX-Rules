@@ -59,6 +59,7 @@ host, device-metrics-us-2.amazon.com, reject
 host, dig.zjurl.cn, reject
 host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
+host, dsb.yahoo.co.jp, reject
 host, dpm.demdex.net , reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
@@ -128,6 +129,7 @@ host, sdk-events.inner-active.mobi, reject
 host, seoab.io, reject
 host, services.brightline.tv, reject
 host, shftr.adnxs.net, reject
+host, shrtm.nu, reject
 host, skadnetworks.fyber.com, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
