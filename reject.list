@@ -70,6 +70,7 @@ host, firebase-settings.crashlytics.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
+host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.snssdk.com, reject
 host, id.cxense.com, reject
 host, ifs.tanx.com, reject
@@ -178,6 +179,7 @@ host-suffix, airpr.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
+host-suffix, cedexis.com, reject
 host-suffix, chartbeat.com, reject
 host-suffix, cnzz.com, reject
 host-suffix, cookielaw.org, reject
