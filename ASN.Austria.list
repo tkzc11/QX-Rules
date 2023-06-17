@@ -1,3 +1,7 @@
+#EU
+ip-asn, 1117, Austria
+ip-asn, 1120, Austria
+#AT
 ip-asn, 679, Austria
 ip-asn, 760, Austria
 ip-asn, 1109, Austria
@@ -94,6 +98,7 @@ ip-asn, 24708, Austria
 ip-asn, 24777, Austria
 ip-asn, 24792, Austria
 ip-asn, 24824, Austria
+ip-asn, 24864, Austria
 ip-asn, 24953, Austria
 ip-asn, 24992, Austria
 ip-asn, 25011, Austria
@@ -265,6 +270,7 @@ ip-asn, 47130, Austria
 ip-asn, 47132, Austria
 ip-asn, 47147, Austria
 ip-asn, 47186, Austria
+ip-asn, 47251, Austria
 ip-asn, 47364, Austria
 ip-asn, 47373, Austria
 ip-asn, 47411, Austria
@@ -303,6 +309,7 @@ ip-asn, 50180, Austria
 ip-asn, 50226, Austria
 ip-asn, 50351, Austria
 ip-asn, 50657, Austria
+ip-asn, 50700, Austria
 ip-asn, 50718, Austria
 ip-asn, 50719, Austria
 ip-asn, 50720, Austria
@@ -406,6 +413,7 @@ ip-asn, 199236, Austria
 ip-asn, 199372, Austria
 ip-asn, 199437, Austria
 ip-asn, 199637, Austria
+ip-asn, 199824, Austria
 ip-asn, 199893, Austria
 ip-asn, 199931, Austria
 ip-asn, 199994, Austria
@@ -425,6 +433,7 @@ ip-asn, 200849, Austria
 ip-asn, 200939, Austria
 ip-asn, 200970, Austria
 ip-asn, 200986, Austria
+ip-asn, 201108, Austria
 ip-asn, 201185, Austria
 ip-asn, 201239, Austria
 ip-asn, 201240, Austria
@@ -512,7 +521,6 @@ ip-asn, 207528, Austria
 ip-asn, 207637, Austria
 ip-asn, 207653, Austria
 ip-asn, 207760, Austria
-ip-asn, 207773, Austria
 ip-asn, 207791, Austria
 ip-asn, 207828, Austria
 ip-asn, 207868, Austria

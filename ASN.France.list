@@ -1,9 +1,13 @@
+#EU
 ip-asn, 775, France
 ip-asn, 776, France
 ip-asn, 777, France
 ip-asn, 781, France
+ip-asn, 782, France
 ip-asn, 789, France
-ip-asn, 886, France
+ip-asn, 1301, France
+ip-asn, 1303, France
+ip-asn, 1307, France
 ip-asn, 1712, France
 ip-asn, 1715, France
 ip-asn, 1724, France
@@ -11,17 +15,39 @@ ip-asn, 1935, France
 ip-asn, 1938, France
 ip-asn, 1942, France
 ip-asn, 1945, France
-ip-asn, 2027, France
 ip-asn, 2060, France
+ip-asn, 2067, France
 ip-asn, 2072, France
+ip-asn, 2088, France
+ip-asn, 2089, France
 ip-asn, 2094, France
+ip-asn, 2103, France
+ip-asn, 2187, France
 ip-asn, 2198, France
 ip-asn, 2199, France
-ip-asn, 2200, France
 ip-asn, 2202, France
+ip-asn, 2210, France
 ip-asn, 2259, France
 ip-asn, 2263, France
 ip-asn, 2269, France
+ip-asn, 2418, France
+ip-asn, 2426, France
+ip-asn, 2439, France
+ip-asn, 2445, France
+ip-asn, 2450, France
+ip-asn, 2457, France
+ip-asn, 2462, France
+ip-asn, 2470, France
+ip-asn, 2471, France
+ip-asn, 2472, France
+
+#FR
+ip-asn, 886, France
+
+ip-asn, 2027, France
+
+
+ip-asn, 2200, France
 ip-asn, 2278, France
 ip-asn, 2280, France
 ip-asn, 2281, France
@@ -29,14 +55,6 @@ ip-asn, 2285, France
 ip-asn, 2287, France
 ip-asn, 2300, France
 ip-asn, 2335, France
-ip-asn, 2418, France
-ip-asn, 2426, France
-ip-asn, 2439, France
-ip-asn, 2445, France
-ip-asn, 2450, France
-ip-asn, 2457, France
-ip-asn, 2471, France
-ip-asn, 2472, France
 ip-asn, 2484, France
 ip-asn, 2485, France
 ip-asn, 2486, France
