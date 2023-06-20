@@ -46,6 +46,7 @@ host, cdn.wwads.cn, reject
 host, cdn2.inner-active.mobi, reject
 host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
+host, click.dangdang.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, counter.yadro.ru, reject
