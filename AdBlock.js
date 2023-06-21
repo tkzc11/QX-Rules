@@ -242,6 +242,7 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 # > 芒果TV
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 # > 猫眼
+^https:\/\/p0\.pipi\.cn\/adAdmin\/.+\.jpg\?imageMogr2\/quality\/85\?may_covertWebp url reject-dict
 ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? url reject-img
 # > 美图秀秀
 ^https?:\/\/mea\.meitudata\.com\/kaiping url reject
