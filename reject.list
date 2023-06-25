@@ -199,6 +199,7 @@ host-suffix, liadm.com, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
 host-suffix, mparticle.com, reject
+host-suffix, mutinycdn.com, reject
 host-suffix, n0909.com, reject
 host-suffix, nexac.com, reject
 host-suffix, nr-data.net, reject
