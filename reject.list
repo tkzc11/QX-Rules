@@ -48,8 +48,10 @@ host, cdn2.inner-active.mobi, reject
 host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
 host, click.dangdang.com, reject
+host, click.redditmail.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
+host, comet.yahoo.com, reject
 host, counter.yadro.ru, reject
 host, conduit.redfast.com, reject
 host, control.kochava.com, reject
@@ -164,6 +166,8 @@ host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
+host, w3-reporting.reddit.com, reject
+host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
 host, wkrd.tingyun.com, reject
 host, ws.tapjoyads.com, reject
