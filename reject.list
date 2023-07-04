@@ -57,6 +57,7 @@ host, conduit.redfast.com, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
+host, dc.services.visualstudio.com, reject
 host, dcf.espn.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
