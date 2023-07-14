@@ -153,6 +153,7 @@ host, static.bshare.cn, reject
 host, static.scroll.com, reject
 host, stats.appsflyer.com, reject
 host, statusf.digitalcertvalidation.com, reject
+host, stocks-analytics-events.apple.com, reject
 host, stun.voiparound.com, reject
 host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
