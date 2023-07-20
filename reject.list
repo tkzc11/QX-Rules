@@ -20,10 +20,13 @@ host, analytics.slashdotmedia.com, reject
 host, analytics.twitter.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
+host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
+host, api-fc.dutils.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
 host, app.adjust.world, reject
+host, app-monitor.ele.me, reject
 host, applog.uc.cn, reject
 host, appsrv.display.io, reject
 host, app-30330ebb9cf67052.mobileapi.usebutton.com, reject
@@ -49,11 +52,13 @@ host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
+host, cnam4c-skadsdkless.appsflyersdk.com, rejec
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, comet.yahoo.com, reject
 host, counter.yadro.ru, reject
 host, conduit.redfast.com, reject
+host, conf.hpplay.cn, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, data.flurry.com, reject
@@ -61,17 +66,20 @@ host, dc.services.visualstudio.com, reject
 host, dcf.espn.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
+host, dig.bdurl.net, reject
 host, dig.zjurl.cn, reject
 host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
 host, dsb.yahoo.co.jp, reject
 host, dpm.demdex.net , reject
+host, dynamic.zol.com.cn, reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
 host, entitlements.jwplayer.com, reject
 host, events.mz.unity3d.com, reject
 host, fc.yahoo.com, reject
 host, firebase-settings.crashlytics.com, reject
+host, firebaselogging-pa.googleapis.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
@@ -142,6 +150,7 @@ host, skadnetworks.fyber.com, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
 host, sofire.baidu.com, reject
+host, sqdd.myapp.com, reject
 host, srtb.msn.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, st.pubmatic.com, reject
@@ -163,6 +172,7 @@ host, telemetry-in.battle.net, reject
 host, tms.fmm.io, reject
 host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
+host, tosv.byted.org, reject
 host, tr.snapchat.com, reject
 host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
@@ -176,6 +186,7 @@ host, ws.tapjoyads.com, reject
 host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
+host, www.sinawap.com, reject
 host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
