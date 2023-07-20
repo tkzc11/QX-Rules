@@ -52,7 +52,7 @@ host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
-host, cnam4c-skadsdkless.appsflyersdk.com, rejec
+host, cnam4c-skadsdkless.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, comet.yahoo.com, reject
