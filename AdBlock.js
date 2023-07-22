@@ -78,6 +78,7 @@
 # ======= D ======= #
 # > 大众点评
 ^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
+^https:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png url reject-dict
 # > 当当
 ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init url reject-200
 # > 嘀嗒出行
