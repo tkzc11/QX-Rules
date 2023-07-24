@@ -13,6 +13,8 @@ host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, ads-api.twitter.com, reject
 host, ads.pubmatic.com, reject
+host-suffix, adservice.google.cn, reject
+host-suffix, adservice.google.com, reject
 host, adtag.sphdigital.com, reject
 host, alb.reddit.com, reject
 host, analytics.cloud.coveo.com, reject
@@ -20,9 +22,11 @@ host, analytics.slashdotmedia.com, reject
 host, analytics.twitter.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
+host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
 host, api-fc.dutils.com, reject
+host, apis.alenable.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
 host, app.adjust.world, reject
@@ -101,6 +105,7 @@ host, int.vaicore.xyz, reject
 host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
 host, kuaishou.httpdns.pro, reject
+host, log.b612kaji.com, reject
 host, log.umsns.com, reject
 host, logs.browser-intake-datadoghq.com, reject
 host, logx.optimizely.com, reject
@@ -108,6 +113,7 @@ host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
 ;host, ma-adx.ctrip.com, reject
 host, mc.yandex.ru, reject
+host, media.trafficjunky.com, reject
 host, metrics.icloud.com, reject
 host, mobileconfig.sascdn.com, reject
 host, mobiletelemetry.ebay.com, reject
@@ -146,6 +152,7 @@ host, services.brightline.tv, reject
 host, sessions.bugsnag.com, reject
 host, shftr.adnxs.net, reject
 host, shrtm.nu, reject
+host, sis.jpush.io, reject
 host, skadnetworks.fyber.com, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
@@ -183,7 +190,9 @@ host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
 host, wkrd.tingyun.com, reject
 host, ws.tapjoyads.com, reject
+host, wwads.cn, reject
 host, www.clarity.ms, reject
+host, www.google-analytics.com, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
 host, www.sinawap.com, reject
@@ -193,10 +202,12 @@ host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
+host-suffix, adkwai.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, airpr.com, reject
 host-suffix, analytics.yahoo.com, reject
+host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
 host-suffix, cedexis.com, reject
@@ -216,6 +227,7 @@ host-suffix, liadm.com, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
 host-suffix, mparticle.com, reject
+host-suffix, mob.com, reject
 host-suffix, mutinycdn.com, reject
 host-suffix, n0909.com, reject
 host-suffix, nexac.com, reject
