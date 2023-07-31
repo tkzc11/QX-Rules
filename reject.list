@@ -136,12 +136,14 @@ host, ping.chartbeat.net, reject
 host, pixel.adsafeprotected.com, reject
 host, pixel.zprk.io, reject
 host, pm-gateway.supersonicads.com, reject
+host, pok.mintegral.net, reject
 host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, px.moatads.com, reject
 host, qzs.gdtimg.com, reject
 host, rp.hpplay.cn, reject
+host, rt.applovin.com, reject
 host, sdk.fra-01.braze.eu, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
@@ -176,6 +178,7 @@ host, tags.tiqcdn.com, reject
 host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
 host, telemetry-in.battle.net, reject
+host, test.wemiquan.com, reject
 host, tms.fmm.io, reject
 host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
