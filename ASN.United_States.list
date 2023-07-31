@@ -2,7 +2,7 @@
 ip-asn, 780, United States
 ip-asn, 1663, United States
 ip-asn, 19178, United States
-#FI
+#US
 ip-asn, 1, United States
 ip-asn, 2, United States
 ip-asn, 3, United States
@@ -9249,7 +9249,7 @@ ip-asn, 35985, United States
 ip-asn, 35986, United States
 ip-asn, 35988, United States
 ip-asn, 35991, United States
-ip-asn, 35994, United States
+;ip-asn, 35994, United States
 ;ip-asn, 35995, United States
 ip-asn, 35997, United States
 ip-asn, 35999, United States
