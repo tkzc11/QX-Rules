@@ -71,6 +71,7 @@ host, conduit.redfast.com, reject
 host, conf.hpplay.cn, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
+host, cu-cn-north00002.gala.convection.cn, reject
 host, data.flurry.com, reject
 host, dc.services.visualstudio.com, reject
 host, dcf.espn.com, reject
@@ -112,6 +113,7 @@ host, int.vaicore.store, reject
 host, int.vaicore.xyz, reject
 host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
+host, js-agent.newrelic.com, reject
 host, kuaishou.httpdns.pro, reject
 host, log.b612kaji.com, reject
 host, log.umsns.com, reject
@@ -219,6 +221,7 @@ host-suffix, adkwai.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, airpr.com, reject
+host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
