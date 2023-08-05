@@ -19,6 +19,7 @@ host, tp-pay.snssdk.com, direct
 host, xxbg.snssdk.com, direct
 
 ip-asn, 138699, TikTok
+ip-asn, 396986, TikTok
 host, p16-tiktokcdn-com.akamaized.net, TikTok
 host-suffix, bytedapm.com, TikTok
 host-suffix, byteoversea.com, TikTok
