@@ -59,6 +59,7 @@ host, cdn.wwads.cn, reject
 host, cdn2.inner-active.mobi, reject
 host, cdn-pci.optimizely.com, reject
 host, cdn-settings.appsflyersdk.com, reject
+host, cdp.cloud.unity3d.com, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
 host, cnam4c-skadsdkless.appsflyersdk.com, reject
