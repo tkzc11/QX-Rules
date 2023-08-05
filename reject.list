@@ -6,16 +6,20 @@ host, a.pixiv.org, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, acsbap.com, reject
+host, ad.bczcdn.com, reject
 host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
 host, adashx.ut.ele.me, reject
+host, adashx.ut.hzshudian.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, ads-api.twitter.com, reject
 host, ads.pubmatic.com, reject
-host-suffix, adservice.google.cn, reject
-host-suffix, adservice.google.com, reject
+host, adservice.sigmob.cn, reject
+host, adservice.google.com, reject
 host, adtag.sphdigital.com, reject
+host, advertise.baicizhan.com, reject
+host, advertise.baicizhan.org, reject
 host, alb.reddit.com, reject
 host, analytics.cloud.coveo.com, reject
 host, analytics.slashdotmedia.com, reject
@@ -40,6 +44,7 @@ host, app-measurement.com, reject
 host, beacon.shazam.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
+host, browser-intake-datadoghq.com, reject
 host, b-gtc.gepush.com, reject
 host, b1t-nydc1.zemanta.com, reject
 host, c.bing.com, reject
@@ -85,8 +90,10 @@ host, fc.yahoo.com, reject
 host, firebase-settings.crashlytics.com, reject
 host, firebaselogging-pa.googleapis.com, reject
 host, fp-it.fengkongcloud.com, reject
+host, g.cn.miaozhen.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
+host, h-adashx.ut.hzshudian.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.snssdk.com, reject
 host, id.cxense.com, reject
@@ -147,6 +154,7 @@ host, rt.applovin.com, reject
 host, sdk.fra-01.braze.eu, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
+host, sdk.ssp.admobile.top, reject
 host, sdkapi.netmera.com, reject
 host, sdk-events.inner-active.mobi, reject
 host, seoab.io, reject
@@ -170,6 +178,7 @@ host, static.ares.ctripcorp.com, reject
 host, static.bshare.cn, reject
 host, static.scroll.com, reject
 host, stats.appsflyer.com, reject
+host, stats.fifthstarlabs.io, reject
 host, statusf.digitalcertvalidation.com, reject
 host, stocks-analytics-events.apple.com, reject
 host, stun.voiparound.com, reject
@@ -225,6 +234,7 @@ host-suffix, fivecdm.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
+host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, jdqd.jd.com, reject
