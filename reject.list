@@ -215,6 +215,8 @@ host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
+
+host-suffix, m1.ad.10010.com, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
 host-suffix, adkwai.com, reject
