@@ -154,6 +154,7 @@ host, px.moatads.com, reject
 host, qzs.gdtimg.com, reject
 host, rp.hpplay.cn, reject
 host, rt.applovin.com, reject
+host, sb.scorecardresearch.com, reject
 host, sdk.fra-01.braze.eu, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
