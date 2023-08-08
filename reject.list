@@ -111,6 +111,7 @@ host, int.dewrain.world, reject
 host, int.vaicore.site, reject
 host, int.vaicore.store, reject
 host, int.vaicore.xyz, reject
+host, ipgeo.wlvpn.com, reject
 host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
 host, js-agent.newrelic.com, reject
