@@ -34,7 +34,7 @@
 # > 爱思助手
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
 # > 澳觅
-^https:\/\/interface\.aomiapp\.com\/aomi-ads\/ad url reject
+^https:\/\/interface\.aomiapp\.com\/aomi-ads url reject
 
 # ======= B ======= #
 # > 百度翻译
