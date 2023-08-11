@@ -24,6 +24,7 @@ host, alb.reddit.com, reject
 host, analytics.cloud.coveo.com, reject
 host, analytics.slashdotmedia.com, reject
 host, analytics.twitter.com, reject
+host, analytics.umetrip.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
 host, api-ad.kajicam.com, reject
