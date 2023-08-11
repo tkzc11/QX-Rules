@@ -70,7 +70,7 @@
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ url reject-img
 ^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject
 # > 茶颜悦色
-^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/chayan.js
+^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/chayan.js
 # > 超星学习通
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject
 # > 车来了
@@ -89,7 +89,7 @@
 ^https:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
 # > 滴滴出行/小桔科技
 ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject
-^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/didi.js
+^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/didi.js
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg url reject
 ^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(jpg|png|gif) url reject-200
 ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds url reject
@@ -138,7 +138,7 @@
 ^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
 ^https?:\/\/translate.google\.cn url 302 https://translate.google.com
 # > 古茗
-^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ming.js
+^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/ming.js
 # > 怪兽充电
 ^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
 https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) url reject
@@ -326,7 +326,7 @@ https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages url reje
 # > TapTap
 https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 # > T3出行
-^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/T3.js
+^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/T3.js
 ^https:\/\/passenger\.t3go\.cn\/passenger-activity-api\/notoken\/api\/v1\/resource\/getSource url reject
 # > 太平洋电脑
 ^https?+:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ url reject-200
