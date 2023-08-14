@@ -15,7 +15,10 @@ host, tnc3-aliec2.snssdk.com, direct
 host, tos-d-lfct-lq.snssdk.com, direct
 host, tos-d-x-hl.snssdk.com, direct
 host, tos-d-x-lf.snssdk.com, direct
+host, tos-lf-x.snssdk.com, direct
 host, tp-pay.snssdk.com, direct
+host, video-cn.snssdk.com, direct
+host, video-edge-yz.snssdk.com, direct
 host, xxbg.snssdk.com, direct
 
 ip-asn, 138699, TikTok
