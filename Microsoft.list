@@ -34,6 +34,7 @@ host-suffix, msauth.net, Microsoft
 host-suffix, msauthimages.net, Microsoft
 host-suffix, msecnd.net, Microsoft
 host-suffix, msftauth.net, Microsoft
+host-suffix, msn.cn, Microsoft
 host-suffix, msn.com, Microsoft
 host-suffix, mwf-service.akamaized.net, Microsoft
 host-suffix, office365.com, Microsoft
