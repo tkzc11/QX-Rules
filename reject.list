@@ -115,6 +115,7 @@ host, int.vaicore.xyz, reject
 host, ipgeo.wlvpn.com, reject
 host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
+host, js.monitor.azure.com, reject
 host, js-agent.newrelic.com, reject
 host, kuaishou.httpdns.pro, reject
 host, log.b612kaji.com, reject
