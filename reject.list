@@ -103,7 +103,6 @@ host, id.cxense.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
 host, imasdk.googleapis.com, reject
-host, img2.autoimg.cn, reject
 host, info.sony-semicon.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
