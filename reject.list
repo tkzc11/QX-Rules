@@ -96,7 +96,9 @@ host, fp-it.fengkongcloud.com, reject
 host, g.cn.miaozhen.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
+host, h-adashx.ut.cainiao.com, reject
 host, h-adashx.ut.hzshudian.com, reject
+host, h-adashx.ut.taobao.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.snssdk.com, reject
 host, id.cxense.com, reject
@@ -154,6 +156,7 @@ host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, px.moatads.com, reject
 host, qzs.gdtimg.com, reject
+host, rili.callmekeji.com, reject
 host, rp.hpplay.cn, reject
 host, rt.applovin.com, reject
 host, sb.scorecardresearch.com, reject
