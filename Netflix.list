@@ -24,5 +24,7 @@ host-suffix, nflxext.com, Netflix
 host-suffix, nflximg.com, Netflix
 host-suffix, nflximg.net, Netflix
 host-suffix, nflxsearch.net, Netflix
+host-suffix, nflxso.net, Netflix
+host-suffix, nflxvideo.net, Netflix
 host-suffix, us-west-2.amazonaws.com, Netflix
 user-agent, Argo*, Netflix
