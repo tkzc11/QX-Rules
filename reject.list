@@ -9,6 +9,7 @@ host, acsbap.com, reject
 host, ad.bczcdn.com, reject
 host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
+host, adashbc.ut.taobao.com, reject
 host, adashx.ut.ele.me, reject
 host, adashx.ut.hzshudian.com, reject
 host, adc-ad-assets.adtilt.com, reject
@@ -191,6 +192,7 @@ host, stats.fifthstarlabs.io, reject
 host, statusf.digitalcertvalidation.com, reject
 host, stocks-analytics-events.apple.com, reject
 host, stun.voiparound.com, reject
+host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
 host, tcbox.baidu.com, reject
