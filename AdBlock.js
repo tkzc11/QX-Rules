@@ -124,6 +124,7 @@
 ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
 # > 飞猪
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner url reject
 
 # ======= G ======= #
 # > 高德地图
