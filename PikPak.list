@@ -1,7 +1,9 @@
 host, access.mypikpak.com, Singapore
 host, api-drive.mypikpak.com, Singapore
+host, api-drive.mypikpak.net, Singapore
 host, user.mypikpak.com, Singapore
 host-suffix, mypikpak.com, direct
+host-suffix, mypikpak.net, direct
 host-suffix, dlandroid.rcv.sandai.net, direct
 host-suffix, hub5idx.v6.shub.sandai.net, direct
 host-suffix, hub5pn.wap.sandai.net, direct
