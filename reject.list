@@ -100,12 +100,15 @@ host, h-adashx.ut.ele.me, reject
 host, h-adashx.ut.cainiao.com, reject
 host, h-adashx.ut.hzshudian.com, reject
 host, h-adashx.ut.taobao.com, reject
+host, httpdns.kwd.inkuai.com, reject
+host, httpdns.yunxindns.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.snssdk.com, reject
 host, id.cxense.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
 host, imasdk.googleapis.com, reject
+host, imdns.hpplay.cn, reject
 host, info.sony-semicon.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
@@ -191,6 +194,8 @@ host, stats.appsflyer.com, reject
 host, stats.fifthstarlabs.io, reject
 host, statusf.digitalcertvalidation.com, reject
 host, stocks-analytics-events.apple.com, reject
+host, stun.ideasip.com , reject
+host, stun.stunprotocol.org , reject
 host, stun.voiparound.com, reject
 host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
