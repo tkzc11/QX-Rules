@@ -29,7 +29,7 @@
 # > 爱奇艺
 ^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 # > 爱思助手
-^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
+^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
 # > 澳门电召
 ^http:\/\/182\.93\.34\.74:5992\/taxi\/passenger\/advertisementinfo\.xml url reject
 # > 澳觅
