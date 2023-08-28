@@ -184,11 +184,11 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts url reject
 ^https:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx url reject
 ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/(aladdin|base)\/(new)?na\/m\/(getLoadingPicture|adInfo) url reject
+# 禁京东直播小窗
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config -url response-body "dnsvip"\:".+" response-body "dnsvip":""
 # > 京东读书
 https://jdread-api.jd.com/jdread/api/channel/module/opens url reject-200
 https://jdread-api.jd.com/jdread/api/popup url reject-200
-# > 京东极速版
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising url response-body jdLiteAdvertisingVO response-body rucu6
 # > 京东健康
 ^https?:\/\/m\.360buyimg\.com\/babel\/jfs\/t1\/[0-9]{6}\/[0-9]{2}\/[0-9]{5}\/[0-9]{6}\/.*.jpg url reject-200
 ^https?:\/\/m\.360buyimg\.com\/babel\/jfs\/t1\/180291\/5\/23800\/294871\/625f5da2E13ac0ba3\/230238c767c61b6d\.jpg url reject
