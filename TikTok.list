@@ -20,6 +20,7 @@ host, tos-lf-x.snssdk.com, direct
 host, tp-pay.snssdk.com, direct
 host, video-cn.snssdk.com, direct
 host, video-edge-yz.snssdk.com, direct
+host, vcl-brain.snssdk.com, direct
 host, xxbg.snssdk.com, direct
 
 ip-asn, 138699, TikTok
