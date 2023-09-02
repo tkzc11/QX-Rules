@@ -253,6 +253,7 @@ host-suffix, fivecdm.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
+host-suffix, inmobi.com, reject
 host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
