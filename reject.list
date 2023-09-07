@@ -12,6 +12,7 @@ host, ad.turn.com, reject
 host, adashbc.ut.taobao.com, reject
 host, adashx.ut.ele.me, reject
 host, adashx.ut.hzshudian.com, reject
+host, adashx.ut.youku.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, ads-api.twitter.com, reject
@@ -138,6 +139,7 @@ host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
 host, mon.isnssdk.com, reject
 host, mon.snssdk.com, reject
+host, mparticle.weather.com, reject
 host, msg.umengcloud.com, reject
 host, mtrace.qq.com, reject
 host, nbcstreaming.hb-api.omtrdc.net, reject
@@ -202,6 +204,7 @@ host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
 host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
+host, tdsdk-ip6.xdrig.com, reject
 host, telemetry-in.battle.net, reject
 host, test.wemiquan.com, reject
 host, tms.fmm.io, reject
@@ -270,7 +273,7 @@ host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, predic.io, reject
 host-suffix, px-cloud.net, reject
-host-suffix, rcv.sandai.net, reject
+host-suffix, sandai.net, reject
 host-suffix, seewhy.com, reject
 host-suffix, segment.io, reject
 host-suffix, segmentify.com, reject
