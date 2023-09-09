@@ -95,7 +95,6 @@ host, fc.yahoo.com, reject
 host, firebase-settings.crashlytics.com, reject
 host, firebaselogging-pa.googleapis.com, reject
 host, fp-it.fengkongcloud.com, reject
-host, g.cn.miaozhen.com, reject
 host, geo.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
 host, h-adashx.ut.cainiao.com, reject
@@ -262,6 +261,7 @@ host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
+host-suffix, miaozhen.com, reject
 host-suffix, mparticle.com, reject
 host-suffix, mob.com, reject
 host-suffix, mutinycdn.com, reject
