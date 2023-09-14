@@ -223,8 +223,8 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 
 # ======= M ======= #
 # > 麦当劳
-^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
-^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject
+^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
+;^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject
 # > 猫眼
 ^https:\/\/ad\.maoyan\.com\/api\/position\/detail url reject-dict
 ^https:\/\/p0\.pipi\.cn\/adAdmin\/.+\.jpg\?imageMogr2\/quality\/85\?may_covertWebp url reject-dict
