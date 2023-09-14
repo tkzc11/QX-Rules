@@ -147,6 +147,7 @@ host, networksdk.ssacdn.com, reject
 host, ns.zdbb.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
+host, p1.pstatp.com, reject
 host, p9.pstatp.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pangolin.snssdk.com, reject
@@ -154,6 +155,7 @@ host, personalization.bloomberg.com, reject
 host, ping.chartbeat.net, reject
 host, pixel.adsafeprotected.com, reject
 host, pixel.zprk.io, reject
+host, pixoctopus.pixnet.net, reject
 host, pm-gateway.supersonicads.com, reject
 host, pok.mintegral.net, reject
 host, pr-bh.ybp.yahoo.com, reject
