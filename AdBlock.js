@@ -464,14 +464,16 @@ https://support.you.163.com/appversync/check.do url reject
 # > 小米
 ## 小米商城
 ^https:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView|product\/productView) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject
 ^https:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ url reject
 ^https:\/\/api\.m\.mi\.com\/v1\/misearch\/search_input$ url reject
 ^https:\/\/api\.m\.mi\.com\/v2\/search\/search_default$ url reject
+^https:\/\/api\.m\.mi\.com\/v1\/home\/page_feed(_v5)?$ url reject
 ## 小米金融
 ^https:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject
 ^https:\/\/api\.jr\.mi\.com\/v\d\/adv url reject
 ## 米家
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) url reject-dict
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab|openingBanner) url reject
 ## 小米有品
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
 # > 携程
