@@ -29,6 +29,7 @@ host, analytics.twitter.com, reject
 host, analytics.umetrip.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
+host, api.sprig.com, reject
 host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
