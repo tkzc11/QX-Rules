@@ -51,6 +51,7 @@ host-suffix, statics-marketingsites-wcus-ms-com.akamaized.net, Microsoft
 host-suffix, skypeassets.com, Microsoft
 host-suffix, skypeassets.net, Microsoft
 host-suffix, xbox.com, Microsoft
+host-suffix, xboxlive.com, Microsoft
 user-agent, Microsoft*, Microsoft
 user-agent, OneDrive*, Microsoft
 user-agent, OneDriveiOSApp*, Microsoft
