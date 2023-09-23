@@ -1,0 +1,15 @@
+host, discovery-us.conax.cloud, discovery+
+host, dplus-northamerica.media-edge.prod-vod.h264.io, discovery+
+host-suffix, disco-api.com, discovery+
+host-suffix, discovery.com, discovery+
+host-suffix, discoveryplus.co.uk, discovery+
+host-suffix, discoveryplus.com, discovery+
+host-suffix, discoveryplus.in, discovery+
+host-suffix, dnitv.com, discovery+
+host-suffix, fwmrm.net, discovery+
+host-suffix, getblueshift.com, discovery+
+host-suffix, litix.io, discovery+
+host-suffix, mobile-collector.newrelic.com, discovery+
+host-suffix, uplynk.com, discovery+
+userr-agent, DPlus*, discovery+
+userr-agent, discovery+*, discovery+
