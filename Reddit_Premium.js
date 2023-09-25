@@ -1,7 +1,7 @@
 /***********************************
 
 [rewrite_local]
-^https:\/\/oauth\.reddit\.com\/api\/v\d\/me\.json url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Reddit.js
+^https:\/\/oauth\.reddit\.com\/api\/v\d\/me\.json url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Reddit_Premium.js
 
 [mitm] 
 
