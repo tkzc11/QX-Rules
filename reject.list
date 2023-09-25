@@ -45,6 +45,7 @@ host, app-30330ebb9cf67052.mobileapi.usebutton.com, reject
 host, app-alpha.bytedance.net, reject
 host, app-analytics-v2.snapchat.com, reject
 host, app-measurement.com, reject
+host, assets.prod.leanplum.com, reject
 host, beacon.shazam.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
@@ -226,7 +227,6 @@ host, wkrd.tingyun.com, reject
 host, ws.tapjoyads.com, reject
 host, wwads.cn, reject
 host, www.clarity.ms, reject
-host, www.google-analytics.com, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
 host, www.sinawap.com, reject
@@ -256,6 +256,7 @@ host-suffix, doubleclick.net, reject
 host-suffix, everestop.io, reject
 host-suffix, events.brightline.tv, reject
 host-suffix, fivecdm.com, reject
+host-suffix, google-analytics.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
