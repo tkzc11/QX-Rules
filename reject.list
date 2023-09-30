@@ -3,6 +3,7 @@ host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
 host, a.pixiv.org, reject
+host, aa.agkn.com, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, acsbap.com, reject
@@ -47,11 +48,13 @@ host, app-analytics-v2.snapchat.com, reject
 host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, beacon.shazam.com, reject
+host, bh.contextweb.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
 host, browser-intake-datadoghq.com, reject
 host, b-gtc.gepush.com, reject
 host, b1t-nydc1.zemanta.com, reject
+host, b1sync.zemanta.com, reject
 host, c.bing.com, reject
 host, c.msn.com, reject
 host, c.office.com, reject
@@ -68,6 +71,8 @@ host, cdn-settings.appsflyersdk.com, reject
 host, cdp.cloud.unity3d.com, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
+host, cm.rtbsystem.com, reject
+host, cms.quantserve.com, reject
 host, cnam4c-skadsdkless.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
@@ -77,6 +82,7 @@ host, conduit.redfast.com, reject
 host, conf.hpplay.cn, reject
 host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
+host, creativecdn.com, reject
 host, cu-cn-north00002.gala.convection.cn, reject
 host, data.flurry.com, reject
 host, dc.services.visualstudio.com, reject
@@ -85,6 +91,7 @@ host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dig.bdurl.net, reject
 host, dig.zjurl.cn, reject
+host, dis.criteo.com, reject
 host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
 host, dsb.yahoo.co.jp, reject
@@ -107,7 +114,10 @@ host, httpdns.kwd.inkuai.com, reject
 host, httpdns.yunxindns.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.snssdk.com, reject
+host, ice.360yield.com, reject
 host, id.cxense.com, reject
+host, id.geistm.com, reject
+host, id5-sync.com, reject
 host, ifs.tanx.com, reject
 host, image8.pubmatic.com, reject
 host, imasdk.googleapis.com, reject
@@ -158,6 +168,7 @@ host, personalization.bloomberg.com, reject
 host, ping.chartbeat.net, reject
 host, pixel.adsafeprotected.com, reject
 host, pixel.zprk.io, reject
+host, pixel-us-east.rubiconproject.com, reject
 host, pixoctopus.pixnet.net, reject
 host, pm-gateway.supersonicads.com, reject
 host, pok.mintegral.net, reject
@@ -176,6 +187,7 @@ host, sdk.open.talk.igexin.com, reject
 host, sdk.ssp.admobile.top, reject
 host, sdkapi.netmera.com, reject
 host, sdk-events.inner-active.mobi, reject
+host, securemetrics.apple.com.cn, reject
 host, seoab.io, reject
 host, services.brightline.tv, reject
 host, sessions.bugsnag.com, reject
@@ -188,6 +200,7 @@ host, snap.licdn.com, reject
 host, sofire.baidu.com, reject
 host, sqdd.myapp.com, reject
 host, srtb.msn.com, reject
+host, ssbsync.smartadserver.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, st.pubmatic.com, reject
 host, stas.outbrain.com, reject
@@ -203,6 +216,8 @@ host, stocks-analytics-events.apple.com, reject
 host, stun.ideasip.com , reject
 host, stun.stunprotocol.org , reject
 host, stun.voiparound.com, reject
+host, sync.crwdcntrl.net, reject
+host, sync-jp.im-apps.net, reject
 host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
 host, tags.tiqcdn.com, reject
@@ -230,6 +245,7 @@ host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
 host, www.sinawap.com, reject
+host, x.bidswitch.net, reject
 host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
@@ -241,6 +257,7 @@ host-suffix, adcolony.com, reject
 host-suffix, adkwai.com, reject
 host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
+host-suffix, adsrvr.org, reject
 host-suffix, airpr.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
