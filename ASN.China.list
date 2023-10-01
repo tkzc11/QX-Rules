@@ -145,7 +145,7 @@ ip-asn, 24423, direct
 ip-asn, 24424, direct
 ip-asn, 24427, direct
 ip-asn, 24428, direct
-ip-asn, 24429, direct
+;ip-asn, 24429, direct
 ip-asn, 24430, direct
 ip-asn, 24444, direct
 ip-asn, 24445, direct
@@ -931,3 +931,7 @@ ip-asn, 210903, direct
 ip-asn, 211481, direct
 ip-asn, 211843, direct
 ip-asn, 212237, direct
+ip-cidr, 39.97.204.0/22, direct
+ip-cidr, 39.97.204.0/24, direct
+ip-cidr, 39.97.204.0/23, direct
+ip-cidr, 39.97.206.0/23, direct
