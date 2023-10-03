@@ -1,6 +1,23 @@
+host-suffix, bcbolthboa-a.akamaihd.net, HBO Max
+host-suffix, cinemax.com, HBO Max
 host-suffix, hbo.com, HBO Max
-host-suffix, hbogo.com, HBO Max
-host-suffix, hbonow.com, HBO Max
+host-suffix, hbo.com.c.footprint.net, HBO Max
+host-suffix, hbo.com.edgesuite.net, HBO Max
+host-suffix, hbo.map.fastly.net, HBO Max
+host-suffix, hbolb.onwardsmg.com, HBO Max
+host-suffix, hbomax-images.warnermediacdn.com, HBO Max
 host-suffix, hbomax.com, HBO Max
 host-suffix, hbomaxcdn.com, HBO Max
-ip-cidr, 69.171.235.0/16, HBO Max
+host-suffix, hbomaxdash.s.llnwi.net, HBO Max
+host-suffix, hbonow.com, HBO Max
+host-suffix, hbounify-prod.evergent.com, HBO Max
+host-suffix, manifest.prod.boltdns.net, HBO Max
+host-suffix, maxgo.com, HBO Max
+host-suffix, now-ashare.com, HBO Max
+host-suffix, now-tv.com, HBO Max
+host-suffix, now.com, HBO Max
+host-suffix, nowe.com, HBO Max
+host-suffix, max.com, HBO Max
+host-suffix, api.discomax.com, HBO Max
+user-agent,HBOMAX*, HBO Max
+user-agent,MAX*, HBO Max
