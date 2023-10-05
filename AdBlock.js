@@ -154,9 +154,10 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? url reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? url reject
 # > 航旅纵横
-^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject-img
-^http:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
-^http:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ \r\nrpid: 10000(18|19) url-and-header reject
+^http:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
+^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject
+^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
+^http:\/\/114\.115\.217\.129\/gateway\/api\/umetrip\/native reject-200
 # > 和风天气
 ^https:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\? url reject
 # > 盒马
