@@ -92,6 +92,7 @@ host, device-metrics-us-2.amazon.com, reject
 host, dig.bdurl.net, reject
 host, dig.zjurl.cn, reject
 host, dis.criteo.com, reject
+host, disney.demdex.net, reject
 host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
 host, dsb.yahoo.co.jp, reject
