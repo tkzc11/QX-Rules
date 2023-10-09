@@ -1,6 +1,15 @@
+host, bam-sdk-configs.bamgrid.com, Disney+
 host, disney.my.sentry.io, Disney+
-host-suffix, bamgrid.com, Disney+
+host, disney.api.edge.bamgrid.com, Disney+
+host, disney.content.edge.bamgrid.com, Disney+
+host, disney.connections.edge.bamgrid.com, Disney+
+host, disney.images.edge.bamgrid.com, Disney+
+host, disney.playback.edge.bamgrid.com, Disney+
+host, pcs.bamgrid.com, Disney+
+host, static-assets.bamgrid.com, Disney+
+host, vpe-static.bamgrid.com, Disney+
 host-suffix, braze.com, Disney+
+host-suffix, conviva.com, Disney+
 host-suffix, disneystreaming.com, Disney+
 host-suffix, dssott.com, Disney+
 host-suffix, disney-plus.net, Disney+
