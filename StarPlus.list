@@ -1,0 +1,10 @@
+host, playback-certs.bamgrid.com
+host, star.api.edge.bamgrid.com
+host, star.images.edge.bamgrid.com
+host, star.connections.edge.bamgrid.com
+host, star.content.edge.bamgrid.com
+host, star.playback.edge.bamgrid.com
+host-suffix, starplus.com
+host-suffix, starott.com
+host-suffix, media.starott.com
+user-agent, Star+,Star+
