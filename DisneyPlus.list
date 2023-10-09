@@ -1,6 +1,7 @@
+host, disney.my.sentry.io, Disney+
 host-suffix, bamgrid.com, Disney+
 host-suffix, braze.com, Disney+
-;host-suffix, conviva.com, Disney+
+host-suffix, disneystreaming.com, Disney+
 host-suffix, dssott.com, Disney+
 host-suffix, disney-plus.net, Disney+
 host-suffix, disneyplus.bn5x.net, Disney+
