@@ -63,6 +63,7 @@ host, c-gtc.getui.net, reject
 host, cdn.acsbapp.com, reject
 host, cdn.mobilefuse.com, reject
 host, cdn.tinypass.com, reject
+host, cdn.taboola.com, reject
 host, cdn.viglink.com, reject
 host, cdn.wwads.cn, reject
 host, cdn2.inner-active.mobi, reject
@@ -71,11 +72,13 @@ host, cdn-settings.appsflyersdk.com, reject
 host, cdp.cloud.unity3d.com, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
+host, cm.mgid.com, reject
 host, cm.rtbsystem.com, reject
 host, cms.quantserve.com, reject
 host, cnam4c-skadsdkless.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
+host, code.yengo.com, reject
 host, comet.yahoo.com, reject
 host, counter.yadro.ru, reject
 host, conduit.redfast.com, reject
@@ -114,6 +117,7 @@ host, h-adashx.ut.taobao.com, reject
 host, httpdns.kwd.inkuai.com, reject
 host, httpdns.yunxindns.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
+host, ib.adnxs.com, reject
 host, ib.snssdk.com, reject
 host, ice.360yield.com, reject
 host, id.cxense.com, reject
@@ -177,6 +181,7 @@ host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
 host, px.moatads.com, reject
+host, quicktracking-api.macaupass.com, reject
 host, qzs.gdtimg.com, reject
 host, rili.callmekeji.com, reject
 host, rp.hpplay.cn, reject
@@ -218,6 +223,7 @@ host, stun.ideasip.com , reject
 host, stun.stunprotocol.org , reject
 host, stun.voiparound.com, reject
 host, sync.crwdcntrl.net, reject
+host, sync.outbrain.com, reject
 host, sync-jp.im-apps.net, reject
 host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
@@ -236,6 +242,7 @@ host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
+host, visitor.omnitagjs.com, reject
 host, w3-reporting.reddit.com, reject
 host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
