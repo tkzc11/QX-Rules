@@ -8,7 +8,6 @@ host, disney.images.edge.bamgrid.com, Disney+
 host, disney.playback.edge.bamgrid.com, Disney+
 host, edge.bamgrid.com, Disney+
 host, static-assets.bamgrid.com, Disney+
-host-suffix, braze.com, Disney+
 host-suffix, cws.conviva.com, Disney+
 host-suffix, disneystreaming.com, Disney+
 host-suffix, dssott.com, Disney+
