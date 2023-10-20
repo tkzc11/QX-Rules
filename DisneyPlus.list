@@ -1,4 +1,5 @@
 host, bam-sdk-configs.bamgrid.com, Disney+
+host, cnbl-cdn.bamgrid.com, Disney+
 host, disney.my.sentry.io, Disney+
 host, disney.api.edge.bamgrid.com, Disney+
 host, disney.content.edge.bamgrid.com, Disney+
