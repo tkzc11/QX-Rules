@@ -1,4 +1,3 @@
-host, 7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com, Disney+
 host, bam-sdk-configs.bamgrid.com, Disney+
 host, cnbl-cdn.bamgrid.com, Disney+
 host, disney.my.sentry.io, Disney+
@@ -10,7 +9,7 @@ host, disney.playback.edge.bamgrid.com, Disney+
 host, edge.bamgrid.com, Disney+
 host, static-assets.bamgrid.com, Disney+
 host-suffix, braze.com, Disney+
-host-suffix, conviva.com, Disney+
+host-suffix, cws.conviva.com, Disney+
 host-suffix, disneystreaming.com, Disney+
 host-suffix, dssott.com, Disney+
 host-suffix, disney-plus.net, Disney+
