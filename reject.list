@@ -116,6 +116,8 @@ host, h-adashx.ut.hzshudian.com, reject
 host, h-adashx.ut.taobao.com, reject
 host, httpdns.kwd.inkuai.com, reject
 host, httpdns.yunxindns.com, reject
+host, hub5p.mypikpak.com, reject
+host, hub5pnc.mypikpak.com, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.adnxs.com, reject
 host, ib.snssdk.com, reject
@@ -188,6 +190,7 @@ host, rp.hpplay.cn, reject
 host, rt.applovin.com, reject
 host, sb.scorecardresearch.com, reject
 host, sdk.fra-01.braze.eu, reject
+host, sdk.iad-03.braze.com, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, sdk.ssp.admobile.top, reject
