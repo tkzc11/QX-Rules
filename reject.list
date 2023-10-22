@@ -2,6 +2,7 @@ host, 240e-925-2-400-8000--100.volcsiriusbd.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
+host, a.beap.gemini.yahoo.com, reject
 host, a.pixiv.org, reject
 host, aa.agkn.com, reject
 host, abtest.alibaba.com, reject
@@ -35,6 +36,7 @@ host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
 host, api-fc.dutils.com, reject
+host, api.statsig.com, reject
 host, apis.alenable.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
