@@ -50,6 +50,7 @@ host, app-analytics-v2.snapchat.com, reject
 host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, beacon.shazam.com, reject
+host, beacon.tingyun.com, reject
 host, bh.contextweb.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
@@ -61,7 +62,6 @@ host, c.bing.com, reject
 host, c.msn.com, reject
 host, c.office.com, reject
 host, c1.adform.net, reject
-host, c-gtc.getui.net, reject
 host, cdn.acsbapp.com, reject
 host, cdn.mobilefuse.com, reject
 host, cdn.tinypass.com, reject
@@ -286,6 +286,7 @@ host-suffix, doubleclick.net, reject
 host-suffix, everestop.io, reject
 host-suffix, events.brightline.tv, reject
 host-suffix, fivecdm.com, reject
+host-suffix, getui.net, reject
 host-suffix, google-analytics.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
