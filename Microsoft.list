@@ -1,5 +1,7 @@
 ip-asn, 3598, United States
 ip-asn, 8068, United States
+host-suffix, msftauth.net, United States
+
 ip-asn, 8075, Microsoft
 ip-asn, 35106, United Kingdom
 host, api-extractor.com, Microsoft
@@ -33,7 +35,6 @@ host-suffix, msads.net, Microsoft
 host-suffix, msauth.net, Microsoft
 host-suffix, msauthimages.net, Microsoft
 host-suffix, msecnd.net, Microsoft
-host-suffix, msftauth.net, Microsoft
 host-suffix, msn.cn, Microsoft
 host-suffix, msn.com, Microsoft
 host-suffix, mwf-service.akamaized.net, Microsoft
