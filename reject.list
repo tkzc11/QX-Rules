@@ -63,6 +63,7 @@ host, c.bing.com, reject
 host, c.msn.com, reject
 host, c.office.com, reject
 host, c1.adform.net, reject
+host, c2shb.ssp.yahoo.com, reject
 host, cdn.acsbapp.com, reject
 host, cdn.mobilefuse.com, reject
 host, cdn.tinypass.com, reject
