@@ -290,10 +290,10 @@ https://jdread-api.jd.com/jdread/api/popup url reject-200
 ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/ad\/queryInfoFlow url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/shunfeng_json.js
 ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/ad\/queryAdImages url reject
 ^https:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
-https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList url reject
-https:\/\/ucmp-static\.sf-express\.com\/proxy\/wxbase\/wxTicket\/wxLiveStreamInfo\?pageNo reject
-https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query reject
-https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/member(Goods\/pointMallService\/goodsList|Manage\/memberEquity\/queryRecommendEquity|ActLengthy\/fullGiveActivityService\/fullGiveInfo) reject
+^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList url reject
+^https:\/\/ucmp-static\.sf-express\.com\/proxy\/wxbase\/wxTicket\/wxLiveStreamInfo\?pageNo url reject
+^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query url reject
+^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/member(Goods\/pointMallService\/goodsList|Manage\/memberEquity\/queryRecommendEquity|ActLengthy\/fullGiveActivityService\/fullGiveInfo) url reject
 # > 搜狐
 ^https?+:\/\/api\.k\.sohu\.com\/api\/news\/adsense url reject-200
 ^https?+:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ url reject-200
