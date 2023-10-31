@@ -55,7 +55,6 @@ host, beacon.tingyun.com, reject
 host, bh.contextweb.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
-host, browser-intake-datadoghq.com, reject
 host, b-gtc.gepush.com, reject
 host, b1t-nydc1.zemanta.com, reject
 host, b1sync.zemanta.com, reject
@@ -150,7 +149,6 @@ host, kuaishou.httpdns.pro, reject
 host, log.b612kaji.com, reject
 host, logs.chelaile.net.cn, reject
 host, log.umsns.com, reject
-host, logs.browser-intake-datadoghq.com, reject
 host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
@@ -281,6 +279,7 @@ host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
+host-suffix, browser-intake-datadoghq.com, reject
 host-suffix, cedexis.com, reject
 host-suffix, chartbeat.com, reject
 host-suffix, cnzz.com, reject
