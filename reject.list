@@ -20,9 +20,11 @@ host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, adobemobiledev.data.adobedc.net, reject
 host, ads-api.twitter.com, reject
+host, ads.adfox.ru, reject
 host, ads.pubmatic.com, reject
 host, adservice.sigmob.cn, reject
 host, adservice.google.com, reject
+host, adservice.google.ru, reject
 host, adtag.sphdigital.com, reject
 host, advertise.baicizhan.com, reject
 host, advertise.baicizhan.org, reject
@@ -53,6 +55,7 @@ host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
+host, beacon.tru.am, reject
 host, bh.contextweb.com, reject
 host, books-analytics-events.apple.com, reject
 host, browser.events.data.msn.com, reject
@@ -184,6 +187,7 @@ host, pixel-us-east.rubiconproject.com, reject
 host, pixoctopus.pixnet.net, reject
 host, pm-gateway.supersonicads.com, reject
 host, pok.mintegral.net, reject
+host, pp.lp4.io, reject
 host, pr-bh.ybp.yahoo.com, reject
 host, prebid.the-ozone-project.com, reject
 host, px.effirst.com, reject
@@ -246,6 +250,7 @@ host, tms.fmm.io, reject
 host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
 host, tosv.byted.org, reject
+host, tpc.googlesyndication.com, reject
 host, tr.snapchat.com, reject
 host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
@@ -262,6 +267,7 @@ host, www.clarity.ms, reject
 host, www.googletagmanager.com, reject
 host, www.qchannel01.cn, reject
 host, www.sinawap.com, reject
+host, www.tns-counter.ru, reject
 host, x.bidswitch.net, reject
 host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
