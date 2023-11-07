@@ -15,5 +15,9 @@ host-suffix, disney-plus.net, Disney+
 host-suffix, disneyplus.bn5x.net, Disney+
 host-suffix, disneyplus.com, Disney+
 host-suffix, disneyplus.com.ssl.sc.omtrdc.net, Disney+
+host-suffix, hotstar-cdn.net, Disney+
+host-suffix, hotstar-labs.com, Disney+
+host-suffix, hotstar.com, Disney+
+host-suffix, hotstarext.com, Disney+
 user-agent, com.disney.disneyplus, Disney+
 user-agent, Disney+*, Disney+
