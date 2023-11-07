@@ -19,5 +19,5 @@ host-suffix, now.com, HBO Max
 host-suffix, nowe.com, HBO Max
 host-suffix, max.com, HBO Max
 host-suffix, api.discomax.com, HBO Max
-user-agent,HBOMAX*, HBO Max
-user-agent,MAX*, HBO Max
+user-agent, HBOMAX*, HBO Max
+user-agent, MAX*, HBO Max
