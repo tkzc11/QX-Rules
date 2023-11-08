@@ -6,4 +6,4 @@ host, star.playback.edge.bamgrid.com, Star+
 host-suffix, starplus.com, Star+
 host-suffix, starott.com, Star+
 host-suffix, media.starott.com, Star+
-user-agent, Star+, Star+
+user-agent, Star+, Star+*
