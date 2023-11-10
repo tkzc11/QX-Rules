@@ -116,6 +116,7 @@ host, dl-s.tripcdn.cn, reject
 host, dsb.yahoo.co.jp, reject
 host, dpm.demdex.net , reject
 host, dynamic.zol.com.cn, reject
+host, ef-dongfeng.tanx.com, reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
 host, entitlements.jwplayer.com, reject
