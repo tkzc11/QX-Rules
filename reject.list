@@ -15,6 +15,7 @@ host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
 host, ad.wsod.com, reject
 host, adashbc.ut.taobao.com, reject
+host, adashx.m.taobao.com, reject
 host, adashx.ut.ele.me, reject
 host, adashx.ut.hzshudian.com, reject
 host, adashx.ut.youku.com, reject
