@@ -22,6 +22,7 @@ host, adashx.ut.youku.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, adobemobiledev.data.adobedc.net, reject
+host, adproxy.autohome.com.cn, reject
 host, ads-api.twitter.com, reject
 host, ads.adfox.ru, reject
 host, ads.pubmatic.com, reject
@@ -286,6 +287,7 @@ host, www.qchannel01.cn, reject
 host, www.sinawap.com, reject
 host, www.tns-counter.ru, reject
 host, x.bidswitch.net, reject
+host, yun.duiba.com.cn, reject
 host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
