@@ -1,6 +1,8 @@
+host, ai.cn, OpenAI
 host, o64374.ingest.sentry.io, OpenAI
 host-suffix, ai.com, OpenAI
 host-suffix, auth0.com, OpenAI
+host-suffix, challenges.cloudflare.com, OpenAI
 host-suffix, client-api.arkoselabs.com, OpenAI
 host-suffix, events.statsigapi.net, OpenAI
 host-suffix, featuregates.org, OpenAI
@@ -9,4 +11,6 @@ host-suffix, intercom.io, OpenAI
 host-suffix, intercomcdn.com, OpenAI
 host-suffix, poe.com, OpenAI
 host-suffix, stripe.com, OpenAI
+host-suffix, oaistatic.com, OpenAI
+host-suffix, oaiusercontent.com, OpenAI
 host-keyword, openai, OpenAI
