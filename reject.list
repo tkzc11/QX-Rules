@@ -293,6 +293,7 @@ host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
 
+host-suffix, 8le8le.com, reject
 host-suffix, m1.ad.10010.com, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
@@ -301,10 +302,12 @@ host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, adsrvr.org, reject
 host-suffix, airpr.com, reject
+host-suffix, adxvip.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
+host-suffix, beizi.biz, reject
 host-suffix, branch.io, reject
 host-suffix, browser-intake-datadoghq.com, reject
 host-suffix, cedexis.com, reject
@@ -321,6 +324,7 @@ host-suffix, google-analytics.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
+host-suffix, hubcloud.com.cn, reject
 host-suffix, inmobi.com, reject
 host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
