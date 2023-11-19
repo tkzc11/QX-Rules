@@ -382,9 +382,6 @@ host-suffix, wootric.com, reject
 host-suffix, wowanalytics.co.uk, reject
 host-suffix, zoomanalytics.co, reject
 
-# 解除限制
-host-suffix, u3.ucweb.com, reject
-
 # 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net, reject
 host, hub5emu.v6.shub.sandai.net, reject
