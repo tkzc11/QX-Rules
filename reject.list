@@ -227,7 +227,6 @@ host, seoab.io, reject
 host, services.brightline.tv, reject
 host, sessions.bugsnag.com, reject
 host, shftr.adnxs.net, reject
-host, shrtm.nu, reject
 host, sis.jpush.io, reject
 host, skadnetworks.fyber.com, reject
 host, smetrics.aem.playstation.com, reject
@@ -380,6 +379,7 @@ host-suffix, vungle.com, reject
 host-suffix, woopra.com, reject
 host-suffix, wootric.com, reject
 host-suffix, wowanalytics.co.uk, reject
+host-suffix, zeus.top, reject
 host-suffix, zoomanalytics.co, reject
 
 # 避免迅雷版权问题
