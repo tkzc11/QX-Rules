@@ -4,6 +4,7 @@ host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
 host, a.beap.gemini.yahoo.com, reject
+host, a.orbsrv.com, reject
 host, a.pixiv.org, reject
 host, aa.agkn.com, reject
 host, abtest.alibaba.com, reject
@@ -23,6 +24,7 @@ host, adc-ad-assets.adtilt.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, adobemobiledev.data.adobedc.net, reject
 host, adproxy.autohome.com.cn, reject
+host, ads-a-darwin.hulustream.com, reject
 host, ads-api.twitter.com, reject
 host, ads.adfox.ru, reject
 host, ads.pubmatic.com, reject
@@ -210,6 +212,7 @@ host, qzs.gdtimg.com, reject
 host, rili.callmekeji.com, reject
 host, rp.hpplay.cn, reject
 host, rt.applovin.com, reject
+host, s.orbsrv.com, reject
 host, s3t3d2y7.ackcdn.net, reject
 host, sb.scorecardresearch.com, reject
 host, scaredsnakes.com, reject
@@ -324,19 +327,23 @@ host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
 host-suffix, hubcloud.com.cn, reject
+host-suffix, imrworldwide.com, reject
 host-suffix, inmobi.com, reject
 host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, litix.io, reject
+host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
+host-suffix, juicyads.com, reject
 host-suffix, miaozhen.com, reject
 host-suffix, mmstat.com, reject
 host-suffix, mparticle.com, reject
 host-suffix, mob.com, reject
 host-suffix, mutinycdn.com, reject
 host-suffix, n0909.com, reject
+host-suffix, newrelic.com, reject
 host-suffix, nexac.com, reject
 host-suffix, nr-data.net, reject
 host-suffix, optimizely.com, reject
@@ -373,6 +380,7 @@ host-suffix, tapad.com, reject
 host-suffix, tapfiliate.com, reject
 host-suffix, tapinfluence.com, reject
 host-suffix, tapstream.com, reject
+host-suffix, tealiumiq.com, reject
 host-suffix, tend.io, reject
 host-suffix, trackingio.com, reject
 host-suffix, tru.am, reject
