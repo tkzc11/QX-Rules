@@ -1,3 +1,5 @@
+host, akm.prd.media.h264.io
+host, beam-images.warnermediacdn.com
 host-suffix, bcbolthboa-a.akamaihd.net, HBO Max
 host-suffix, cinemax.com, HBO Max
 host-suffix, hbo.com, HBO Max
@@ -19,5 +21,6 @@ host-suffix, now.com, HBO Max
 host-suffix, nowe.com, HBO Max
 host-suffix, max.com, HBO Max
 host-suffix, api.discomax.com, HBO Max
+user-agent, HBO%20NOW*, HBO Max
 user-agent, HBOMAX*, HBO Max
 user-agent, MAX*, HBO Max

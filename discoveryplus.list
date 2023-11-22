@@ -7,10 +7,6 @@ host-suffix, discoveryplus.co.uk, Discovery+
 host-suffix, discoveryplus.com, Discovery+
 host-suffix, discoveryplus.in, Discovery+
 host-suffix, dnitv.com, Discovery+
-host-suffix, fwmrm.net, Discovery+
-host-suffix, getblueshift.com, Discovery+
-host-suffix, litix.io, Discovery+
-host-suffix, mobile-collector.newrelic.com, Discovery+
 host-suffix, uplynk.com, Discovery+
 host-keyword, discovery.uplynk.com, Discovery+
 user-agent, DPlus*, Discovery+
