@@ -171,7 +171,6 @@ host, log.umsns.com, reject
 host, logx.optimizely.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
-;host, ma-adx.ctrip.com, reject
 host, mc.yandex.ru, reject
 host, media.trafficjunky.com, reject
 host, metrics.icloud.com, reject
@@ -291,6 +290,7 @@ host, z.moatads.com, reject
 host, zem.outbrainimg.com, reject
 host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
+
 host-suffix, 8le8le.com, reject
 host-suffix, m1.ad.10010.com, reject
 host-suffix, ad.xiaomi.com, reject
