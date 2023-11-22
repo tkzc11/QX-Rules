@@ -216,8 +216,6 @@ host, s.orbsrv.com, reject
 host, s3t3d2y7.ackcdn.net, reject
 host, sb.scorecardresearch.com, reject
 host, scaredsnakes.com, reject
-host, sdk.fra-01.braze.eu, reject
-host, sdk.iad-03.braze.com, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, sdk.ssp.admobile.top, reject
@@ -310,6 +308,8 @@ host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, beizi.biz, reject
 host-suffix, branch.io, reject
+host-suffix, braze.com, reject
+host-suffix, braze.eu, reject
 host-suffix, browser-intake-datadoghq.com, reject
 host-suffix, cedexis.com, reject
 host-suffix, chartbeat.com, reject
