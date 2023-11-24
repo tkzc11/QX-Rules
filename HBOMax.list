@@ -1,5 +1,5 @@
-host, akm.prd.media.h264.io
-host, beam-images.warnermediacdn.com
+host, akm.prd.media.h264.io, HBO Max
+host, beam-images.warnermediacdn.com, HBO Max
 host-suffix, bcbolthboa-a.akamaihd.net, HBO Max
 host-suffix, cinemax.com, HBO Max
 host-suffix, hbo.com, HBO Max
