@@ -41,7 +41,7 @@ ip-cidr, 17.248.224.0/24, Singapore
 ip-cidr, 17.242.184.0/24, Singapore
 ip-cidr, 17.8.131.0/24, Singapore
 ip-cidr, 17.132.73.0/24, Singapore
-ip-cidr, 17.248.154.0, Singapore
+ip-cidr, 17.248.154.0/24, Singapore
 ip-cidr, 17.91.252.0/22, Singapore
 ip-cidr, 17.23.14.0/23, Singapore
 
