@@ -994,7 +994,7 @@ ip-cidr, 17.45.200.0/24, United States
 ip-cidr, 17.45.201.0/24, United States
 ip-cidr, 17.242.0.0/23, United States
 ip-cidr, 17.23.36.0/24, United States
-ip-cidr, 17.33.80.0, United States
+ip-cidr, 17.33.80.0/24, United States
 ip-cidr, 17.37.248.0/21, United States
 ip-cidr, 17.23.80.0/20, United States
 ip-cidr, 17.188.122.0/23, United States
