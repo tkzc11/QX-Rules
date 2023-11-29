@@ -1168,7 +1168,7 @@ ip-cidr, 17.237.0.0/19, United States
 ip-cidr, 17.112.4.0/22, United States
 ip-cidr, 17.112.8.0/22, United States
 ip-cidr, 17.183.192.0/18, United States
-ip-cidr, 17.216.19.0, United States
+ip-cidr, 17.216.19.0/24, United States
 ip-cidr, 17.216.24.0/22, United States
 ip-cidr, 17.216.32.0/21, United States
 ip-cidr, 17.91.132.0/22, United States
