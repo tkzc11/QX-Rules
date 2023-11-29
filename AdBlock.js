@@ -149,7 +149,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 # > 航旅纵横
 ^http:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
 ^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject
-^https?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ url script-response-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/hanglvzongheng.js
+^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
 # > 和风天气
 ^https:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\? url reject
 # > 盒马
