@@ -1191,14 +1191,14 @@ ip-cidr, 17.44.140.0/22, Canada
 ip-cidr, 17.23.34.0/24, Canada
 
 #MX
-ip-cidr, 17.50.72.0/21, Mexico
-ip-cidr, 17.45.80.0/21, Mexico
-ip-cidr, 17.50.48.0/21, Mexico
+;ip-cidr, 17.50.72.0/21, Mexico
+;ip-cidr, 17.45.80.0/21, Mexico
+;ip-cidr, 17.50.48.0/21, Mexico
 
 #BR
-ip-cidr, 17.48.30.0/24, Brazil
-ip-cidr, 17.48.16.0/21, Brazil
-ip-cidr, 17.43.176.0/21, Brazil
+;ip-cidr, 17.48.30.0/24, Brazil
+;ip-cidr, 17.48.16.0/21, Brazil
+;ip-cidr, 17.43.176.0/21, Brazil
 
 #DE
 ip-cidr, 17.0.99.0/24, Germany
