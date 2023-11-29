@@ -107,7 +107,7 @@ ip-cidr, 17.235.176.0/20, Australia
 ip-cidr, 17.248.183.0/24, Australia
 ip-cidr, 17.1.185.0/24, Australia
 ip-cidr, 17.248.252.0/24, Australia
-ip-cidr, 17.248.219.0, Australia
+ip-cidr, 17.248.219.0/24, Australia
 ip-cidr, 17.0.184.0/23, Australia
 ip-cidr, 17.23.39.0/24, Australia
 
@@ -144,7 +144,7 @@ ip-cidr, 17.15.20.0/22, India
 ip-cidr, 17.76.108.0, India
 ip-cidr, 17.248.153.0/24, India
 ip-cidr, 17.248.239.0/24, India
-ip-cidr, 17.23.66.0, India
+ip-cidr, 17.23.66.0/23, India
 ip-cidr, 144.178.37.0/24, India
 ip-cidr, 17.76.192.0/20, India
 ip-cidr, 17.76.208.0/20, India
