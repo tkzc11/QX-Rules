@@ -333,7 +333,9 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png url reject-img
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ url reject-img
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} url reject-img
-# > 腾讯QQ空间
+## QQ
+^https:\/\/v6ii\.gdt\.qq\.com\/api\/gdt\.display\.QQAdService\.GetAds url reject-dict
+## QQ空间
 ^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid url reject
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg url reject
 ^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid url reject
@@ -341,21 +343,21 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png url reject
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg url reject
 ^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ url reject
-# > 腾讯QQ音乐
+## QQ音乐
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ url reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/kg_ad/.*?\d{4}\.jpg url reject-img
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads url reject-img
-# > 腾讯手机管家
+## 腾讯手机管家
 ^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* url reject
-# > 腾讯体育
+## 腾讯体育
 ^https?:\/\/news\.ssp\.qq\.com\/app url reject
 ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png url reject
-# > 腾讯新闻
+## 腾讯新闻
 ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject
 ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) url reject
-# > 腾讯游戏
+## 腾讯游戏
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons url reject
-# > 腾讯游戏社区
+## 腾讯游戏社区
 ^https?:\/\/static\.gameplus\.qq\.com\/img\/\d{10}-\d{4}$ url reject
 # > 天气通
 ^https?+:\/\/tqt\.weibo\.cn\/.+?advert\.index url reject-200
@@ -486,8 +488,10 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 # > 中国建设银行
 ^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png url reject
 # > 中国移动
-^https:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
-^https:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject
+## 多个悬浮窗
+^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket url reject
 # > 中国移动云盘
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert url reject-200
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts url reject-200
