@@ -149,7 +149,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 # > 航旅纵横
 ^http:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
 ^http:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject
-^https?\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ url script-response-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/hanglvzongheng.js
+^https?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ url script-response-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/hanglvzongheng.js
 # > 和风天气
 ^https:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\? url reject
 # > 盒马
@@ -368,7 +368,7 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 # > 天星金融
 ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ url reject-200
 # > 天翼云盘
-^http:\/\/api\.cloud\.189\.cn\/guns\/img\/recommendedPosition url reject-dict
+^https?:\/\/api\.cloud\.189\.cn\/guns\/img\/recommendedPosition url reject-dict
 # > 同程旅行
 ^https:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ url reject
 
