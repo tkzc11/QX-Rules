@@ -4,13 +4,14 @@ host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
 host, a.beap.gemini.yahoo.com, reject
-host, a.orbsrv.com, reject
 host, a.pixiv.org, reject
 host, aa.agkn.com, reject
 host, abtest.alibaba.com, reject
 host, abtest-tx-beijing-01.saas.sensorsdata.cn, reject
 host, acsbap.com, reject
 host, ad-delivery.net, reject
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
 host, ad.bczcdn.com, reject
 host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
@@ -23,6 +24,7 @@ host, adashx.ut.youku.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, apex.go.sonobi.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
+host, admarket.21cn.com, reject
 host, adobemobiledev.data.adobedc.net, reject
 host, adproxy.autohome.com.cn, reject
 host, ads-api.twitter.com, reject
@@ -32,6 +34,7 @@ host, adserver.adtech.advertising.com, reject
 host, adservice.sigmob.cn, reject
 host, adservice.google.com, reject
 host, adservice.google.ru, reject
+host, adshows.21cn.com, reject
 host, adtag.sphdigital.com, reject
 host, advertise.baicizhan.com, reject
 host, advertise.baicizhan.org, reject
@@ -45,7 +48,6 @@ host, api.apptentive.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
 host, api.sprig.com, reject
-host, api-access.pangolin-sdk-toutiao.com, reject
 host, api-access.pangolin-sdk-toutiao-b.com, reject
 host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
@@ -65,6 +67,7 @@ host, app-alpha.bytedance.net, reject
 host, app-analytics-v2.snapchat.com, reject
 host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
+host, basejumper.apple.com, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
 host, bh.contextweb.com, reject
@@ -112,6 +115,7 @@ host, creativecdn.com, reject
 host, cu-cn-north00002.gala.convection.cn, reject
 host, dashboard.tinypass.com, reject
 host, data.flurry.com, reject
+host, data.mistat.xiaomi.com, reject
 host, dc.services.visualstudio.com, reject
 host, dcf.espn.com, reject
 host, device-metrics-us.amazon.com, reject
@@ -153,6 +157,7 @@ host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ib.adnxs.com, reject
 host, ib.snssdk.com, reject
 host, ice.360yield.com, reject
+host, ichnaea-web.netflix.com, reject
 host, id.cxense.com, reject
 host, id.geistm.com, reject
 host, id5-sync.com, reject
@@ -218,7 +223,6 @@ host, rili.callmekeji.com, reject
 host, rp.hpplay.cn, reject
 host, rt.applovin.com, reject
 host, s.deepl.com, reject
-host, s.orbsrv.com, reject
 host, s3t3d2y7.ackcdn.net, reject
 host, sanalytics.disneyplus.com, reject
 host, sb.scorecardresearch.com, reject
@@ -275,11 +279,13 @@ host, tosv.byted.org, reject
 host, tpc.googlesyndication.com, reject
 host, tr.snapchat.com, reject
 host, tracker.nbcuas.com, reject
+host, tracking.intl.miui.com, reject
 host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, visitor.omnitagjs.com, reject
+host,  waapdg.jd.com, reject
 host, w3-reporting.reddit.com, reject
 host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
@@ -302,7 +308,7 @@ host, zgsdk.zhugeio.com, reject
 host, zhihu-web-analytics.zhihu.com, reject
 
 host-suffix, 8le8le.com, reject
-host-suffix, m1.ad.10010.com, reject
+host-suffix, ad.10010.com, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
 host-suffix, adkwai.com, reject
@@ -329,6 +335,7 @@ host-suffix, cookielaw.org, reject
 host-suffix, cpatrk.net, reject
 host-suffix, conviva.com, reject
 host-suffix, dewrain.life, reject
+host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, doubleverify.com, reject
 host-suffix, everestop.io, reject
@@ -351,7 +358,6 @@ host-suffix, litix.io, reject
 host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
-host-suffix, juicyads.com, reject
 host-suffix, miaozhen.com, reject
 host-suffix, mmstat.com, reject
 host-suffix, mparticle.com, reject
