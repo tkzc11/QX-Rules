@@ -29,7 +29,7 @@
 # > 爱思助手
 ^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
 # > 澳门 电召 Plus
-^http:\/\/8\.134\.10\.48:8080\/prod-api\/app\/advert\/list\?adPage=travel url reject 
+^http:\/\/8\.134\.10\.48:8080\/prod-api\/app\/advert\/list\?adPage=travel url reject
 # > 澳觅
 ^https:\/\/interface\.aomiapp\.com\/aomi-ads url reject
 
