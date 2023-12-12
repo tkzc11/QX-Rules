@@ -28,8 +28,8 @@
 ^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 url reject-dict
 # > 爱思助手
 ^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
-# > 澳门电召
-^http:\/\/182\.93\.34\.74:5992\/taxi\/passenger\/advertisementinfo\.xml url reject
+# > 澳门 电召 Plus
+^http:\/\/8\.134\.10\.48:8080\/prod-api\/app\/advert\/list\?adPage=travel url reject 
 # > 澳觅
 ^https:\/\/interface\.aomiapp\.com\/aomi-ads url reject
 
@@ -385,8 +385,6 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^https:\/\/m\.you\.163\.com\/activity\/popWindow url reject
 ^https:\/\/yanxuan\.nosdn.127.net\/(static-union\/)?.*\.gif url reject
 ^https:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 url reject
-# > 网易有钱
-^https:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds url reject-200
 # > 网易邮箱
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject
 ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) url reject
