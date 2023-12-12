@@ -28,8 +28,6 @@
 ^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 url reject-dict
 # > 爱思助手
 ^https:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
-# > 澳门 电召 Plus
-^http:\/\/8\.134\.10\.48:8080\/prod-api\/app\/advert\/list\?adPage=travel url reject
 # > 澳觅
 ^https:\/\/interface\.aomiapp\.com\/aomi-ads url reject
 
@@ -44,7 +42,7 @@
 ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/update\.pan\.baidu\.com\/statistics\? url reject-dict
 # > 百度文库
-^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
+^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200htt
 # > 北京首汽
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
 # > 必胜客
