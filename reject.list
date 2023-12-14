@@ -406,6 +406,7 @@ host-suffix, tapinfluence.com, reject
 host-suffix, tapstream.com, reject
 host-suffix, tealiumiq.com, reject
 host-suffix, tend.io, reject
+host-suffix, track.miui.com, reject
 host-suffix, trackingio.com, reject
 host-suffix, tru.am, reject
 host-suffix, unityads.unity.cn, reject
