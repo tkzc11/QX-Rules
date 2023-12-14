@@ -42,7 +42,7 @@
 ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/update\.pan\.baidu\.com\/statistics\? url reject-dict
 # > 百度文库
-^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200htt
+^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
 # > 北京首汽
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
 # > 必胜客
