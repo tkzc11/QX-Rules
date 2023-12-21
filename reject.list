@@ -16,6 +16,7 @@ host, ad.bczcdn.com, reject
 host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
 host, ad.wsod.com, reject
+host, ad.zijieapi.com, reject
 host, adashbc.ut.taobao.com, reject
 host, adashx.m.taobao.com, reject
 host, adashx.ut.ele.me, reject
@@ -27,6 +28,7 @@ host, adf0901f1861.cdn4.forter.com, reject
 host, admarket.21cn.com, reject
 host, adobemobiledev.data.adobedc.net, reject
 host, adproxy.autohome.com.cn, reject
+host, adsmind.gdtimg.com, reject
 host, ads-api.twitter.com, reject
 host, ads.adfox.ru, reject
 host, ads.pubmatic.com, reject
@@ -68,6 +70,7 @@ host, app-analytics-v2.snapchat.com, reject
 host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, basejumper.apple.com, reject
+host, bcp.crwdcntrl.net, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
 host, bh.contextweb.com, reject
@@ -104,6 +107,7 @@ host, cnam4c-skadsdkless.appsflyersdk.com, reject
 host, co.dewrain.life, reject
 host, co.vaicore.xyz, reject
 host, code.yengo.com, reject
+host, collector.polarr.co, reject
 host, collector.sophi.io, reject
 host, comet.yahoo.com, reject
 host, counter.yadro.ru, reject
@@ -148,6 +152,7 @@ host, h-adashx.ut.ele.me, reject
 host, h-adashx.ut.cainiao.com, reject
 host, h-adashx.ut.hzshudian.com, reject
 host, h-adashx.ut.taobao.com, reject
+host, hb.minutemedia-prebid.com, reject
 host, httpdns.bcelive.com, reject
 host, httpdns.kwd.inkuai.com, reject
 host, httpdns.yunxindns.com, reject
@@ -207,6 +212,7 @@ host, personalization.bloomberg.com, reject
 host, pi.ispot.tv, reject
 host, ping.chartbeat.net, reject
 host, pixel.adsafeprotected.com, reject
+host, pixel.wp.com, reject
 host, pixel.zprk.io, reject
 host, pixel-us-east.rubiconproject.com, reject
 host, pixoctopus.pixnet.net, reject
@@ -243,6 +249,7 @@ host, skadnetworks.fyber.com, reject
 host, smetrics.aem.playstation.com, reject
 host, snap.licdn.com, reject
 host, sofire.baidu.com, reject
+host, spider-tracker.xiaohongshu.com, reject
 host, sqdd.myapp.com, reject
 host, srtb.msn.com, reject
 host, ssbsync.smartadserver.com, reject
@@ -266,6 +273,7 @@ host, sync.outbrain.com, reject
 host, sync-jp.im-apps.net, reject
 host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
+host, tags.crwdcntrl.net, reject
 host, tags.tiqcdn.com, reject
 host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
@@ -318,6 +326,7 @@ host-suffix, ads-pixiv.net, reject
 host-suffix, adsrvr.org, reject
 host-suffix, airpr.com, reject
 host-suffix, adxvip.com, reject
+host-suffix, albtls.t.co, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
