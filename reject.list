@@ -117,6 +117,7 @@ host, control.kochava.com, reject
 host, crashlyticsreports-pa.googleapis.com, reject
 host, creativecdn.com, reject
 host, cu-cn-north00002.gala.convection.cn, reject
+host, da.mmarket.com, reject
 host, dashboard.tinypass.com, reject
 host, data.flurry.com, reject
 host, data.mistat.xiaomi.com, reject
@@ -184,9 +185,11 @@ host, jnn-pa.googleapis.com, reject
 host, js.monitor.azure.com, reject
 host, kuaishou.httpdns.pro, reject
 host, log.b612kaji.com, reject
-host, logs.chelaile.net.cn, reject
 host, log.umsns.com, reject
+host, logs.chelaile.net.cn, reject
 host, logx.optimizely.com, reject
+host, log1.cmpassport.com, reject
+host, log2.cmpassport.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
 host, mc.yandex.ru, reject
