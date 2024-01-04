@@ -17,11 +17,13 @@ host, ad.cyapi.cn, reject
 host, ad.turn.com, reject
 host, ad.wsod.com, reject
 host, ad.zijieapi.com, reject
+host, adapi.izuiyou.com, reject
 host, adashbc.ut.taobao.com, reject
 host, adashx.m.taobao.com, reject
 host, adashx.ut.ele.me, reject
 host, adashx.ut.hzshudian.com, reject
 host, adashx.ut.youku.com, reject
+host, adashxgc.ut.taobao.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, apex.go.sonobi.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
@@ -41,6 +43,7 @@ host, adtag.sphdigital.com, reject
 host, advertise.baicizhan.com, reject
 host, advertise.baicizhan.org, reject
 host, alb.reddit.com, reject
+host, ali-ad.a.yximgs.com, reject
 host, analytics.cloud.coveo.com, reject
 host, analytics.slashdotmedia.com, reject
 host, analytics.starz.com, reject
