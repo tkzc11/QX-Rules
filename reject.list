@@ -25,7 +25,11 @@ host, adashx.ut.hzshudian.com, reject
 host, adashx.ut.youku.com, reject
 host, adashxgc.ut.taobao.com, reject
 host, adc-ad-assets.adtilt.com, reject
+host, adcdn.tencentmusic.com, reject
+host, adcdn6.tencentmusic.com, reject
+host, adclick.tencentmusic.com, reject
 host, apex.go.sonobi.com, reject
+host, adexpo.tencentmusic.com, reject
 host, adf0901f1861.cdn4.forter.com, reject
 host, admarket.21cn.com, reject
 host, adobemobiledev.data.adobedc.net, reject
@@ -40,6 +44,7 @@ host, adservice.google.com, reject
 host, adservice.google.ru, reject
 host, adshows.21cn.com, reject
 host, adtag.sphdigital.com, reject
+host, adstats.tencentmusic.com, reject
 host, advertise.baicizhan.com, reject
 host, advertise.baicizhan.org, reject
 host, alb.reddit.com, reject
@@ -212,6 +217,7 @@ host, networksdk.ssacdn.com, reject
 host, ns.zdbb.net, reject
 host, nt2.ele.me, reject
 host, ocean.sankuai.com, reject
+host, oth.str.mdt.qq.com, reject
 host, p1.pstatp.com, reject
 host, p9.pstatp.com, reject
 host, pagead2.googlesyndication.com, reject
@@ -242,6 +248,7 @@ host, s3t3d2y7.ackcdn.net, reject
 host, sanalytics.disneyplus.com, reject
 host, sb.scorecardresearch.com, reject
 host, scaredsnakes.com, reject
+host, sdk.e.qq.com, reject
 host, sdk.open.talk.gepush.com, reject
 host, sdk.open.talk.igexin.com, reject
 host, sdk.ssp.admobile.top, reject
@@ -284,6 +291,7 @@ host, sysdk.cl2009.com, reject
 host, t.appsflyer.com, reject
 host, tags.crwdcntrl.net, reject
 host, tags.tiqcdn.com, reject
+host, tangram.e.qq.com, reject
 host, tcbox.baidu.com, reject
 host, tdsdk.xdrig.com, reject
 host, tdsdk-ip6.xdrig.com, reject
@@ -302,7 +310,7 @@ host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, visitor.omnitagjs.com, reject
-host,  waapdg.jd.com, reject
+host, waapdg.jd.com, reject
 host, w3-reporting.reddit.com, reject
 host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
@@ -367,6 +375,7 @@ host-suffix, hs-analytics.net, reject
 host-suffix, hscollectedforms.net, reject
 host-suffix, hubcloud.com.cn, reject
 host-suffix, imrworldwide.com, reject
+host-suffix, imtmp.net, reject
 host-suffix, inmobi.com, reject
 host-suffix, innovid.com, reject
 host-suffix, ipinyou.com, reject
