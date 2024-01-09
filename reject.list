@@ -206,6 +206,8 @@ host, mon.snssdk.com, reject
 host, mparticle.weather.com, reject
 host, msg.umengcloud.com, reject
 host, mtrace.qq.com, reject
+host, mtteve.beacon.qq.com, reject
+host, mttstr.beacon.qq.com, reject
 host, networksdk.ssacdn.com, reject
 host, ns.zdbb.net, reject
 host, nt2.ele.me, reject
@@ -217,6 +219,7 @@ host, pangolin.snssdk.com, reject
 host, personalization.bloomberg.com, reject
 host, pi.ispot.tv, reject
 host, ping.chartbeat.net, reject
+host, pingfore.qq.com, reject
 host, pixel.adsafeprotected.com, reject
 host, pixel.wp.com, reject
 host, pixel.zprk.io, reject
