@@ -20,10 +20,11 @@ host, ad.zijieapi.com, reject
 host, adapi.izuiyou.com, reject
 host, adashbc.ut.taobao.com, reject
 host, adashx.m.taobao.com, reject
+host, adashxgc.ut.taobao.com, reject
+host, adashx.ut.amap.com, reject
 host, adashx.ut.ele.me, reject
 host, adashx.ut.hzshudian.com, reject
 host, adashx.ut.youku.com, reject
-host, adashxgc.ut.taobao.com, reject
 host, adc-ad-assets.adtilt.com, reject
 host, adcdn.tencentmusic.com, reject
 host, adcdn6.tencentmusic.com, reject
@@ -58,6 +59,7 @@ host, api.apptentive.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
 host, api.sprig.com, reject
+host, api-access.pangolin-sdk-toutiao.com, reject
 host, api-access.pangolin-sdk-toutiao-b.com, reject
 host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
@@ -96,6 +98,7 @@ host, c2shb.ssp.yahoo.com, reject
 host, cdn.acsbapp.com, reject
 host, cdn.confiant-integrations.net, reject
 host, cdn.mobilefuse.com, reject
+host, cdn.quantummetric.com, reject
 host, cdn.segment.com, reject
 host, cdn.sophi.io, reject
 host, cdn.tinypass.com, reject
@@ -131,6 +134,7 @@ host, data.flurry.com, reject
 host, data.mistat.xiaomi.com, reject
 host, dc.services.visualstudio.com, reject
 host, dcf.espn.com, reject
+host, dev.visualwebsiteoptimizer.com, reject
 host, device-metrics-us.amazon.com, reject
 host, device-metrics-us-2.amazon.com, reject
 host, dig.bdurl.net, reject
@@ -141,7 +145,7 @@ host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
 host, dsb.yahoo.co.jp, reject
 host, douyinhelper.com, reject
-host, dpm.demdex.net , reject
+host, dpm.demdex.net, reject
 host, dynamic.zol.com.cn, reject
 host, edge.ads.twitch.tv, reject
 host, ef-dongfeng.tanx.com, reject
@@ -157,10 +161,12 @@ host, fls-na.amazon.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, freestar-io.videoplayerhub.com, reject
 host, geo.yahoo.com, reject
+host, geo.query.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
 host, h-adashx.ut.cainiao.com, reject
 host, h-adashx.ut.hzshudian.com, reject
 host, h-adashx.ut.taobao.com, reject
+host, h-sdk.online-metrix.net, reject
 host, hb.minutemedia-prebid.com, reject
 host, httpdns.bcelive.com, reject
 host, httpdns.kwd.inkuai.com, reject
@@ -182,7 +188,7 @@ host, imdns.hpplay.cn, reject
 host, info.sony-semicon.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
-host, int.akisinn.site , reject
+host, int.akisinn.site, reject
 host, int.dewrain.world, reject
 host, int.vaicore.site, reject
 host, int.vaicore.store, reject
@@ -192,14 +198,17 @@ host, is.snssdk.com, reject
 host, jnn-pa.googleapis.com, reject
 host, js.monitor.azure.com, reject
 host, kuaishou.httpdns.pro, reject
+host, lf3-hscdn-tos.pstatp.com, reject
 host, log.b612kaji.com, reject
 host, log.umsns.com, reject
+host, loggw-ex.alipay.com, reject
 host, logs.chelaile.net.cn, reject
 host, logx.optimizely.com, reject
 host, log1.cmpassport.com, reject
 host, log2.cmpassport.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
+host, mazu.m.qq.com, reject
 host, mc.yandex.ru, reject
 host, media.trafficjunky.com, reject
 host, metrics.icloud.com, reject
@@ -208,6 +217,7 @@ host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
 host, mon.isnssdk.com, reject
 host, mon.snssdk.com, reject
+host, monitor.music.qq.com, reject
 host, mparticle.weather.com, reject
 host, msg.umengcloud.com, reject
 host, mtrace.qq.com, reject
@@ -281,8 +291,8 @@ host, stats.appsflyer.com, reject
 host, stats.fifthstarlabs.io, reject
 host, statusf.digitalcertvalidation.com, reject
 host, stocks-analytics-events.apple.com, reject
-host, stun.ideasip.com , reject
-host, stun.stunprotocol.org , reject
+host, stun.ideasip.com, reject
+host, stun.stunprotocol.org, reject
 host, stun.voiparound.com, reject
 host, sync.crwdcntrl.net, reject
 host, sync.outbrain.com, reject
@@ -308,6 +318,7 @@ host, tracking.intl.miui.com, reject
 host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
 host, unagi-na.amazon.com, reject
+host, uri6.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, visitor.omnitagjs.com, reject
 host, waapdg.jd.com, reject
@@ -382,6 +393,7 @@ host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, litix.io, reject
+host-suffix, log.mgtv.com
 host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
