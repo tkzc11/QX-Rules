@@ -393,7 +393,7 @@ host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, litix.io, reject
-host-suffix, log.mgtv.com
+host-suffix, log.mgtv.com, reject
 host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
