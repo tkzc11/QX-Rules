@@ -67,6 +67,7 @@ host, api-eu.mixpanel.com, reject
 host, api-fc.dutils.com, reject
 host, api.statsig.com, reject
 host, apis.alenable.com, reject
+host, api2.amplitude.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
 host, app.adjust.world, reject
@@ -269,6 +270,7 @@ host, segment-data-us-east.zqtk.net, reject
 host, seoab.io, reject
 host, services.brightline.tv, reject
 host, sessions.bugsnag.com, reject
+host, settings-win.data.microsoft.com, reject
 host, shftr.adnxs.net, reject
 host, sis.jpush.io, reject
 host, skadnetworks.fyber.com, reject
@@ -314,6 +316,7 @@ host, tosv.byted.org, reject
 host, tpc.googlesyndication.com, reject
 host, tr.snapchat.com, reject
 host, tracker.nbcuas.com, reject
+host, tracking.epicgames.com, reject
 host, tracking.intl.miui.com, reject
 host, turbo.adsbynimbus.com, reject
 host, ubt-sin.tripcdn.com, reject
