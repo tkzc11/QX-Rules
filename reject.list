@@ -243,6 +243,8 @@ host, log1.cmpassport.com, reject
 host, log2.cmpassport.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
+host, mask.icloud.com, reject
+host, mask-api.icloud.com, reject
 host, mazu.m.qq.com, reject
 host, mc.yandex.ru, reject
 host, media.trafficjunky.com, reject
