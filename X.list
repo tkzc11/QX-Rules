@@ -2,16 +2,15 @@ ip-asn, 13414, X
 ip-asn, 35995, X
 ip-asn, 54888, X
 ip-asn, 63179, X
+host, platform.twitter.com, X
 host, x.com, X
 host-suffix, ads-twitter.com, X
 host-suffix, cms-twdigitalassets.com, X
 host-suffix, periscope.tv, X
-;host-suffix, pscp.tv, X
 host-suffix, twimg.com, X
 host-suffix, twitpic.com, X
 host-suffix, twitter.biz, X
 host-suffix, twittercommunity.com, X
 host-suffix, twitterflightschool.com, X
 host-suffix, twitteroauth.com, X
-host-suffix, twtrdns.net, X
-;host-suffix, vine.co, X
+
