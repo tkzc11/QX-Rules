@@ -457,7 +457,6 @@ host-suffix, fivecdm.com, reject
 host-suffix, footprintdns.com, reject
 host-suffix, getui.com, reject
 host-suffix, getui.net, reject
-host-suffix, gm.mob.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, hotjar.com, reject
 host-suffix, hotjar.io, reject
