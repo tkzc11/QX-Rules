@@ -396,6 +396,7 @@ host, waapdg.jd.com, reject
 host, w3-reporting.reddit.com, reject
 host, w3-reporting-nel.reddit.com, reject
 host, weather-analytics-events.apple.com, reject
+host, websitereview.corp.apple.com, reject
 host, wgo.mmstat.com, reject
 host, who.nie.easebar.com, reject
 host, wkrd.tingyun.com, reject
