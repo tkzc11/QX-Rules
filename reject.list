@@ -203,6 +203,7 @@ host, httpdns.kwd.inkuai.com, reject
 host, httpdns.yunxindns.com, reject
 host, hub5p.mypikpak.com, reject
 host, hub5pnc.mypikpak.com, reject
+host, i.clean.gg, reject
 host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ia.51.la, reject
 host, ib.adnxs.com, reject
@@ -227,6 +228,7 @@ host, int.vaicore.store, reject
 host, int.vaicore.xyz, reject
 host, ipgeo.wlvpn.com, reject
 host, is.snssdk.com, reject
+host, jac.yahoosandbox.com, reject
 host, jnn-pa.googleapis.com, reject
 host, js.monitor.azure.com, reject
 host, kgb-ifs.tanx.com, reject
