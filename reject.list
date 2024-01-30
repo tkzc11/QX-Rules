@@ -3,7 +3,6 @@ host, 240e-925-2-400-8000--100.volcsiriusbd.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
 host, 2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
 host, a1.api.bbc.co.uk, reject
-host, a.beap.gemini.yahoo.com, reject
 host, a.pixiv.org, reject
 host, aa.agkn.com, reject
 host, abtest.alibaba.com, reject
@@ -188,7 +187,6 @@ host, fls-eu.amazon.com, reject
 host, fls-na.amazon.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, freestar-io.videoplayerhub.com, reject
-host, g.cn.miaozhen.com, reject
 host, geo.yahoo.com, reject
 host, geo.query.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
@@ -422,6 +420,7 @@ host-suffix, 8le8le.com, reject
 host-suffix, ad.10010.com, reject
 host-suffix, ad.xiaomi.com, reject
 host-suffix, adcolony.com, reject
+host-suffix, adfarm1.adition.com, reject
 host-suffix, adkwai.com, reject
 host-suffix, adobedtm.com, reject
 host-suffix, ads.linkedin.com, reject
@@ -434,11 +433,13 @@ host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
+host-suffix, beap.gemini.yahoo.com, reject
 host-suffix, beizi.biz, reject
 host-suffix, branch.io, reject
 host-suffix, braze.com, reject
 host-suffix, braze.eu, reject
 host-suffix, browser-intake-datadoghq.com, reject
+host-suffix, btrll.com, reject
 host-suffix, bugly.qq.com, reject
 host-suffix, cedexis.com, reject
 host-suffix, chartbeat.com, reject
