@@ -95,6 +95,7 @@ host, basejumper.apple.com, reject
 host, bcp.crwdcntrl.net, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
+host, beap-bc.yahoo.com, reject
 host, bh.contextweb.com, reject
 host, books-analytics-events.apple.com, reject
 host, btloader.com, reject
@@ -433,6 +434,7 @@ host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
 host-suffix, appsflyer.com, reject
+host-suffix, beap.bc.yahoo.com, reject
 host-suffix, beap.gemini.yahoo.com, reject
 host-suffix, beizi.biz, reject
 host-suffix, branch.io, reject
