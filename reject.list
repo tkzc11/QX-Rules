@@ -379,6 +379,7 @@ host, tosv.byted.org, reject
 host, tpc.googlesyndication.com, reject
 host, tr.snapchat.com, reject
 host, track.uc.cn, reject
+host, track.uhomes.com, reject
 host, tracker.nbcuas.com, reject
 host, tracking.epicgames.com, reject
 host, tracking.intl.miui.com, reject
