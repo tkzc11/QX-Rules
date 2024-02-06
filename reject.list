@@ -453,6 +453,7 @@ host-suffix, cnzz.com, reject
 host-suffix, cookielaw.org, reject
 host-suffix, cpatrk.net, reject
 host-suffix, conviva.com, reject
+host-suffix, d.meituan.net, reject
 host-suffix, dewrain.life, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
