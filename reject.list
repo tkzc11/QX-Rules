@@ -272,6 +272,7 @@ host, networksdk.ssacdn.com, reject
 host, new-aaid.umeng.com.gds.alibabadns.com, reject
 host, nie.netease.com, reject
 host, nisgd4.10010.com, reject
+host, notify.bugsnag.com, reject
 host, ns.zdbb.net, reject
 host, nsclick.baidu.com, reject
 host, nt2.ele.me, reject
