@@ -76,6 +76,7 @@ host, api-fc.dutils.com, reject
 host, api.rollbar.com, reject
 host, api.statsig.com, reject
 host, apis.alenable.com, reject
+host, api16-access-sg.pangle.io, reject
 host, api2.amplitude.com, reject
 host, app.adjust.com, reject
 host, app.adjust.net.in, reject
@@ -333,6 +334,7 @@ host, seoab.io, reject
 host, services.brightline.tv, reject
 host, sessions.bugsnag.com, reject
 host, settings-win.data.microsoft.com, reject
+host, sf16-static.i18n-pglstatp.com, reject
 host, shftr.adnxs.net, reject
 host, sis.jpush.io, reject
 host, skadnetworks.fyber.com, reject
@@ -374,6 +376,7 @@ host, tdsdk-ip6.xdrig.com, reject
 host, telemetry-in.battle.net, reject
 host, test.wemiquan.com, reject
 host, tms.fmm.io, reject
+host, tnc16-alisg.isnssdk.com, reject
 host, tobapplog.ctobsnssdk.com, reject
 host, toblog.ctobsnssdk.com, reject
 host, tosv.byted.org, reject
@@ -534,6 +537,7 @@ host-suffix, tealiumiq.com, reject
 host-suffix, tend.io, reject
 host-suffix, track.miui.com, reject
 host-suffix, trackingio.com, reject
+host-suffix, tradplusad.com, reject
 host-suffix, tru.am, reject
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
