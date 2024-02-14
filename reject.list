@@ -209,6 +209,7 @@ host, i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
 host, ia.51.la, reject
 host, ib.adnxs.com, reject
 host, ib.snssdk.com, reject
+host, ibd-as-api.iq.com, reject
 host, ice.360yield.com, reject
 host, ichnaea-web.netflix.com, reject
 host, id.cxense.com, reject
