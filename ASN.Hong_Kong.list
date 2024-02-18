@@ -1,10 +1,14 @@
-#广播
+#US
 ip-asn, 16625, Hong Kong
 ip-asn, 20940, Hong Kong
 ip-asn, 35994, Hong Kong
 ;ip-asn, 36183, Hong Kong
 ip-asn, 64021, Hong Kong
-#原生
+#CN
+ip-asn, 64021, Hong Kong
+ip-asn, 152186, Hong Kong
+ip-asn, 152320, Hong Kong
+#HK
 ip-asn, 2042, Hong Kong
 ip-asn, 3363, Hong Kong
 ip-asn, 3661, Hong Kong
