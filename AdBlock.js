@@ -4,10 +4,8 @@
 # > 12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
 # > 12306
-^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
-^https:\/\/ad\.12306\.cn\/(ad\/mon\/mzc\?|res\/adfiles\/delivery\/) url reject
-^https:\/\/mobile\.12306\.cn\/otsmobile\/h5\/otsbussiness\/travelPageImg\/ url reject
-^https:\/\/mobile\.12306\.cn\/otsmobile\/ url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
+^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ url script-analyze-echo-response https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
+^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
 # > 58同城
 ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ url reject
@@ -41,9 +39,9 @@
 # > 百度跳转(by Fokit)
 ^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url request-header (\r\n)User-Agent:.+iPhone.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
 # > 百度网盘
-^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? url reject-dict
-^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/update\.pan\.baidu\.com\/statistics\? url reject-dict
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|act\/v2\/|rest\/2\.0\/pcs\/ad) url reject-dict
+^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
 # > 百度文库
 ^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
 # > 北京首汽
