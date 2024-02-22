@@ -51,6 +51,7 @@ host, adtag.sphdigital.com, reject
 host, adstats.tencentmusic.com, reject
 host, advertise.baicizhan.com, reject
 host, advertise.baicizhan.org, reject
+host, aedns.weixin.qq.com, reject
 host, alb.reddit.com, reject
 host, ali-ad.a.yximgs.com, reject
 host, ali-stats.jpush.cn, reject
@@ -138,6 +139,7 @@ host, code.yengo.com, reject
 host, collector.polarr.co, reject
 host, collector.sophi.io, reject
 host, comet.yahoo.com, reject
+host, config.jpush-ipv6.cn
 host, counter.yadro.ru, reject
 host, conduit.redfast.com, reject
 host, conf.hpplay.cn, reject
@@ -190,6 +192,7 @@ host, fls-na.amazon.com, reject
 host, fp-it.fengkongcloud.com, reject
 host, freestar-io.videoplayerhub.com, reject
 host, geo.yahoo.com, reject
+host, geo.privacymanager.io, reject
 host, geo.query.yahoo.com, reject
 host, h-adashx.ut.ele.me, reject
 host, h-adashx.ut.cainiao.com, reject
