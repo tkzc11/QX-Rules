@@ -139,7 +139,7 @@ host, code.yengo.com, reject
 host, collector.polarr.co, reject
 host, collector.sophi.io, reject
 host, comet.yahoo.com, reject
-host, config.jpush-ipv6.cn
+host, config.jpush-ipv6.cn, reject
 host, counter.yadro.ru, reject
 host, conduit.redfast.com, reject
 host, conf.hpplay.cn, reject
