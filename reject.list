@@ -251,10 +251,12 @@ host, log1.cmpassport.com, reject
 host, log2.cmpassport.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
+host, mam-talker-api.tvb.com, reject
 host, mask.icloud.com, reject
 host, mask-api.icloud.com, reject
 host, mazu.m.qq.com, reject
 host, mc.yandex.ru, reject
+host, me-client.eservice.emarsys.net, reject
 host, media.trafficjunky.com, reject
 host, metrics.icloud.com, reject
 host, mmstl-tianhe.tanx.com, reject
@@ -325,6 +327,7 @@ host, s-gm.mmstat.com, reject
 host, s3t3d2y7.ackcdn.net, reject
 host, sanalytics.disneyplus.com, reject
 host, sb.scorecardresearch.com, reject
+host, sb.voicefive.com, reject
 host, scaredsnakes.com, reject
 host, sdk.e.qq.com, reject
 host, sdk.open.talk.gepush.com, reject
