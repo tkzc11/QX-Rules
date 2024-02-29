@@ -58,6 +58,7 @@ host, ali-stats.jpush.cn, reject
 host, als.baidu.com, reject
 host, amdcopen.m.taobao.com, reject
 host, analytics.cloud.coveo.com, reject
+host, analytics.kongregate.io, reject
 host, analytics.map.qq.com, reject
 host, analytics.slashdotmedia.com, reject
 host, analytics.starz.com, reject
@@ -66,6 +67,7 @@ host, analytics.umetrip.com, reject
 host, api.apptentive.com, reject
 host, api.mixpanel.com, reject
 host, api.permutive.com, reject
+host, api.rollbar.com, reject
 host, api.sprig.com, reject
 host, api.tuisong.baidu.com, reject
 host, api-access.pangolin-sdk-toutiao.com, reject
@@ -74,7 +76,6 @@ host, api-ad.kajicam.com, reject
 host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
 host, api-fc.dutils.com, reject
-host, api.rollbar.com, reject
 host, api.statsig.com, reject
 host, apis.alenable.com, reject
 host, api16-access-sg.pangle.io, reject
@@ -93,7 +94,7 @@ host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, audid-api.taobao.com, reject
 host, baidubox-emoji.cdn.bcebos.com.a.bdydns.com, reject
-host, basejumper.apple.com, reject
+host, basejumper.apple.com //Empty DNS Result, reject
 host, bcp.crwdcntrl.net, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
@@ -116,6 +117,7 @@ host, cdn.ynuf.aliapp.org, reject
 host, cdn.confiant-integrations.net, reject
 host, cdn.exelator.com, reject
 host, cdn.mobilefuse.com, reject
+host, cdn.privacy-mgmt.com, reject
 host, cdn.quantummetric.com, reject
 host, cdn.segment.com, reject
 host, cdn.sophi.io, reject
@@ -129,6 +131,7 @@ host, cdp.cloud.unity3d.com, reject
 host, cf.prd.media.h264.io, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
+host, clue.oceanengine.com, reject
 host, cm.mgid.com, reject
 host, cm.rtbsystem.com, reject
 host, cms.quantserve.com, reject
@@ -166,6 +169,7 @@ host, disney.demdex.net, reject
 host, dit.whatsapp.net, reject
 host, dl-s.tripcdn.cn, reject
 host, dns.msftncsi.com, reject
+host, doh.iq.com, reject
 host, douyinhelper.com, reject
 host, dp.im.weibo.cn, reject
 host, dpm.demdex.net, reject
@@ -224,6 +228,7 @@ host, image8.pubmatic.com, reject
 host, imasdk.googleapis.com, reject
 host, imdns.hpplay.cn, reject
 host, info.sony-semicon.com, reject
+host, init.supersonicads.com, reject
 host, int.dewrain.site, reject
 host, int.akisinn.info, reject
 host, int.akisinn.site, reject
@@ -279,6 +284,7 @@ host, networksdk.ssacdn.com, reject
 host, new-aaid.umeng.com.gds.alibabadns.com, reject
 host, nie.netease.com, reject
 host, nisgd4.10010.com, reject
+host, notifications-gke.fyber.com, reject
 host, notify.bugsnag.com, reject
 host, ns.zdbb.net, reject
 host, nsclick.baidu.com, reject
@@ -324,6 +330,7 @@ host, rt.applovin.com, reject
 host, s.deepl.com, reject
 host, s.jpush.cn, reject
 host, s-gm.mmstat.com, reject
+host, s2s.t13.io, reject
 host, s3t3d2y7.ackcdn.net, reject
 host, sanalytics.disneyplus.com, reject
 host, sb.scorecardresearch.com, reject
@@ -414,6 +421,7 @@ host, wgo.mmstat.com, reject
 host, who.nie.easebar.com, reject
 host, wkrd.tingyun.com, reject
 host, wn.pos.baidu.com, reject
+host, wv.inner-active.mobi, reject
 host, woodpecker.uc.cn, reject
 host, ws.tapjoyads.com, reject
 host, wwads.cn, reject
@@ -442,11 +450,14 @@ host-suffix, ads.linkedin.com, reject
 host-suffix, ads-pixiv.net, reject
 host-suffix, adsrvr.org, reject
 host-suffix, airpr.com, reject
+host-suffix, adsbynimbus.com, reject
 host-suffix, adxvip.com, reject
 host-suffix, albtls.t.co, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, analytics.yahoo.com, reject
 host-suffix, anythinktech.com, reject
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, beap.bc.yahoo.com, reject
 host-suffix, beap.gemini.yahoo.com, reject
@@ -457,6 +468,7 @@ host-suffix, braze.eu, reject
 host-suffix, browser-intake-datadoghq.com, reject
 host-suffix, btrll.com, reject
 host-suffix, bugly.qq.com, reject
+host-suffix, c.appier.net, reject
 host-suffix, cedexis.com, reject
 host-suffix, chartbeat.com, reject
 host-suffix, clevertap-prod.com, reject
@@ -469,6 +481,7 @@ host-suffix, dewrain.life, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, doubleverify.com, reject
+host-suffix, eum-appdynamics.com, reject
 host-suffix, everestop.io, reject
 host-suffix, events.brightline.tv, reject
 host-suffix, fivecdm.com, reject
@@ -481,8 +494,8 @@ host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
 host-suffix, hscollectedforms.net, reject
 host-suffix, hubcloud.com.cn, reject
-host-suffix, imrworldwide.com, reject
 host-suffix, imtmp.net, reject
+host-suffix, imrworldwide.com, reject
 host-suffix, inmobi.com, reject
 host-suffix, innovid.com, reject
 host-suffix, ipinyou.com, reject
@@ -493,7 +506,9 @@ host-suffix, log.mgtv.com, reject
 host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
+host-suffix, marketingcloudapis.com, reject
 host-suffix, miaozhen.com, reject
+host-suffix, mediation.unity3d.com, reject
 host-suffix, mparticle.com, reject
 host-suffix, mob.com, reject
 host-suffix, mobilelog.upqzfile.com, reject
@@ -512,6 +527,7 @@ host-suffix, parrable.com, reject
 host-suffix, petametrics.com, reject
 host-suffix, predic.io, reject
 host-suffix, pub.network, reject
+host-suffix, pubapp.network, reject
 host-suffix, px-cloud.net, reject
 host-suffix, s-onetag.com, reject
 host-suffix, sandai.net, reject
@@ -539,6 +555,7 @@ host-suffix, tailtarget.com, reject
 host-suffix, tapad.com, reject
 host-suffix, tapfiliate.com, reject
 host-suffix, tapinfluence.com, reject
+host-suffix, tapjoy.com, reject
 host-suffix, tapstream.com, reject
 host-suffix, tealiumiq.com, reject
 host-suffix, tend.io, reject
