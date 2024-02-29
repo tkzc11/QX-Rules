@@ -94,7 +94,7 @@ host, app-measurement.com, reject
 host, assets.prod.leanplum.com, reject
 host, audid-api.taobao.com, reject
 host, baidubox-emoji.cdn.bcebos.com.a.bdydns.com, reject
-host, basejumper.apple.com //Empty DNS Result, reject
+host, basejumper.apple.com, reject
 host, bcp.crwdcntrl.net, reject
 host, beacon.shazam.com, reject
 host, beacon.tingyun.com, reject
