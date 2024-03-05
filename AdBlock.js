@@ -193,11 +193,10 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 
 # ======= K ======= #
 # > 肯德基
-^https:\/\/res\.kfc\.com\.cn\/advertisement url reject
+^https:\/\/res\.kfc\.com\.cn\/(CRM\/kfcad|advertisement\/) url reject-200
 ^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp url reject
 ^https:\/\/dynamicad\.kfc\.com\.cn\/api url reject
-^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon url reject
-^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity url reject
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(coupon|activity) url reject
 # > 酷安
 ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
 ^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
@@ -215,7 +214,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 
 # ======= M ======= #
 # > 麦当劳
-^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
+^https:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) url reject-200
 # > 猫眼
 ^https:\/\/ad\.maoyan\.com\/api\/position\/detail url reject-dict
 ^https:\/\/p0\.pipi\.cn\/adAdmin\/.+\.jpg\?imageMogr2\/quality\/85\?may_covertWebp url reject-dict
