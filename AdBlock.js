@@ -193,9 +193,10 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 
 # ======= K ======= #
 # > 肯德基
-^https:\/\/res\.kfc\.com\.cn\/(CRM\/kfcad|advertisement\/) url reject-200
+^https:\/\/res.kfc.com.cn\/advertisement\/ url reject-200
+^https:\/\/res.kfc.com.cn\/CRM\/kfcad\/apphome6\/apphome.*json url response-body bootStrapAd response-body ddgksf2013
 ^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp url reject
-^https:\/\/dynamicad\.kfc\.com\.cn\/api url reject
+^https:\/\/dynamicad\.kfc\.com\.cn\/api/app5/homepage/ai/popup url reject-200
 ^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(coupon|activity) url reject
 # > 酷安
 ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
