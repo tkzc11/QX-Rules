@@ -263,6 +263,7 @@ host, mazu.m.qq.com, reject
 host, mc.yandex.ru, reject
 host, me-client.eservice.emarsys.net, reject
 host, media.trafficjunky.com, reject
+host, metriccc.bas.cmbchina.cn, reject
 host, metrics.icloud.com, reject
 host, mmstl-tianhe.tanx.com, reject
 host, mobads.baidu.com, reject
