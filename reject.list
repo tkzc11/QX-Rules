@@ -113,7 +113,6 @@ host, cc.map.qq.com, reject
 host, c1.adform.net, reject
 host, c2shb.ssp.yahoo.com, reject
 host, cdn.acsbapp.com, reject
-host, cdn.ynuf.aliapp.org, reject
 host, cdn.confiant-integrations.net, reject
 host, cdn.exelator.com, reject
 host, cdn.mobilefuse.com, reject
@@ -410,7 +409,6 @@ host, umengacs.m.taobao.com, reject
 host, unagi-na.amazon.com, reject
 host, uri6.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
-host, vip-unicom.ynuf.aliapp.org, reject
 host, visitor.omnitagjs.com, reject
 host, vs.biz.weibo.com, reject
 host, waapdg.jd.com, reject
@@ -495,6 +493,7 @@ host-suffix, hotjar.io, reject
 host-suffix, hs-analytics.net, reject
 host-suffix, hscollectedforms.net, reject
 host-suffix, hubcloud.com.cn, reject
+host-suffix, iemig.com, reject
 host-suffix, imtmp.net, reject
 host-suffix, imrworldwide.com, reject
 host-suffix, inmobi.com, reject
@@ -521,6 +520,7 @@ host-suffix, nexac.com, reject
 host-suffix, nr-data.net, reject
 host-suffix, omtrdc.net, reject
 host-suffix, onetrust.io, reject
+host-suffix, onezapp.com, reject
 host-suffix, optimizely.com, reject
 host-suffix, outbrain.com, reject
 host-suffix, pardot.com, reject
@@ -573,5 +573,6 @@ host-suffix, woopra.com, reject
 host-suffix, wootric.com, reject
 host-suffix, wowanalytics.co.uk, reject
 host-suffix, wxs.qq.com, reject
+host-suffix, ynuf.aliapp.org, reject
 host-suffix, zeus.top, reject
 host-suffix, zoomanalytics.co, reject
