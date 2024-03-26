@@ -73,6 +73,7 @@ host, api.tuisong.baidu.com, reject
 host, api-access.pangolin-sdk-toutiao.com, reject
 host, api-access.pangolin-sdk-toutiao-b.com, reject
 host, api-ad.kajicam.com, reject
+host, api-adservices.apple.com, reject
 host, api-c.dutils.com, reject
 host, api-eu.mixpanel.com, reject
 host, api-fc.dutils.com, reject
@@ -84,6 +85,7 @@ host, app.adjust.com, reject
 host, app.adjust.net.in, reject
 host, app.adjust.world, reject
 host, app-monitor.ele.me, reject
+host, appboy-images.com, reject
 host, applog.matrix.easebar.com, reject
 host, applog.uc.cn, reject
 host, appsrv.display.io, reject
@@ -130,6 +132,7 @@ host, cdp.cloud.unity3d.com, reject
 host, cf.prd.media.h264.io, reject
 host, click.dangdang.com, reject
 host, click.redditmail.com, reject
+host, clientlog3.music.163.com, reject
 host, clue.oceanengine.com, reject
 host, cm.mgid.com, reject
 host, cm.rtbsystem.com, reject
@@ -180,6 +183,7 @@ host, eclick.baidu.com, reject
 host, ecmb.bdimg.com, reject
 host, eco.taobao.com, reject
 host, edge.ads.twitch.tv, reject
+host, edge.fullstory.com, reject
 host, ef-dongfeng.tanx.com, reject
 host, elb.the-ozone-project.com, reject
 host, encrypted-tbn1.gstatic.com, reject
@@ -188,6 +192,7 @@ host, et.tanx.com, reject
 host, events.mz.unity3d.com, reject
 host, fast.a.klaviyo.com, reject
 host, fc.yahoo.com, reject
+host, feedbackws.icloud.com, reject
 host, firebase-settings.crashlytics.com, reject
 host, firebaselogging-pa.googleapis.com, reject
 host, fls-eu.amazon.com, reject
@@ -226,6 +231,7 @@ host, ilce.alicdn.com, reject
 host, image8.pubmatic.com, reject
 host, imasdk.googleapis.com, reject
 host, imdns.hpplay.cn, reject
+host, incoming.telemetry.mozilla.org, reject
 host, info.sony-semicon.com, reject
 host, init.supersonicads.com, reject
 host, int.dewrain.site, reject
@@ -275,8 +281,6 @@ host, monitor.music.qq.com, reject
 host, mparticle.weather.com, reject
 host, msg.umengcloud.com, reject
 host, mtrace.qq.com, reject
-host, mtteve.beacon.qq.com, reject
-host, mttstr.beacon.qq.com, reject
 host, mydmp.exelator.com, reject
 host, nadvideo2.baidu.com, reject
 host, nbsdk-baichuan.alicdn.com, reject
@@ -323,6 +327,8 @@ host, quicktracking-api.macaupass.com, reject
 host, qzs.gdtimg.com, reject
 host, resolver.msg.xiaomi.net, reject
 host, rili.callmekeji.com, reject
+host, rmit.sc.omtrdc.net, reject
+host, rmit.tt.omtrdc.net, reject
 host, rp.hpplay.cn, reject
 host, rs1.qq.com, reject
 host, rs2.qq.com, reject
@@ -351,6 +357,7 @@ host, settings-win.data.microsoft.com, reject
 host, sf16-static.i18n-pglstatp.com, reject
 host, shftr.adnxs.net, reject
 host, sis.jpush.io, reject
+host, sjarvis.taobao.com, reject
 host, skadnetworks.fyber.com, reject
 host, skywalking.roombox.xdf.cn, reject
 host, smetrics.aem.playstation.com, reject
@@ -363,6 +370,7 @@ host, ssbsync.smartadserver.com, reject
 host, ssdkauth.hpplay.cn, reject
 host, st.pubmatic.com, reject
 host, stas.outbrain.com, reject
+host, stats.adobe.com, reject
 host, static.addtoany.com, reject
 host, static.adsafeprotected.com, reject
 host, static.ares.ctripcorp.com, reject
@@ -401,6 +409,7 @@ host, track.uhomes.com, reject
 host, tracker.nbcuas.com, reject
 host, tracking.epicgames.com, reject
 host, tracking.intl.miui.com, reject
+host, tracking.miui.com, reject
 host, trc.taboola.com, reject
 host, tunion-api.m.taobao.com, reject
 host, turbo.adsbynimbus.com, reject
@@ -411,6 +420,7 @@ host, uri6.com, reject
 host, video-ads-module.ad-tech.nbcuni.com, reject
 host, visitor.omnitagjs.com, reject
 host, vs.biz.weibo.com, reject
+host, w.usabilla.com, reject
 host, waapdg.jd.com, reject
 host, w3-reporting.reddit.com, reject
 host, w3-reporting-nel.reddit.com, reject
@@ -422,9 +432,11 @@ host, wkrd.tingyun.com, reject
 host, wn.pos.baidu.com, reject
 host, wv.inner-active.mobi, reject
 host, woodpecker.uc.cn, reject
+host, wpad.rmit.edu.au, reject
 host, ws.tapjoyads.com, reject
 host, wwads.cn, reject
 host, www.clarity.ms, reject
+host, www.everestjs.net, reject
 host, www.googletagmanager.com, reject
 host, www.lightboxcdn.com, reject
 host, www.qchannel01.cn, reject
@@ -458,6 +470,7 @@ host-suffix, anythinktech.com, reject
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, appsflyer.com, reject
+host-suffix, beacon.qq.com, reject
 host-suffix, beap.bc.yahoo.com, reject
 host-suffix, beap.gemini.yahoo.com, reject
 host-suffix, beizi.biz, reject
@@ -485,6 +498,7 @@ host-suffix, everestop.io, reject
 host-suffix, events.brightline.tv, reject
 host-suffix, fivecdm.com, reject
 host-suffix, footprintdns.com, reject
+host-suffix, fp.measure.office.com, reject
 host-suffix, getui.com, reject
 host-suffix, getui.net, reject
 host-suffix, google-analytics.com, reject
@@ -507,6 +521,7 @@ host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
 host-suffix, jpush.cn, reject
 host-suffix, marketingcloudapis.com, reject
+host-suffix, marketo.net, reject
 host-suffix, miaozhen.com, reject
 host-suffix, mediation.unity3d.com, reject
 host-suffix, mparticle.com, reject
