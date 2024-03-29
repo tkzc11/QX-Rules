@@ -421,6 +421,7 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^https:\/\/client-api-v2\.oray\.com\/materials\/(SLCC_IOS_STARTUP_ADV|SLCC_iOS_DEVICE_FREE|SLCC_iOS_DEVICE_LIST_ADV|SLCC_IOS_DEVICE_ADV|SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) url reject
 # > 小米
 ## 小米商城
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject-200
 ^https:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView|product\/productView) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject
 ^https:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ url reject
