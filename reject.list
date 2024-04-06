@@ -357,7 +357,6 @@ host, settings-win.data.microsoft.com, reject
 host, sf16-static.i18n-pglstatp.com, reject
 host, shftr.adnxs.net, reject
 host, sis.jpush.io, reject
-host, sjarvis.taobao.com, reject
 host, skadnetworks.fyber.com, reject
 host, skywalking.roombox.xdf.cn, reject
 host, smetrics.aem.playstation.com, reject
@@ -516,6 +515,7 @@ host-suffix, ipinyou.com, reject
 host-suffix, kissmetrics.com, reject
 host-suffix, liadm.com, reject
 host-suffix, litix.io, reject
+host-suffix, log.aliyuncs.com, reject
 host-suffix, log.mgtv.com, reject
 host-suffix, jads.co, reject
 host-suffix, jdqd.jd.com, reject
