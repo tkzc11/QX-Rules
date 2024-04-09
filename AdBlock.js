@@ -408,6 +408,7 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? url reject-dict
 # 微信封禁页面
 ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
+
 # ======= X ======= #
 # > 闲鱼
 ^https:\/\/gw\.alicdn\.com\/mt\/ url reject
