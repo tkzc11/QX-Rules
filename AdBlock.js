@@ -409,7 +409,7 @@ https:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject
 
 # ======= X ======= #
 # > 厦门航空
-^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter url reject
+^https:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/api\/v4\/Community\/getRecommendedContentsNew* url reject-dict
 # > 闲鱼
 ^https:\/\/gw\.alicdn\.com\/mt\/ url reject
 ^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} url reject
