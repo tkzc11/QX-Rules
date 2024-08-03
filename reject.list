@@ -291,6 +291,7 @@ host, mobiletelemetry.ebay.com, reject
 host, mobilelog.upqzfile.com, reject
 host, mon.isnssdk.com, reject
 host, mon.snssdk.com, reject
+host, mon.zijieapi.com, reject
 host, monitor.music.qq.com, reject
 host, mparticle.weather.com, reject
 host, msg.umengcloud.com, reject
