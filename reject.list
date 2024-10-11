@@ -277,6 +277,7 @@ host, log1.cmpassport.com, reject
 host, log2.cmpassport.com, reject
 host, lptag.liveperson.net, reject
 host, m.api.forter.com, reject
+host, m.fxtorch.com, reject
 host, mam-talker-api.tvb.com, reject
 host, mazu.m.qq.com, reject
 host, mc.yandex.ru, reject
