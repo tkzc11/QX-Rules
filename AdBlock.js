@@ -44,7 +44,7 @@
 ^https:\/\/hwimg\.beingfine\.cn\/card url reject
 
 # ======= C ======= #
-^https:\/\/www\.ctm\.net\/crm_api\/crm-cms-server\/g\/advertise\/by\/openingAdv url response-body data response-body random_body
+^https:\/\/www\.ctm\.net\/crm_api\/crm-cms-server\/g\/advertise\/by\/openingAdv url reject
 # > CSDN
 ^https:\/\/app-gw\.csdn\.net\/cms-app\/v\d\/home_page\/open_advertisement url reject
 # > 曹操出行
