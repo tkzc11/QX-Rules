@@ -132,7 +132,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? url reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? url reject
 # > 航旅纵横
-^https:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
+^https:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
 ^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject
 ^https:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
 # > 和风天气
