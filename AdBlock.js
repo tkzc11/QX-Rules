@@ -45,7 +45,7 @@
 
 # ======= C ======= #
 # > CTM
-^https:\/\/www\.ctm\.net\/crm_api\/crm-cms-server\/p\/advertise url reject
+^https:\/\/www\.ctm\.net\/crm_api\/crm-cms-server\/p\/advertise url response-body data response-body random_body
 # > CSDN
 ^https:\/\/app-gw\.csdn\.net\/cms-app\/v\d\/home_page\/open_advertisement url reject
 # > 曹操出行
