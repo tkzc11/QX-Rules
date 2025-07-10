@@ -63,9 +63,6 @@
 ^https:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png url reject-dict
 # > 当当
 ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init url reject-200
-# > 嘀嗒出行
-^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
-^https:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
 # > 滴滴出行/小桔科技
 ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject
 ^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/tkzc11/QX-Rules/main/didi.js
